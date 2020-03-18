@@ -13,6 +13,7 @@
     try{
     microsoftTeams.getContext(function (context) {
         alert('get context');
+        console.log('context : ',context);
         alert(context.teamSiteUrl);
         //teamSiteUrl will give you sharepoint url of the team.
     });}
