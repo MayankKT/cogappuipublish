@@ -9,7 +9,7 @@
     alert('fired');
     microsoftTeams.initialize();
     alert('get initialized');
-    console.log('microsoftTeams :',window.opener);
+    console.log('microsoftTeams :',window);
     try{
     microsoftTeams.getContext(function (context) {
         alert('get context');
