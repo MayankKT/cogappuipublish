@@ -8,11 +8,17 @@
     alert('fired');
     microsoftTeams.initialize();
     alert('get initialized');
+    try{
     microsoftTeams.getContext(function (context) {
         alert('get context');
         alert(context.teamSiteUrl);
         //teamSiteUrl will give you sharepoint url of the team.
-    });
+    });}
+    catch(e){
+        alert('error');
+        alert(e);
+        console.log('Error in Context',e);
+    }
 </script>
     
 </head>
