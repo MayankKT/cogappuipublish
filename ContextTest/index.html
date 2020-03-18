@@ -7,7 +7,9 @@
 <script>
     alert('fired');
     microsoftTeams.initialize();
+    alert('get initialized');
     microsoftTeams.getContext(function (context) {
+        alert('get context');
         alert(context.teamSiteUrl);
         //teamSiteUrl will give you sharepoint url of the team.
     });
