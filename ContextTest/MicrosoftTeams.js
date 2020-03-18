@@ -719,11 +719,12 @@ exports.print = print;
  * @param callback The callback to invoke when the {@link Context} object is retrieved.
  */
 function getContext(callback) {
-    alert('getContext Called')
-    console.log('getContext Called ',callback)
+    try{
+        console.log('internalAPIs_1 : ',internalAPIs_1);
     internalAPIs_1.ensureInitialized();
     var messageId = internalAPIs_1.sendMessageRequestToParent('getContext');
-    globalVars_1.GlobalVars.callbacks[messageId] = callback;
+    console.log('internalAPIs_1 messageId : ',messageId);
+    globalVars_1.GlobalVars.callbacks[messageId] = callback;}catch(e){alert('Error');console.log('Error in getContext ',e)}
 }
 exports.getContext = getContext;
 /**
