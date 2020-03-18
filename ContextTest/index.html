@@ -3,33 +3,13 @@
 <head>
     <title>wiki search</title>
     
-
-<script src="MicrosoftTeams.js"></script>
-<script>
-    alert('fired');
-    microsoftTeams.initialize();
-    alert('get initialized');
-    console.log('microsoftTeams :',window);
-    try{
-    microsoftTeams.getContext(function (context) {
-        alert('get context');
-        console.log('context : ',context);
-        alert(context.teamSiteUrl);
-        //teamSiteUrl will give you sharepoint url of the team.
-    });}
-    catch(e){
-        alert('error');
-        alert(e);
-        console.log('Error in Context',e);
-    }
-</script>
-    
 </head>
 
 <body>
     <form>
         <div id="container"></div>
-
+        <script type="text/javascript" src="Module.bundle.js"></script>
+        <script type="text/javascript" src="vendor.bundle.js"></script>
     </form>
     </script>
 </body>
