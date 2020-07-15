@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script
+      type="text/javascript"
+      src="https://c64.assets-yammer.com/assets/platform_embed.js"
+    ></script>
+    <div id="embedded-feed" style="height: 400px; width: 500px;"></div>
+    <script>
+      yam.connect.embedFeed({
+        container: '#embedded-feed',
+        network: 'microsoft.com',
+        feedType: 'group',
+        feedId: '33820639232',
+        config: {
+          defaultGroupId: 'eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIzMzgyMDYzOTIzMiJ9',
+          header: false,
+          footer: false,
+        },
+      });
+
+      yam.getLoginStatus((response) => {
+          console.log('loginstatus')
+        if (response.authResponse) {
+          console.log('logged in');
+          console.dir(response); //print user information to the console
+        } else {
+          yam.platform.login(function (response) {
+            //prompt user to login and authorize your app, as necessary
+            if (response.authResponse) {
+              console.dir(response); //print user information to the console
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
