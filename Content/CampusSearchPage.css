@@ -1,0 +1,3246 @@
+/*Refiners Section*/
+.hideIcon {
+    display: none;
+}
+
+.rclp .ms-ref-refinername:link, .rclp .ms-ref-refinername:visited {
+    color: #333333;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.ms-ref-unsel-shortList {
+    position: relative;
+    overflow-x: hidden;
+    overflow: auto;
+    margin: 0;
+    max-height: 160px;
+}
+
+
+.hidePaginationIcon {
+    display: none;
+}
+
+.ms-ref-refinername {
+    width: 100% !important;
+}
+
+.ms-fullWidth {
+    margin-left: 0px;
+}
+
+.rclp h1, .rclp h2, .rclp h3 {
+    margin: 0px;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    /* box-sizing: content-box !important;*/
+    margin: 0px;
+}
+
+.rclp label {
+    font-weight: normal;
+}
+
+.rclp #Value {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    max-height: 40px;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.ms-ref-uparrow, .ms-ref-downarrow {
+    background: transparent none no-repeat;
+    margin-top: 0px;
+}
+
+    .ms-ref-uparrow:before {
+        font-family: FontAwesome;
+        content: "\f077";
+        font-size: 0.8em;
+    }
+
+    .ms-ref-downarrow:before {
+        background: transparent none no-repeat;
+        font-family: FontAwesome;
+        content: "\f078";
+        font-size: 0.8em;
+    }
+
+.ms-ref-ellipsis {
+    white-space: normal;
+    overflow: auto;
+}
+
+.campus_rclp_chbox {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+}
+
+.campus_rclp_chbox_txt {
+    position: relative;
+    padding-left: 25px;
+    line-height: 20px;
+}
+
+
+#Container .refinerTitle {
+    opacity: .98;
+    color: #333;
+    font-family: "Segoe UI Semibold";
+    font-size: 13px;
+}
+
+
+.one-refiner-downarrow {
+    position: relative;
+    background-image: url('../Content/images/RefinerExpand-black.png');
+    background-repeat: no-repeat;
+    margin: 2px 0 0 0;
+    height: 9px;
+    display: table-cell;
+    width: 11px;
+    opacity: .9;
+}
+
+.one-refiner-uparrow {
+    position: relative;
+    background-image: url('../Content/images/RefinerCollapse-black.png');
+    background-repeat: no-repeat;
+    margin: 2px 0 0 0;
+    height: 9px;
+    width: 11px;
+    display: table-cell;
+    opacity: .9;
+}
+
+
+.see-more-filters {
+    padding: 0px 0 0 9px;
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 1;
+    color: #666;
+    cursor: pointer;
+    display: table-cell;
+}
+
+.more-refiners-downarrow, .more-refiners-uparrow {
+    float: left;
+    height: 10px;
+    width: 13px;
+    margin-right: 63px;
+    margin-top: 5px;
+}
+
+.more-refiners-uparrow {
+    margin-right: 69px;
+}
+
+.more-refiners-downarrow {
+    background-image: url('../Content/images/AllRefinersExpand.png');
+}
+
+.more-refiners-uparrow {
+    background-image: url('../Content/images/AllRefinersCollapse.png');
+}
+
+
+#ShowMoreRefiners {
+    padding-top: 10px;
+    padding-bottom: 26px;
+}
+
+#BP-Refiner-ShowMoreRefiners {
+    width: 116px;
+    font-size: 13px;
+    float: left;
+    color: #555;
+}
+
+#ShowLessRefiners {
+    padding-top: 10px;
+    padding-bottom: 26px;
+}
+
+#BP-Refiner-ShowLessRefiners {
+    width: 116px;
+    font-size: 13px;
+    float: left;
+    color: #555;
+}
+
+.separateOfWebpart {
+    width: 100%;
+}
+
+    .separateOfWebpart ul li {
+        float: left;
+    }
+
+
+/* high contrast */
+@media screen and (-ms-high-contrast: active) {
+
+    .one-refiner-downarrow {
+        background-image: url('../Content/images/RefinerExpand-yellow.png');
+        position: relative;
+        top: 149%;
+        left: 100%;
+    }
+
+    .Collapsemenukmap {
+        color: yellow;
+    }
+
+    .EMISearch {
+        color: yellow;
+    }
+
+    .one-refiner-uparrow {
+        background-image: url('../Content/images/RefinerCollapse-yellow.png');
+        position: relative;
+        top: 145%;
+        left: 100%;
+    }
+
+    .more-refiners-downarrow {
+        background-image: url('../Content/images/AllRefinersExpand-yellow.png');
+    }
+
+    .more-refiners-uparrow {
+        background-image: url('../Content/images/AllRefinersCollapse-yellow.png');
+    }
+}
+
+@media screen and (-ms-high-contrast: white-on-black) {
+
+    .one-refiner-downarrow {
+        background-image: url('../Content/images/RefinerExpand-white.png');
+        position: relative;
+        top: 149%;
+        left: 100%;
+    }
+
+    .Collapsemenukmap {
+        color: white;
+    }
+
+    .EMISearch {
+        color: white;
+    }
+
+    .one-refiner-uparrow {
+        background-image: url('../Content/images/RefinerCollapse-white.png');
+        position: relative;
+        top: 145%;
+        left: 100%;
+    }
+
+    .more-refiners-downarrow {
+        background-image: url('../Content/images/AllRefinersExpand-white.png');
+        position: relative;
+        top: 149%;
+        left: 100%;
+    }
+
+    .more-refiners-uparrow {
+        background-image: url('../Content/images/AllRefinersCollapse-white.png');
+        position: relative;
+        top: 149%;
+        left: 100%;
+    }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+
+    .one-refiner-downarrow {
+        background-image: url('../Content/images/RefinerExpand-black.png');
+        position: relative;
+        top: 149%;
+        left: 100%;
+    }
+
+    .Collapsemenukmap {
+        color: black;
+    }
+
+    .EMISearch {
+        color: black;
+    }
+
+    .one-refiner-uparrow {
+        background-image: url('../Content/images/RefinerCollapse-black.png');
+        position: relative;
+        top: 145%;
+        left: 100%;
+    }
+
+    .more-refiners-downarrow {
+        background-image: url('../Content/images/AllRefinersExpand-black.png');
+    }
+
+    .more-refiners-uparrow {
+        background-image: url('../Content/images/AllRefinersCollapse-black.png');
+    }
+}
+
+
+/*CampusMain*/
+
+.ms-RadioButton-field.is-checked::after {
+    background-color: #ff0000 !important;
+    left: 6.4px !important;
+    width: 9px !important;
+    height: 9px !important;
+    top: 13px !important;
+}
+
+.ms-RadioButton-field::before {
+    width: 21px !important;
+    height: 21px !important;
+    margin-top: 7px !important;
+}
+
+.ml5 {
+    margin-left: 5px !important;
+}
+
+#searchInputBox .ms-srch-sb > input {
+    font-size: 14px !important;
+    height: 34px;
+    color: rgba(51, 51, 51, 0.67) !important;
+    margin: 0 0 0 4px !important;
+    padding-bottom: 2px;
+}
+
+.ms-srch-item {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.ms-srch-item-summaryPreview {
+    width: 455px !important;
+}
+
+#searchInputBox .ms-srch-sb-border, .ms-srch-sb-borderFocused {
+    /*font-size: 16px !important; 
+border: 1px solid rgba(215, 215, 215, 1) !important;
+height: 36px;
+width: 245px;*/
+}
+
+.ms-srch-sb-border, .ms-srch-sb-borderFocused {
+    background-color: #FFFFFF !important;
+    font-size: 16px !important;
+    border: 2px solid #bababa !important;
+    color: rgba(0, 0, 0, 0.247058) !important;
+    font-family: "Segoe UI Regular", "Segoe UI" !important; /*border: 1px solid #888787; margin-top: 10px; margin-right: 5px; */
+}
+
+.ms-srch-ellipsis {
+    height: 23px;
+}
+
+.ms-srch-item-link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 660px;
+}
+
+.ms-srch-item-summary {
+    max-width: 700px;
+}
+
+.ms-srch-item-icon {
+    padding-right: 7px !important;
+}
+
+    .ms-srch-item-icon img {
+        max-height: 17px !important;
+    }
+
+
+/*CampusTiles*/
+
+input, select, label, textarea, button, option {
+    display: inline;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+.visibleflse {
+    visibility: hidden;
+}
+
+
+.tileSizeSwitcher {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 480px;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.tileSizeSwitcherhalf {
+    background-image: url('../images/TilesFull.png');
+}
+
+    .tileSizeSwitcherhalf:hover {
+        background-image: url('../images/TilesFullHover.png');
+    }
+
+    .tileSizeSwitcherhalf:active {
+        margin-top: -29px;
+        margin-left: 480px;
+    }
+
+.tileSizeSwitcherfull {
+    background-image: url('../images/TilesMini.png');
+}
+
+    .tileSizeSwitcherfull:hover {
+        background-image: url('../images/TilesMiniHover.png');
+    }
+
+    .tileSizeSwitcherfull:active {
+        margin-top: -29px;
+        margin-left: 480px;
+    }
+
+
+#divIPKitsWrapper {
+    background: #f6f6f6;
+    border-left: 0 solid #dadada !important;
+    border-top: 0 solid #dadada !important;
+}
+
+#divOfferingsWrapper, #divIPKitsWrapper, #divProjectsWrapper {
+    display: block !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.ExploreCenterDiv {
+    float: left;
+    margin-top: 0;
+    /*width: 910px;*/
+}
+
+
+.rclp .jcarousel-wrapper {
+    margin: 0;
+    padding-top: 0;
+    margin: 0;
+    position: relative;
+}
+
+.jcarousel {
+    padding-left: 25px;
+    position: relative;
+}
+
+    .jcarousel > ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+        .jcarousel > ul > li {
+            float: left;
+            margin-bottom: 20px;
+        }
+
+            .jcarousel > ul > li > a:link {
+                color: #000000;
+            }
+
+            .jcarousel > ul > li > a:visited {
+                color: #000000;
+            }
+
+            .jcarousel > ul > li > a:hover {
+                color: #000000;
+            }
+
+            .jcarousel > ul > li > a:active {
+                color: #000000;
+            }
+
+.IPKitWrappper {
+    border-top: 0 solid #dadada;
+    background: #f6f6f6;
+}
+
+.ipreaddoctype {
+    display: inline-block;
+    width: 23px;
+}
+
+.ipkitreadname {
+    color: #494949;
+    font-size: 14px;
+}
+
+.ipreaddoctype img {
+    margin-top: -2px;
+}
+
+.offeringsWrappper {
+    background: #f6f6f6;
+}
+
+
+.rclp .projectsWrapper, .rclp .offeringsWrappper, .rclp .IPKitWrappper {
+    overflow-y: hidden;
+    padding-top: 20px;
+    border-left: 1px solid #dadada;
+    /*width: 910px;*/
+}
+
+
+/* common for tiles */
+
+.tile-rclp {
+    position: relative;
+    background: #fff;
+    border: 2px solid rgba(215, 215, 215, 1) !important;
+    float: left;
+    margin: 0 20px 0 0;
+    width: 320px;
+    /* border-bottom-left-radius: 4px;
+                border-bottom-right-radius: 4px;
+                box-shadow: 0 2px 2px -2px #333;*/
+}
+
+.tile-rclp-ipkits, .tile-rclp-offer {
+    height: 399px;
+}
+
+    .tile-rclp-ipkits.half, .tile-rclp-offer.half {
+        height: 160px !important;
+    }
+
+.tile-rclp-projects {
+    height: 399px;
+}
+
+    .tile-rclp-projects.half {
+        height: 190px;
+    }
+
+.tileHeader {
+    height: 38px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.tile-rclp-projects .projectheader {
+    background: #a80000;
+}
+
+
+.tile-rclp-ipkits .ipkitsheader {
+    background: #088272;
+}
+
+.tile-rclp-offer .offerheader {
+    background: #006f94;
+}
+
+.tileHeader .headerspan {
+    color: #fff !important;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 17.5px;
+    font-size: 16px;
+}
+
+.tile-rclp .header {
+    cursor: pointer;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    !important;
+    height: 52px;
+    line-height: 21px;
+    /*max-height: 45px;*/
+    overflow-y: hidden;
+    padding: 9px 14px 1px 14px;
+}
+
+.ExploreCenterDiv .desc {
+    clear: both;
+}
+
+.tile-rclp .desc {
+    color: #494949;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    overflow: hidden;
+}
+
+.SCDiscoverclass {
+    color: #494949;
+    font-size: 14px;
+    margin: 0 14px;
+    border-top-width: 1px;
+    padding: 8px 0;
+    border-top: 1px solid #e6e6e6;
+}
+
+.ProjectCodeImageClass, .VirtuosoImageClass, .OSEClassImageClass {
+    margin-right: 5px;
+    margin-top: -5px;
+    width: 23px;
+    height: 23px;
+}
+
+.SCtabletextclass {
+    color: #494949 !important;
+    cursor: pointer;
+}
+
+a.SCtabletextclass:focus {
+    text-decoration: underline !important;
+}
+
+.IPKitCodeImageClass {
+    margin-right: 5px;
+    margin-top: -5px;
+    width: 23px;
+    height: 23px;
+}
+
+.IPKitCodeClass {
+    padding-top: 2px;
+}
+
+.IPKitCodeTextClass {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.549019607843137) !important;
+    cursor: pointer;
+}
+
+a.IPKitCodeTextClass:focus {
+    text-decoration: underline !important;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+.tile-rclp-ipkits .desc, .tile-rclp-offer .desc {
+    /*height: 70px;*/
+    height: 82px;
+    padding: 2px 14px 7px;
+    margin-bottom: 3px;
+}
+
+.tile-rclp-projects .desc {
+    /*border-top: #e6e6e6 1px solid;*/
+    height: 85px;
+    margin: 0 14px;
+    padding: 6px 0px 0 0px;
+}
+
+.projects-title-descr {
+    height: 190px;
+}
+
+.rlcp .tile-rclp .header .title {
+    float: left;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    width: 90%;
+    cursor: pointer;
+}
+
+.rlcp .ipkitsheadergear, .rlcp .offerheadergear {
+    background-image: url("../images/CogIcon-White.png");
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    height: 16px;
+    margin-right: 9px;
+    margin-top: 10px;
+    width: 16px;
+}
+
+.rclp .highlight {
+    bottom: 1px;
+    color: #585858;
+    position: absolute;
+    width: 286px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0px 0 0 9px;
+    background-color: #fff;
+}
+
+.tile-rclp-ipkits .highlight, .tile-rclp-offer .highlight {
+    /*height: 134px;*/
+    height: 141px;
+    padding: 0px 0 0 14px;
+    position: relative;
+}
+
+
+.tile-rclp-ipkits .bottom, .tile-rclp-offer .bottom {
+    background: #f0f0f0;
+    border-top: 1px solid #e4e4e4;
+    color: #585858;
+    cursor: default;
+    font-size: 14px;
+    height: 79px;
+    line-height: 25px;
+    padding: 8px 0 0 8px;
+    position: relative;
+}
+
+.ipkitstatslabel a {
+    cursor: pointer;
+}
+
+.offersReleatedipkits {
+    padding-left: 8px;
+}
+
+.relatedipkits a.outline, .ipkitOffer a, .ipkitstatslabel a {
+    color: black !important;
+}
+
+    .relatedipkits a.outline:visited, .ipkitOffer a.outline:visited, .ipkitstatslabel a:visited {
+        color: black !important;
+    }
+
+
+.tile-rclp-ipkits .bottom .downloads, .tile-rclp-offer .bottom .downloads {
+    position: absolute;
+    right: 17px;
+    top: 9px;
+}
+
+.downloadIcon {
+    background: url('../Content/images/IPKitDownloads.png') no-repeat;
+    width: 18px;
+    height: 15px;
+    float: right;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+
+.tile-rclp-ipkits .bottom .downloadscount {
+    top: 0px !important;
+}
+
+
+.tile-rclp-ipkits .bottom .ipkitstatscount {
+    text-align: right;
+}
+
+.tile-rclp-ipkits .bottom .views-and-projects {
+    left: 17px;
+    position: absolute;
+    top: 9px;
+}
+
+    .tile-rclp-ipkits .bottom .views-and-projects .count {
+        text-align: right;
+    }
+
+    .tile-rclp-ipkits .bottom .views-and-projects .labels {
+        text-align: left;
+    }
+
+ul.rclp-links li:hover {
+    text-decoration: underline;
+}
+
+.rclp .rclp-links {
+    border-top: 1px solid #e6e6e6;
+    padding-top: 12px;
+    margin: 0 0 5px 0;
+    display: block;
+    list-style-type: disc;
+    padding-left: 0px !important;
+}
+
+.rclp-links li {
+    float: none;
+    font-size: 12px;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 0 !important;
+    overflow: hidden;
+    padding-left: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+    .rclp-links li + li + li + li + li {
+        display: none;
+    }
+
+.rclp-links a {
+    color: #585858;
+}
+
+.ipkitOffer:hover {
+    text-decoration: underline;
+}
+
+.projects-title-descr a div:hover {
+    text-decoration: underline;
+}
+
+.bpHasIPKitDiv {
+    background: #f6f6f6;
+    margin-top: 0px;
+}
+
+.bpHasProjectDiv {
+    background: #f6f6f6;
+    padding-bottom: 14px;
+}
+
+/* team section only  start */
+.projectsWrapper {
+    background: #f6f6f6;
+}
+
+.ProjectTileCompany {
+    color: #494949;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 4px;
+    padding-left: 14px;
+}
+
+.CampPLbgTile {
+    background-color: #F0F0F0;
+    border-top: 1px solid #e6e6e6;
+    bottom: 0;
+    display: inline-block;
+    font-size: 12px !important;
+    height: 76px;
+    line-height: 17px;
+    padding-left: 13px;
+    padding-top: 0;
+    position: absolute;
+    width: 100%;
+}
+    /*.CampPLbgTile .ownerdiv
+{
+                margin-top: 7px;
+}
+.CampPLbgTile .ownerlabel
+{
+                font-weight: 700;
+                margin-right: 6px !important;
+}
+.CampPLbgTile .teamdiv
+{
+                margin-top: 1px;
+}*/
+    .CampPLbgTile a, .CampPLbgTile a:active, .CampPLbgTile a:visited, .CampPLbgTile a:hover, .CampPLbgTile span, .CampPLbgTile h4 {
+        line-height: 1.2em !important;
+    }
+
+.statRow {
+    color: #6e6e6e;
+    font-size: 13px !important;
+    padding-top: 3px;
+}
+
+.teamRow {
+    bottom: 14px;
+    clear: left;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+
+/* projects section only end */
+
+/* "See All" button */
+.BPseeallicon {
+    position: absolute;
+    background: #eeeeee;
+    height: 30px;
+    width: 75px;
+    cursor: pointer;
+    left: auto;
+    right: 0;
+    border: 1px transparent solid;
+}
+
+
+    .BPseeallicon:hover {
+        background: #d9d9d9;
+    }
+
+        .BPseeallicon:hover .BPseeallchevron {
+            opacity: .7;
+        }
+
+        .BPseeallicon:hover .BPseealltext {
+            color: #282828;
+        }
+
+.BPseealltext {
+    color: #696969;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    margin-top: 14px;
+    text-align: left;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.BPseeallicon.all .BPseealltext {
+    padding-left: 14px;
+}
+
+.BPseeallicon.less .BPseealltext {
+    padding-left: 11px;
+}
+
+.BPseeallicon:active .BPseealltext {
+    margin-top: 15px;
+}
+
+
+.BPseeallicon.all:active .BPseealltext {
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+
+.BPseeallicon.less:active .BPseealltext {
+    padding-left: 12px;
+    margin-top: 15px;
+}
+
+.BPseeallchevron {
+    margin-top: 10px;
+    opacity: .46;
+    cursor: pointer;
+    pointer-events: none;
+    background-image: url('../Content/images/SeeAllChevron-Black.png');
+    display: block;
+    height: 9px;
+    width: 6px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.BPseeallicon.all .BPseeallchevron {
+    left: 63px;
+}
+
+.BPseeallicon.less .BPseeallchevron {
+    left: 65px;
+}
+
+.BPseeallchevron:active {
+    margin-top: 11px;
+    opacity: .46;
+    cursor: pointer;
+}
+
+/* "See All" button END  */
+
+.see-more-results {
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 28px;
+    padding-top: 28px;
+}
+
+.see-more-results-button {
+    border-color: #ccc;
+    justify-content: space-around;
+    display: flex;
+    background: #f2f2f2;
+    height: 40px;
+    width: 188px;
+}
+
+    .see-more-results-button:hover {
+        background: #d9d9d9;
+    }
+
+.see-more-results-text {
+    color: #444;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.see-more-results-button:active .see-more-results-text {
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.loading-more-results {
+    font-family: "Segoe UI";
+    padding: 38px;
+    text-align: center;
+}
+
+#Refinement input[type='checkbox'].focus {
+    outline: 1px dotted #777777 !important;
+    outline-offset: 1px;
+}
+
+a.outline:focus > div:first-child {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+}
+
+a.ms-imnlink:focus, a.ms-imnlink:focus,
+.tile-rclp.tile-rclp-offer a.outline:focus > div,
+.see-more-results-button.outline:focus {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+}
+
+
+.tileHeader.projectheader.outline.outline:focus,
+.projects-title-descr a:focus,
+.ms-peopleux-userImgDiv:focus,
+{
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+}
+
+
+
+
+.ms-srchnav-link-selected {
+    border-left: 1px transparent solid;
+    border-right: 1px transparent solid;
+    border-top: 1px transparent solid;
+}
+
+
+
+/* high contrast */
+
+@media screen and (-ms-high-contrast: active) {
+    .tileSizeSwitcherfull {
+        background-image: url('../images/TilesMini-yellow.png');
+    }
+
+    .tileSizeSwitcherhalf {
+        background-image: url('../images/TilesFull-yellow.png');
+    }
+
+    .BPseeallchevron {
+        background-image: url('../images/SeeAllChevron-yellow.png');
+        opacity: 1;
+    }
+
+    .downloadIcon {
+        background: url('../images/IPKitDownloads-yellow.png') no-repeat;
+    }
+}
+
+@media screen and (-ms-high-contrast: white-on-black) {
+    .tileSizeSwitcherfull {
+        background-image: url('../images/TilesMini-white.png');
+    }
+
+    .tileSizeSwitcherhalf {
+        background-image: url('../images/TilesFull-white.png');
+    }
+
+    .BPseeallchevron {
+        background-image: url('../images/SeeAllChevron-white.png');
+        opacity: 1;
+    }
+
+    .downloadIcon {
+        background: url('../images/IPKitDownloads-white.png') no-repeat;
+    }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+    .tileSizeSwitcherfull {
+        background-image: url('../Content/images/TilesMini-black.png');
+    }
+
+    .tileSizeSwitcherhalf {
+        background-image: url('../Content/images/TilesFull-black.png');
+    }
+
+    .BPseeallchevron {
+        background-image: url('../Content/images/SeeAllChevron-black.png');
+        opacity: 1;
+    }
+
+    .downloadIcon {
+        background: url('../Content/images/IPKitDownloads-black.png') no-repeat;
+    }
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: black;
+    text-decoration: none;
+    opacity: 0.4;
+}
+
+/*campus_rclp*/
+/*Related Projects Header*/
+#gview_projectListGrid div.ui-jqgrid-hdiv:nth-child(2) {
+    width: 822px !important;
+}
+/*Related Project Dialog-High Contrast*/
+@media screen and (-ms-high-contrast: active) {
+    .ui-state-default .ui-icon, .ui-state-active .ui-icon {
+        background-image: url("Content/images/ui-icons-yellow.png");
+        background-repeat: no-repeat;
+        opacity: .85;
+    }
+
+    .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+        background-image: url("../Content/images/ui-icons-yellow.png");
+        background-repeat: no-repeat;
+        opacity: .85;
+    }
+
+    .addCodeImageClass {
+        background-image: url('../Content/images/ServicesCode-yellow.png');
+        background-size: 20px 20px;
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+        margin-top: -5px;
+        opacity: .85;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media screen and (-ms-high-contrast: white-on-black) {
+    .ui-state-default .ui-icon, .ui-state-active .ui-icon {
+        background-image: url("Content/images/ui-icons-white.png");
+        background-repeat: no-repeat;
+        opacity: .85;
+    }
+
+    .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+        background-image: url("../Content/images/ui-icons-white.png");
+        background-repeat: no-repeat;
+        opacity: .85;
+    }
+
+    .addCodeImageClass {
+        background-image: url('../Content/Images/ServicesCode-white.png');
+        background-size: 20px 20px;
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+        margin-top: -5px;
+        opacity: .85;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+    .ui-state-default .ui-icon, .ui-state-active .ui-icon {
+        background-image: url("Content/images/ui-icons-black.png");
+        background-repeat: no-repeat;
+        opacity: .85;
+    }
+
+    .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+        background-image: url("../Content/images/ui-icons-black.png");
+        background-repeat: no-repeat;
+        opacity: .85;
+    }
+
+    .addCodeImageClass {
+        background-image: url('../Content/images/ServicesCode-black.png');
+        background-size: 20px 20px;
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+        margin-top: -5px;
+        opacity: .85;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.displayCode {
+    display: none;
+}
+
+#AlertMeLi {
+    display: inline-block;
+    width: 80px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+#IPKit-Project-Save {
+    margin-right: -4px;
+}
+
+#related-projects_main ul li {
+    padding-bottom: 0px !important;
+    margin-bottom: -3px;
+}
+
+    #related-projects_main ul li:nth-child(5) {
+        margin-top: -28px !important;
+    }
+
+    #related-projects_main ul li:nth-child(4) {
+        margin-top: 10px !important;
+    }
+
+#filterProjectDiv #menu #IPKit-Project-Filter-FreeSearch {
+    width: 205px;
+}
+
+.addborderdesign {
+    border-bottom: 3px solid rgba(0, 177, 158, 1);
+    padding-bottom: 3px;
+}
+
+#filterProjectDiv #menu div button {
+    width: 72px !important;
+    height: 20px !important;
+    margin-left: 9px !important;
+}
+
+#gview_projectListGrid table thead tr th {
+    padding-left: 10px;
+}
+
+    #gview_projectListGrid table thead tr th:nth-child(3) {
+        padding-left: 6px !important;
+    }
+
+    #gview_projectListGrid table thead tr th:nth-child(4), th:nth-child(5), th:nth-child(6), th:nth-child(7) {
+        padding-left: 21px !important;
+    }
+
+#projectListGrid > tbody > tr > td:nth-child(1) {
+    text-align: right;
+    padding-left: 10px !important;
+}
+
+#projectListGrid > tbody > tr > td:nth-child(3) {
+    padding-left: 10px !important;
+}
+
+#projectListGrid > tbody > tr > td {
+    padding-left: 20px;
+}
+
+
+#gview_projectListGrid > div:nth-child(1) > span {
+    font-size: 28px;
+}
+
+#gview_projectListGrid .ui-jqgrid-bdiv {
+    margin-left: -25px;
+    width: 867px !important;
+}
+
+#gview_projectListGrid .ui-jqgrid-hdiv .ui-jqgrid-hbox {
+    margin-left: -20px;
+    padding-bottom: 6px;
+}
+
+#divSaveProject td {
+    text-align: right;
+}
+
+
+#divSaveProject {
+    margin-top: 23px;
+    margin-left: 423px;
+}
+
+    #divSaveProject #btnIPKitCancel {
+        margin-left: -5px !important;
+    }
+
+#DownloadAllLi {
+    display: none !important;
+    width: 80px;
+    cursor: pointer;
+}
+
+#GroupBorderTop, #GroupBorderBottom {
+    display: none;
+}
+
+#OtherValue, .OtherRefValue {
+    display: none !important;
+    margin-top: 10px;
+}
+
+#OtherValue, #SubmitValue, .SubmitFilter, .OtherRefValue {
+    border-top: 1px solid #DDD;
+    font-size: 11px;
+    padding: 5px 0 !important;
+    text-transform: uppercase;
+}
+
+#refinerExpandCollapseArrow {
+    display: block;
+    margin: 0;
+}
+
+#ResultFooter {
+    display: inline-block;
+}
+
+#SubmitValue, .SubmitFilter {
+    border-bottom: 0 solid #DDD;
+    border-top: 0 solid #DDD;
+    margin-top: 2px;
+}
+
+    #SubmitValue #submit .SubmitFilter .Submitrefiner {
+        color: #767676;
+    }
+
+.seeMore {
+    position: relative;
+    height: 15px;
+    cursor: pointer;
+    width: 76px;
+    padding-bottom: 4px;
+    display: table;
+    margin-top: 10px;
+}
+
+*, :before, :after {
+    /* box-sizing: content-box !important;*/
+    margin: 0;
+    moz-box-sizing: content-box;
+    webkit-box-sizing: content-box;
+}
+
+.authoredContentWrapper {
+    line-height: 1.4285;
+}
+
+    .authoredContentWrapper > .authored {
+        width: 1109px;
+    }
+
+.best-bets-title {
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 5px;
+}
+
+.bpgapiconlink {
+    background-image: url(../Content/images/kminternetlink2.png);
+    background-position: 1px,3px;
+    background-repeat: no-repeat;
+    background-size: 15px 17px;
+    display: inline-block;
+    height: 21px;
+    margin-left: 4px;
+    margin-top: 1px;
+    width: 20px;
+}
+
+.campus_clear {
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+.ComDirColHome {
+    display: inline-table;
+    height: 36px;
+    line-height: 1.2em;
+    width: 36px;
+}
+
+.control_refinement_box {
+    border-color: #D3D3D3;
+    border-style: solid;
+    border-width: 1px;
+    display: none !important;
+    height: 65px;
+    left: 0;
+    margin: 0 0 15px;
+    position: relative;
+    text-align: left;
+    top: 0;
+    width: 198px;
+}
+
+.control_refinement_tip {
+    left: 0;
+    margin: 0 0 15px;
+    padding: 10px 10px 0;
+    position: absolute;
+    top: 0;
+    width: 160px;
+    word-wrap: break-word;
+}
+
+.control_refinement_tip_icon {
+    cursor: pointer;
+    height: 22px;
+    left: auto;
+    padding-top: 10px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 12px;
+}
+
+.control_refinement_tip_text {
+    font-family: "Segoe UI Bold","Segoe UI";
+    font-weight: 700;
+}
+
+.ExploreCenterDiv {
+    float: left;
+    width: 84%;
+    margin-top: 0;
+}
+
+    .ExploreCenterDiv #SearchBox {
+        float: right !important;
+        margin-right: 0 !important;
+        margin-top: -37px;
+        position: relative;
+    }
+
+        .ExploreCenterDiv #SearchBox .ms-srch-sb-border, .ExploreCenterDiv #SearchBox .ms-srch-sb-borderFocused {
+            border: 1px solid #d3d3d3 !important;
+            border-bottom: 1px solid #dadada !important;
+            padding: 0 0 0 5px;
+            width: 400px;
+            position: relative;
+        }
+
+        .ExploreCenterDiv #SearchBox .ms-srch-sbLarge-fullWidth {
+            width: 363px;
+        }
+
+    .ExploreCenterDiv .desc {
+        clear: both;
+    }
+
+    .ExploreCenterDiv .general-results {
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+
+    .ExploreCenterDiv > .ExploreCenterTopDiv > .rclp {
+        border-bottom: 1px #dadada solid;
+        margin-bottom: 10px !important;
+    }
+
+.ExploreCenterTopDiv {
+    line-height: 0;
+    margin-bottom: 20px;
+}
+
+    .ExploreCenterTopDiv .rclp .jcarousel-wrapper {
+        margin: 0;
+        padding: 0 0 0;
+    }
+
+.ExploreLeftDiv {
+    float: left;
+    padding-right: 0px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.ExploreOuterDiv {
+    /* margin-left: 0;
+        width: 1300px;*/
+    padding-left: 17px;
+}
+
+.ExploreRightDiv {
+    float: left;
+    width: 178px;
+}
+
+.ExploreCenterDiv .ms-srch-bestBetItem {
+    width: 849px;
+}
+
+.ExploreCenterDiv .ms-srch-item-summaryPreview {
+    width: 700px !important;
+}
+
+.ExploreCenterDiv .ms-srchnav-list h2 a {
+    color: #333;
+    display: block;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .75;
+    padding: 5px 10px;
+}
+
+.ExploreCenterDiv .ms-srch-sbLarge {
+    height: 30px;
+}
+
+    .ExploreCenterDiv .ms-srch-sbLarge .ms-srch-sb-searchLink {
+        background: url(../Content/images/SearchBoxMagGlassIcon.png) no-repeat 8px 7px;
+        background-position: 5px 4px;
+        float: right;
+        margin-top: 1px;
+        padding-right: 5px;
+        width: 25px;
+        border: 0px;
+    }
+
+        .ExploreCenterDiv .ms-srch-sbLarge .ms-srch-sb-searchLink img {
+            display: none;
+        }
+
+.ExploreCenterDiv ul.ms-srchnav-list {
+    border-bottom: 1px solid #dadada;
+    border-top: 0 solid #DDD !important;
+    display: block;
+    margin-top: 0;
+    overflow: hidden;
+    /*width: 878px;*/
+}
+
+.ms-core-listMenu-item, .ms-core-listMenu-item:link, .ms-core-listMenu-item:visited, .ms-tv-item:link, .ms-tv-item:visited, .ms-tv-header:link, .ms-tv-header:visited {
+    color: #000 !important;
+}
+
+.ms-promlink-button-image {
+    display: block;
+    margin-top: 8px; /* this vertically aligns the arrow for IE, but not Chrome */
+}
+
+.ms-ref-ctrl .ms-disabled {
+    min-height: 100px;
+}
+
+.ms-ref-downarrow {
+    display: none !important;
+}
+
+    .ms-ref-downarrow::before {
+        background: transparent none no-repeat;
+        content: "\f078";
+        font-family: FontAwesome;
+        font-size: 18px;
+    }
+
+.ms-ref-ellipsis {
+    white-space: normal;
+}
+
+.ms-ref-refiner {
+    padding: 0;
+}
+
+    .ms-ref-refiner #Container, .RefContainer {
+        padding: 0 0 15px !important;
+    }
+
+    .ms-ref-refiner .Value, .ms-ref-unsel-toggle, #OtherValue, #SubmitValue, .SubmitFilter, .OtherRefValue {
+        display: block;
+        padding: 3px 0;
+        width: 200px !important;
+    }
+
+.ms-ref-refinername {
+    width: auto !important;
+}
+
+    .ms-ref-refinername:link, .ms-ref-refinername:visited {
+        background: #fff;
+        color: #444;
+        cursor: pointer;
+        display: block;
+        font-size: 13px !important;
+        padding: 0 !important;
+    }
+
+.ms-ref-unselSec {
+    display: block !important;
+}
+
+.ms-ref-unsel-shortList {
+    height: auto;
+    margin: 0;
+    max-height: inherit;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.ms-ref-uparrow, .ms-ref-downarrow {
+    background: transparent none no-repeat;
+    margin-top: 0;
+}
+
+    .ms-ref-uparrow::before {
+        content: "\f077";
+        font-family: FontAwesome;
+        font-size: 18px;
+    }
+
+.ms-rtestate-field h3, h3.ms-rteElement-H3 {
+    display: block;
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 8px 0 0;
+    position: inherit;
+}
+
+.ms-srch-bestBetItem {
+    margin: 10px 0 0;
+    padding: 5px 0 0;
+    width: 849px;
+}
+
+.ms-srch-bestBetItem-icon {
+    margin-right: 5px;
+    margin-top: 11px;
+}
+
+.ms-srch-ellipsis strong {
+    font-weight: 600;
+}
+
+.ms-srch-group.ms-srch-group-border {
+    border: 1px solid #DDD;
+    margin: 0;
+    padding: 0;
+    width: 873px;
+}
+
+    .ms-srch-group.ms-srch-group-border .ms-srch-group-count {
+        display: none;
+    }
+
+    .ms-srch-group.ms-srch-group-border .ms-srch-group-link {
+        border-top: 1px solid #DDD;
+        margin: 10px 0 0;
+        padding: 10px 15px;
+    }
+
+    .ms-srch-group.ms-srch-group-border .ms-srch-group-title {
+        color: #797979;
+        font-size: 18px;
+        margin: 15px;
+    }
+
+        .ms-srch-group.ms-srch-group-border .ms-srch-group-title a {
+            color: #797979;
+        }
+
+    .ms-srch-group.ms-srch-group-border .ms-srch-item {
+        margin: 0;
+        padding: 0 15px 10px;
+        width: 843px;
+    }
+
+    .ms-srch-group.ms-srch-group-border .ms-srch-item-body {
+        width: 665px !important;
+    }
+
+    .ms-srch-group.ms-srch-group-border + .ms-srch-group {
+        width: 615px;
+        width: auto !important;
+    }
+
+.ms-srch-item {
+    position: relative;
+}
+
+    .ms-srch-item a {
+        color: #3A7BB3;
+        font-size: 16.5px;
+    }
+
+.ms-srch-item-body hr {
+    margin: 10px 0 0;
+}
+
+.ms-srch-item-previewContainer {
+    margin-top: 13px;
+    width: 135px;
+}
+
+    .ms-srch-item-previewContainer .ms-srch-item-preview {
+        max-height: 80px;
+        max-width: inherit;
+        width: 100%;
+    }
+
+.ms-srch-item-summary {
+    display: inline-block;
+    font-size: 13px;
+    padding-top: 2px;
+}
+
+.ms-srchnav-item {
+    padding: 0;
+}
+
+.ms-srchnav-link-selected:link, .ms-srchnav-link-selected:visited {
+    background: rgba(245,245,245,1);
+    color: #333;
+}
+
+
+#PageLinkNext:focus span {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+}
+
+#PageLinkPrev:focus div {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+}
+
+.ms-srch-sbLarge > .ms-srch-sb-searchLink {
+    height: 23px;
+    width: 25px;
+}
+
+.ms-srch-sbLarge > input {
+    font-size: 14px !important;
+    height: 27px;
+    margin-left: 2px !important;
+}
+
+.ms-srchnav-list {
+    margin-bottom: 0px !important;
+}
+
+.general-results {
+    float: left;
+    margin-top: 0;
+    width: 611px;
+}
+
+.histogram_container {
+    margin-top: 15px;
+}
+
+.ImgStyleName {
+    color: #777;
+    font-size: 15px;
+}
+
+.ImgStyleNameHome {
+    color: #777;
+    font-size: 10px;
+}
+
+.ImgStyleOne {
+    color: #777;
+    font-size: 12px;
+}
+
+.ImgStyleTwo {
+    color: #7FBA00 !important;
+    text-decoration: none;
+}
+
+    .ImgStyleTwo a {
+        color: #7FBA00 !important;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+        .ImgStyleTwo a:hover {
+            color: #7FBA00 !important;
+            font-size: 12px;
+            text-decoration: underline;
+        }
+
+.indTitle {
+    font-size: 14px;
+    margin: 8px 0 3px;
+}
+
+/* K-Map */
+.showKM {
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+    height: 122px;
+    moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    ms-filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 35px !important;
+    webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    width: 185px;
+    z-index: 3 !important;
+    zoom: 1;
+}
+
+    .showKM .addplus {
+        display: none;
+        padding-top: 13px;
+        width: 10px;
+    }
+
+    .showKM .addtitle {
+        color: #333;
+        display: inline-block !important;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        padding: 20px 10px;
+        width: 165px;
+    }
+
+        .showKM .addtitle:hover {
+            background: #e6f2fb;
+        }
+
+
+.ExploreCenterDiv .related-results {
+    margin-top: 40px !important;
+}
+
+.ipreaddoctype {
+    display: inline-block;
+    width: 25px;
+}
+
+    .ipreaddoctype img {
+        margin-top: -2px;
+    }
+
+
+.kmOfferingAddToMap {
+    z-index: -1;
+}
+
+.kmSearchPageEnabled .ExploreCenterDiv {
+    margin-top: 40px !important;
+}
+
+.last {
+    margin-right: 0;
+}
+
+.promoted-image {
+    float: left;
+    height: auto;
+    margin-right: 15px;
+    width: 110px;
+}
+
+.promoted-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.propleimagediv {
+    border-left: 0 solid transparent !important;
+    display: block;
+    float: left;
+    height: 36px;
+    margin: 0 10px 0 0;
+    width: 36px;
+}
+
+.rclp .jcarousel-wrapper.authored {
+    display: block !important;
+}
+
+.rclp .off25 {
+    padding: 0 0 0 25px;
+}
+
+
+.rclp > .wrapper {
+    margin: 0 auto;
+    width: 1110px;
+}
+
+    .rclp > .wrapper > .refiner {
+        float: left;
+        width: 170px;
+    }
+
+    .rclp > .wrapper > .search {
+        float: left;
+        width: 730px;
+    }
+
+    .rclp > .wrapper > .additional {
+        float: left;
+        width: 160px;
+    }
+
+.rclp h2 {
+    color: #333;
+    font-family: "Segoe UI Light","Segoe UI";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.refinermentCount {
+    display: none;
+    text-align: right;
+    vertical-align: top;
+    width: 35px;
+}
+
+.refinermentText {
+    display: inline-block;
+    line-height: 15px;
+    vertical-align: top;
+    width: 160px;
+}
+
+.refinerSidebar {
+    margin-top: -50px;
+}
+
+.related-results {
+    border: 1px solid #DDD;
+    border-bottom: 0;
+    float: left;
+    margin-left: 40px;
+    margin-top: 60px;
+    overflow: hidden;
+    padding: 0 10px;
+    width: 205px;
+}
+
+    .related-results .cbs-Detail {
+        margin-left: 0;
+    }
+
+    .related-results .cbs-Item, .related-results .cbs-diagnostic-Container {
+        clear: both;
+        padding-bottom: 10px;
+    }
+
+    .related-results .ms-noWrap {
+        white-space: inherit;
+    }
+
+    .related-results a:visited {
+        color: rgba(4,80,136,1);
+    }
+
+.spanList {
+    margin: 5px 0 0;
+}
+
+.statRow {
+    color: #8f8f8f;
+    font-size: 13px !important;
+    padding-top: 3px;
+}
+
+
+
+
+body {
+    background-color: #FFF;
+}
+
+.campus_rclp_chbox {
+    display: inline-block;
+    height: 13px;
+    margin: 4px 3px 0 0 !important;
+    position: inherit;
+    vertical-align: top;
+    width: 13px;
+}
+
+.campus_rclp_chbox_txt {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 20px;
+    padding-left: 0;
+    vertical-align: middle;
+    width: 178px;
+}
+
+.ms-dlgContent {
+    border: 1px solid #c6c6c6;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.47);
+    padding-bottom: 18px;
+}
+
+.ms-dlgTitle {
+    padding: 13px 19px 15px;
+    white-space: nowrap;
+    cursor: move;
+    overflow: hidden;
+}
+
+#dialogTitleSpan {
+    font-family: "Segoe UI Light", "Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: #333333;
+    text-align: left;
+    line-height: 55px;
+    margin-top: -15px;
+}
+
+.ms-dlgTitleText {
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+span.ms-imnSpan a.ms-imnlink ms-spimn-presenceLink:focus {
+    outline: 1px dotted #777777;
+    outline-offset: 5px;
+}
+
+#tile {
+    margin-top: 10px;
+}
+
+.kmimportformdiv {
+    padding-top: 18px;
+}
+
+.ms-srch-item-previewContainer {
+    width: 135px;
+    margin-top: 37px !important;
+}
+
+.ms-srch-item-path {
+    width: auto !important;
+    display: block !important;
+}
+
+.kmsearchaddtomap {
+    margin-top: -30px !important;
+}
+
+.kmgapicon {
+    display: inline-block;
+    height: 22px;
+    width: 20px;
+    background-image: url("../Content/images/kmgap.png");
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    margin-left: 5px;
+    background-size: 15px 17px;
+    background-position-y: 3px;
+}
+
+.kmpdficon {
+    display: inline-block;
+    height: 22px;
+    width: 20px;
+    background-image: url("../Content/images/pdf.png");
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    margin-left: 4px;
+    background-size: 16px 16px;
+    background-position-y: 2px;
+}
+
+.kmwordicon, .kmexcelicon, .kmpowerpointicon, .kmvisioicon, .kmzipicon {
+    display: inline-block;
+    height: 22px;
+    width: 20px;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    margin-left: 4px;
+    background-size: 16px 16px;
+    background-position-y: 1px;
+}
+
+.kmwordicon {
+    background-image: url("../Content/images/word.png");
+}
+
+.kmexcelicon {
+    background-image: url("../Content/images/excel.png");
+}
+
+.kmvisioicon {
+    background-image: url("../Content/images/visio.png");
+}
+
+.kmpowerpointicon {
+    background-image: url("../Content/images/powerpoint.png");
+}
+
+.kmzipicon {
+    background-image: url("../Content/images/zip.png");
+}
+
+
+.disclaimer-icon { /* results */
+    margin-top: 9px;
+    padding-right: 5px;
+    float: left;
+    padding-top: 2px;
+    height: 18px;
+    width: 18px;
+    max-width: 18px;
+    max-height: 18px;
+    opacity: .8;
+    overflow: hidden;
+    background: url('../Content/images/Disclaimer-Gray.png') no-repeat;
+}
+
+
+
+.ManagedIPSearchBetaPage {
+    padding-left: 703px;
+    color: #333;
+    position: absolute;
+    margin-top: -59px !important;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .75;
+}
+
+.bpRefinerTitle {
+    padding: 5px 0px;
+}
+
+.refiner-Wrapper {
+    margin-top: 10px
+}
+/* high contrast */
+
+@media screen and (-ms-high-contrast: active) {
+
+    .ExploreCenterDiv .ms-srch-sbLarge .ms-srch-sb-searchLink {
+        background: url('../images/SearchBoxMagGlass-yellow.png') no-repeat;
+        background-position: 5px 4px;
+    }
+
+    .ms-srchnav-link-selected:link {
+        border-left: 1px solid yellow;
+        border-right: 1px solid yellow;
+        border-top: 1px solid yellow;
+    }
+
+    .disclaimer-icon {
+        background: url('../Content/images/Disclaimer-yellow.png') no-repeat;
+    }
+
+    .kmvisioicon {
+        background-image: url("../Content/images/visio.png");
+    }
+}
+
+@media screen and (-ms-high-contrast: white-on-black) {
+
+    .ExploreCenterDiv .ms-srch-sbLarge .ms-srch-sb-searchLink {
+        background: url('../images/SearchBoxMagGlass-white.png') no-repeat;
+        background-position: 5px 4px;
+    }
+
+    .downloadsIcon {
+        background: url('../Content/images/IPKitDownloads-white.png') no-repeat;
+    }
+
+    .ms-srchnav-link-selected:link {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        border-top: 1px solid white;
+    }
+
+    .disclaimer-icon {
+        background: url('../Content/images/Disclaimer-white.png') no-repeat;
+    }
+
+    .kmvisioicon {
+        background-image: url("../Content/images/visio.png");
+    }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+
+    .ExploreCenterDiv .ms-srch-sbLarge .ms-srch-sb-searchLink {
+        background: url('../images/SearchBoxMagGlass-black.png') no-repeat;
+        background-position: 5px 4px;
+    }
+
+    .downloadsIcon {
+        background: url('../Content/images/IPKitDownloads-black.png') no-repeat;
+    }
+
+    .ms-srchnav-link-selected:link {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+
+    .disclaimer-icon {
+        background: url('../Content/images/Disclaimer-black.png') no-repeat;
+    }
+
+    .kmvisioicon {
+        background-image: url("../Content/images/visio.png");
+    }
+}
+
+
+/*Media query for 1156px width fix- Footer left space issue*/
+@media only screen and (max-width: 1156px) {
+    .hpSurveySecWrapper {
+        margin-left: -40px;
+        margin-right: 0;
+    }
+
+    .hpSurvey {
+        padding-left: 45px;
+    }
+
+
+
+    .footer {
+        padding-left: 45px;
+    }
+}
+
+.showNoResultsFound {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background: #f6f6f6;
+    border-left: 1px solid #dadada !important;
+}
+
+.showNoResultsFoundText {
+    color: #444;
+    top: 50%;
+    position: relative;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+.ms-dlgTitle > #dialogTitleSpan {
+    font-family: 'Segoe UI Semilight', 'Segoe UI Regular', 'Segoe UI';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.ManagedIPSearchBetaPageInfoHeading {
+    font-weight: 300;
+    font-family: 'Segoe UI Semilight', 'Segoe UI';
+    font-size: 28px;
+    font-style: normal;
+}
+
+.ManagedIPSearchBetaPageInfoText {
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    color: #444444;
+}
+
+.ManagedIPSearchBetaPagefeedback {
+    padding-left: 703px;
+    color: #333;
+    text-align: right;
+    position: static;
+    margin-top: -18px !important;
+    margin-right: 69px !important;
+    margin-bottom: 38px !important;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .75;
+}
+
+.CampusMidWidth .ExploreOuterDiv .ExploreCenterDiv .ms-rtestate-notify {
+    display: inline !important;
+}
+
+/*.ExploreOuterDiv {
+    width: 1111px !important;
+}*/
+
+/*Add Item Dialog*/
+#selectionsearch {
+    margin-top: -34px;
+    margin-left: 56px;
+    position: absolute;
+    left: 9px;
+}
+
+#forfilterchoices #filter {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    font-size: 13px !important;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    color: #515151 !important;
+}
+
+#forfilterchoices #firstoption {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 13px !important;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    color: #515151 !important;
+}
+
+.searchiconhoverPosition {
+    margin-top: -2.5px;
+    margin-left: 0.5px;
+}
+
+#forfilterchoices .ms-RadioButton #BP-IPKit-Favorites {
+    position: relative;
+    left: 30px;
+}
+
+#forfilterchoices .ms-RadioButton #BP-Offerings-Favorites {
+    position: relative;
+    left: 30px;
+}
+
+#forfilterchoices #favorites {
+    position: relative;
+    top: 15px;
+    left: 52px;
+    font-size: 13px !important;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    color: #515151 !important;
+}
+
+#forfilterchoices #ownerselection {
+    position: relative;
+    left: 74px;
+}
+
+#forfilterchoices #ownerchoice {
+    position: relative;
+    top: 14px;
+    left: 96px;
+}
+
+#forfilterchoices .ms-RadioButton .ms-Label {
+    padding: 0px !important;
+}
+
+#selectionsearch .is-checked.ms-RadioButton-field::after {
+    background-color: rgba(0, 130, 114, 1) !important;
+}
+
+#selectionsearch .ms-RadioButton-field.is-checked::before {
+    border: 2px solid rgba(0, 130, 114, 1) !important;
+}
+
+#firstbox .kmcurrentprojectName {
+    padding-left: 16px !important;
+    padding-right: 10px !important;
+    padding-top: 8px !important;
+}
+
+#divccontainingprojectslist #ProjectNameandDetails {
+    padding-left: 0px !important;
+    padding-right: 10px !important;
+}
+
+#divccontainingprojectslist #BP-IPKit-All .ms-RadioButton-field::after {
+    left: 5.4px !important;
+}
+
+#divccontainingprojectslist #BP-Offerings-All .ms-RadioButton-field::after {
+    left: 5.4px !important;
+}
+
+.kmsearchhidedivpopup .kmprojectsitedisplay {
+    position: absolute;
+    top: 364px;
+    left: 45px;
+    display: block;
+    width: 410px;
+    height: 183px;
+    overflow-y: scroll;
+    border: 0px solid #ffffff !important;
+}
+
+.kmsearchhidedivpopup {
+    padding-left: 20px;
+}
+
+.ManagedIpPageHeading {
+    width: 100%;
+    float: left;
+}
+
+#AddItemPopUp .ms-dlgTitle {
+    padding-top: 18px;
+    width: 455px;
+}
+
+#KnowledgeMapDiv {
+    /*min-width: 1110px;*/
+    margin-bottom: 14px;
+    /*changes done to avoid overlap between import,hide,more and kmap containers*/
+    clear: both;
+}
+
+#firstbox {
+    display: block;
+    width: 439px;
+    margin-left: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+#forfilterchoices {
+    display: block;
+    width: 439px;
+    margin-left: 10px;
+    height: 40px;
+    border-right-color: #ccc;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-color: #ccc;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+#forsearchbox {
+    display: block;
+    width: 439px;
+    margin-left: 10px;
+    height: 40px;
+    border-right-color: #ccc;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-color: #ccc;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+.kmprojectsitelist {
+    padding-left: 2px;
+}
+
+#divccontainingprojectslist {
+    display: block;
+    width: 439px;
+    margin-left: 10px;
+    height: 209px;
+    border-right-color: #ccc;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-color: #ccc;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.kmPopUp .kmsearchprojectsitesspan .AddItemSearch {
+    padding: 2px 5px;
+    height: 30px;
+    width: 408px;
+    position: relative;
+    left: 10px;
+    top: 12px;
+    border: 1px solid #ababab;
+    background-color: rgba( 255,255,255,0.85 );
+}
+
+.AddItemSearch:hover {
+    border-color: rgba(0, 130, 114, 1) !important;
+}
+
+.AddItemSearch:focus {
+    border: 1px solid #ababab !important;
+}
+
+
+#divforsearchicon {
+    position: absolute;
+    top: 322px;
+    left: 427px;
+}
+
+#foralligningcheckbox {
+    border-width: 0px;
+    position: absolute;
+    left: 45px;
+    top: 239px;
+    width: 16px;
+    height: 16px;
+}
+
+#divhavingtextspan {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 127px;
+    white-space: nowrap;
+}
+
+#forcurrentprojectnametext {
+    border-width: 0px;
+    position: absolute;
+    left: 75px;
+    top: 229px;
+    width: 127px;
+    white-space: nowrap;
+}
+
+#foralligningboxwithtick {
+    position: absolute;
+    top: -7px;
+    left: 0px;
+}
+
+.kmPopUp {
+    min-height: 656px !important;
+    min-width: 500px !important;
+    z-index: 100;
+    /*top: 10px !important;*/
+    /*left: 383px !important;*/
+}
+
+    .kmPopUp #dialogTitleSpan {
+        font-family: 'Segoe UI Light', 'Segoe UI Regular', 'Segoe UI';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 38px;
+        margin-left: 11px;
+    }
+
+    .kmPopUp .kmimportdocbody {
+        width: 419px;
+        margin-left: 10px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        color: #505050;
+        line-height: 19px;
+    }
+
+    .kmPopUp .kmimportgendocdisplayheader {
+        font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI';
+        font-weight: 700 !important;
+        font-style: normal;
+        font-size: 13px;
+        color: #6E6E6E;
+        width: 439px !important;
+        margin-left: 10px;
+        font-weight: 700 !important;
+        font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI';
+    }
+
+    .kmPopUp .kmcurrentprojectitem {
+        position: relative !important;
+        top: 3px !important;
+        font-size: 13px !important;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        color: #515151 !important;
+    }
+
+    .kmPopUp .kmcurrentprojectcheck {
+        width: 16px;
+        height: 16px;
+        background: inherit;
+        background-color: rgba(255, 255, 255, 1);
+        box-sizing: border-box;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(178, 178, 178, 1);
+        border-radius: 0px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .kmPopUp .kmprojectsitelistcheck {
+        width: 16px;
+        height: 16px;
+        background: inherit;
+        background-color: rgba(255, 255, 255, 1);
+        box-sizing: border-box;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(178, 178, 178, 1);
+        border-radius: 0px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .kmPopUp .projectCheckBox {
+        padding-bottom: 7px;
+    }
+
+    .kmPopUp .kmprojectsitelistitem, #ProjectNameandDetails {
+        font-size: 13px;
+        color: #515151;
+        padding-left: 5px;
+        border-width: 0px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        position: relative;
+        top: -3px;
+    }
+
+    .kmPopUp .kmimportformdiv {
+        padding-top: 28px;
+    }
+
+    .kmPopUp #FieldGroupIPKit {
+        position: relative;
+        left: -4px;
+    }
+
+    .kmPopUp .kmsearchhidedivpopup .AddCancelButtons .addSearchDoc {
+        width: 195px;
+        border: 1px solid #ababab;
+    }
+
+    .kmPopUp .kmsearchhidedivpopup .AddCancelButtons .cancelSearchDoc {
+        font-size: 12pt;
+        margin-left: 16px;
+        margin-right: 9px;
+        height: 35px !important;
+        width: 96px !important;
+        border: 1px solid #ababab;
+        background-color: rgba( 255,255,255,0.85 );
+    }
+
+#selectionsearch .ms-RadioButton-field:focus {
+    border: 0px solid white;
+    outline: 0px !important;
+}
+
+.kmPopUp .ms-dlgTitleBtns {
+    position: relative;
+    right: 80px;
+}
+
+.kmPopUp .ms-dlgCloseBtn {
+    margin-right: 9px;
+}
+
+.s4-clust:focus {
+    outline: 1px dotted #777777;
+}
+
+.kmPopUp {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 0px;
+    margin-top: 100px;
+}
+
+#AddItemOverlay {
+    background-color: rgb(47, 79, 79) !important;
+}
+
+.AddItemSearch::-ms-clear {
+    display: none !important;
+    width: 0px;
+    height: 0px;
+}
+
+.kmsearchprojectsitesspan i {
+    color: #707070;
+    font-size: 16px;
+}
+
+.kmsearchprojectsitesspan:hover i {
+    color: rgba(0, 130, 114, 1);
+    font-size: 16px;
+}
+
+#selectionsearch .ms-RadioButton-field.in-focus:before, #selectionsearch .ms-RadioButton-field:focus:before {
+    outline: 1px dotted #777777 !important;
+}
+
+#favoritefield .ms-RadioButton-field.is-checked::after {
+    left: 6.4px !important;
+}
+
+a.ms-dlgCloseBtn:focus span span {
+    outline: 1px dotted #777777;
+}
+
+.kmPopUp .ms-dlgCloseBtn {
+    margin-right: 9px;
+}
+
+.kmPopUp .s4-clust {
+    margin-left: 42px;
+}
+
+.kmPopUp .addSearchDoc:hover {
+    color: #444;
+}
+
+.AddCancelButtons {
+    float: right;
+    margin-right: 20px !important;
+}
+
+.kmsearchhidedivpopup .addSearchDoc {
+    background: #058473;
+    color: #fff;
+    font-size: 12pt;
+    height: 35px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+}
+
+.kmsearchhidedivpopup .addSearchDoc2 {
+    background: #ccc;
+    color: gray;
+    font-size: 12pt;
+    /*float: right;*/
+    padding: 8px;
+    height: 22px;
+    display: none;
+    margin-left: 83px;
+}
+
+.kmsearchhidedivpopup .cancelSearchDoc {
+    font-size: 12pt;
+    height: 22px;
+    /*padding-bottom:11px;*/
+    /*float: right;*/
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    min-width: 5em;
+}
+
+.kmIpKitAddToMap, .kmOfferingAddToMap {
+    display: inline-block;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    bottom: -3px;
+    right: 4px;
+    color: #444;
+    cursor: pointer;
+}
+
+/* KM Transfer */
+
+.tile-rclp-ipkits .ipkitsheadergear, #divOfferingsWrapper .offerheadergear {
+    color: #fff !important;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 33px;
+    padding: 3px 0px;
+    font-family: Segoe UI Semibold;
+    opacity: .93;
+    position: static;
+    line-height: 1px;
+}
+
+    .tile-rclp-ipkits .ipkitsheadergear:focus, #divOfferingsWrapper .offerheadergear:focus, .documentheadergear:focus {
+        outline: 1px dotted #fff;
+    }
+
+.hamburgerfortiles {
+    font-size: 16px;
+}
+
+.CampusProjectDetails, .CampusProjectDetailsforoffers {
+    background: #fff;
+    border: 1px solid rgba(215,215,215,1);
+    position: absolute;
+    width: 164px;
+    height: 40px;
+    display: none;
+    font-size: 14px;
+}
+
+
+    .CampusProjectDetails:focus {
+        outline: 1px dotted #777777;
+    }
+    .CampusProjectDetails ul li a:hover, .CampusProjectDetails ul li a:focus, .CampusProjectDetailsforoffers ul li a:hover, .CampusProjectDetailsforoffers ul li a:focus {
+        text-decoration: none;
+    }
+
+        .CampusProjectDetails ul li a:hover span, .CampusProjectDetails ul li a:focus span, .CampusProjectDetailsforoffers ul li a:hover span, .CampusProjectDetailsforoffers ul li a:focus span {
+            width: 32px;
+            height: 38px;
+            background-repeat: no-repeat;
+            float: left;
+            background-position: left center;
+        }
+
+.ms-Icon--Add {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.CampusProjectDetails ul, .CampusProjectDetailsforoffers ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .CampusProjectDetails ul li, .CampusProjectDetailsforoffers ul li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .CampusProjectDetails ul li a, .CampusProjectDetailsforoffers ul li a {
+            float: left;
+            color: #494949;
+            font-size: 14px;
+            line-height: 36px;
+        }
+
+        .CampusProjectDetails ul li span, .CampusProjectDetailsforoffers ul li span {
+            background-color: #ffffff;
+            width: 32px;
+            height: 38px;
+            background-repeat: no-repeat;
+            float: left;
+            background-position: 10px center;
+            margin-right: 6px;
+        }
+
+
+.tile-rclp-ipkits .kmIpKitAddToMap {
+    display: none;
+}
+
+kmPopUp {
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 500px;
+}
+
+.kmPopUp, .kmPopUp .ms-dlgContent, .kmPopUp .ms-dlgBorder {
+    height: 500px !important;
+    width: 440px !important;
+}
+
+    .kmPopUp #dialogTitleSpan {
+        margin-top: -25px;
+    }
+
+    .kmPopUp .ms-dlgTitleBtns {
+        margin-right: -13px;
+    }
+
+.kmimportdocbody {
+    display: block;
+    font-family: Segoe UI;
+    font-size: 13px;
+    line-height: 18px;
+    color: #505050;
+    margin-bottom: 20px;
+}
+
+.kmimportgendocdisplayheader {
+    display: block;
+    width: 419px !important;
+    background: #f2efef;
+    border: 1px solid #ccc;
+    border-bottom: 0px solid #ccc;
+    color: gray;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.kmimportgendocdisplay {
+    display: block;
+    width: 100%;
+    height: 250px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+}
+
+.kmPopUp h1 {
+    width: 200px;
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Segoe UI Light", "Segoe UI Regular", "Segoe UI";
+}
+
+
+.kmPopUp .ms-dlgFrameContainer > div {
+    height: 500px !important;
+    width: 430px !important;
+}
+
+.kmPopUp .ms-dlgTitle {
+    padding-bottom: 0px
+}
+
+.kmPopUp .ms-dlgFrameContainer {
+    overflow: visible;
+}
+
+.kmPopUp .addSearchDoc:hover {
+    color: #444
+}
+
+.kmPopUp .kmprojectsitelist {
+    /*padding-left: 10px !important;*/
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.kmcurrentprojectName {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.AddItemSearchIcon {
+    position: relative;
+    font-size: 14px !important;
+    margin-right: 5px;
+    color: #3c3c3c;
+    opacity: 0.85;
+}
+
+.Loader_contr {
+    background: #fff;
+    height: 170px;
+    display: block;
+    width: 382px;
+    position: absolute;
+}
+
+    .Loader_contr p {
+        color: #333;
+        position: absolute;
+        top: 52%;
+        left: 31%;
+        font-size: 13px;
+    }
+
+.Fabric_Loader,
+.Fabric_Loader:after {
+    border-radius: 50%;
+    width: 2.3em;
+    height: 2.3em;
+}
+
+.Fabric_Loader {
+    margin: 45px auto;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 2PX solid #d6e7e6;
+    border-right: 2PX solid #d6e7e6;
+    border-bottom: 2PX solid #d6e7e6;
+    border-left: 2PX solid #008272;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+}
+
+@media screen and (-ms-high-contrast: active) {
+
+    .Fabric_Loader {
+        border-top: 2PX solid #666600;
+        border-right: 2PX solid #666600;
+        border-bottom: 2PX solid #666600;
+        border-left: 2PX solid #ffff00;
+    }
+}
+
+@media screen and (-ms-high-contrast: white-on-black) {
+    .Fabric_Loader {
+        border-top: 2PX solid #666666;
+        border-right: 2PX solid #666666;
+        border-bottom: 2PX solid #666666;
+        border-left: 2PX solid #ffffff;
+    }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+    .Fabric_Loader {
+        border-top: 2PX solid #999999;
+        border-right: 2PX solid #999999;
+        border-bottom: 2PX solid #999999;
+        border-left: 2PX solid #000000;
+    }
+}
+
+/*Sharepoint Default CSS*/
+.ms-dlgFrameContainer {
+    padding: 0px 19px 10px;
+    overflow: auto;
+}
+
+.ms-dlgTitle {
+    padding: 13px 19px 15px;
+    white-space: nowrap;
+    cursor: move;
+    overflow: hidden;
+}
+
+.ms-accessible, .ms-hidden,
+a.ms-skip, a:hover.ms-skip, a:visited.ms-skip, a.ms-TurnOnAcc, a.ms-SkiptoMainContent, a.ms-SkiptoNavigation {
+    position: absolute;
+    top: -2000px;
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    display: block;
+}
+
+.ms-dlgContent {
+    /* [ReplaceColor(themeColor:"SubtleLines")] */ border: 1px solid #c6c6c6;
+    position: absolute;
+    /* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1.0")] */ background-color: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.47);
+}
+
+.ms-dlgOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-color: #999;
+    display: none;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    /*box-sizing:content-box !important;*/
+    box-sizing: border-box !important;
+}
+
+
+.propleimagediv .ms-peopleux-userImg {
+    border-radius: 50%;
+}
+
+.propleimagediv .ms-spimn-imgSize-5x36 {
+    width: 0px;
+}
+
+.Collapsemenukmap {
+    font-size: 16px;
+}
+
+td.ipkitstatslabel {
+    text-align: right;
+}
+
+.SCDiscoverclass .projectCodeClass, .SCDiscoverclass .virtuosoClass {
+    line-height: 24px;
+}
+
+.SCDiscoverclass .virtuosoClass {
+    padding-right: 10px;
+    text-align: right;
+}
+
+
+.SCDiscoverclass .VirtuosoImageClass {
+    margin-right: 0px;
+}
+
+.Status {
+    cursor: pointer;
+}
+
+.EMISearch {
+    font-size: 34px;
+    display: table-cell;
+    color: #bbb;
+}
+
+.CustomersearchEMI {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.ProjectTileCompany {
+    display: table;
+    float: left;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.Status span.yellow {
+    background-color: yellow;
+    height: 12px;
+    border-radius: 50%;
+    width: 12px;
+    vertical-align: baseline;
+    margin-top: -3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Status span.green {
+    background-color: #40A165;
+    height: 12px;
+    border-radius: 50%;
+    width: 12px;
+    vertical-align: baseline;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.Status span.red {
+    background-color: #DA3B01;
+    height: 12px;
+    border-radius: 50%;
+    width: 12px;
+    vertical-align: baseline;
+    margin-top: -3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.offersReleatedipkits:hover, .offersReleatedipkits:focus, .ipkitsReleatedoffers:hover, .ipkitsReleatedoffers:focus, {
+    text-decoration: underline !important;
+}
+
+/*Changes made by pradeep to fix responsive issue*/
+#IPKitMainDIV div.title:hover, #divOfferingsWrapper div.title:hover {
+    text-decoration: underline;
+}
+
+#divIPKitsWrapper a.IPKITFocus, #divOfferingsWrapper a.OfferFocus {
+    text-decoration: none;
+}
+
+@media screen and (-ms-high-contrast: active) {
+    .BPseeallchevron {
+        margin-top: 10px;
+        opacity: .46;
+        cursor: pointer;
+        pointer-events: none;
+        background-image: url('../Content/images/SeeAllChevron-yellow.png');
+        display: block;
+        height: 9px;
+        width: 6px;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+
+    .BPseeallchevron {
+        margin-top: 10px;
+        opacity: .46;
+        cursor: pointer;
+        pointer-events: none;
+        background-image: url('../Content/images/SeeAllChevron-black.png');
+        display: block;
+        height: 9px;
+        width: 6px;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+@media screen and (-ms-high-contrast: white-on-black) {
+    .BPseeallchevron {
+        margin-top: 10px;
+        opacity: .46;
+        cursor: pointer;
+        pointer-events: none;
+        background-image: url('../Content/images/SeeAllChevron-white.png');
+        display: block;
+        height: 9px;
+        width: 6px;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus {
+    outline: 1px dotted #373737 !important;
+}

@@ -1,0 +1,1476 @@
+.SSUXRRDialog, .kmRatingReviewPopUp {
+    min-width: 250px;
+    width: 100% !important;
+}
+
+.ms-Dialog.SSUXRRDialog, .ms-Dialog.kmRatingReviewPopUp {
+    padding: 0;
+}
+
+.kmRatingReviewPopUp, .SSUXRRDialog {
+    max-width: 800px;
+}
+
+p.errorRateAndReviewMessage {
+    padding: 0 !important;
+    margin: 0 0 0 10px !important;
+    font-size: 11px !important;
+    color: red;
+    vertical-align: text-top;
+}
+
+.smeReviewTabrating {
+    width: 120px;
+}
+
+li.userIdalias {
+    width: 22% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ssPeerandSMEReviewsLoader .Fabric_Loader {
+    margin: 86px auto !important;
+    align-items: center;
+}
+
+.ssPeerandSMEReviewsLoader p {
+    position: absolute;
+    left: 49%;
+    top: 32%;
+}
+
+.reviewUsage .radioContainer .radiomark:after {
+    position: absolute;
+    opacity: 1;
+    left: 4px;
+    top: 4px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: normal;
+    content: '';
+    height: 9px;
+    width: 9px;
+    background-color: #008272;
+    border: 2px solid #008272;
+    border-radius: 50%;
+}
+
+.reviewUsage .radioContainer .chkbox-container .ms-Label {
+    top: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 0;
+    color: #666;
+    padding-top: 9px;
+    margin-right: 0;
+}
+
+.reviewUsage .radioContainer .radiomark:focus {
+    outline: 1px dotted #333;
+}
+
+.reviewUsage .radioContainer .radiomark {
+    position: absolute;
+    top: 1px;
+    left: 25px;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid rgba(102, 102, 102, 1);
+}
+
+.kmProjectListContainer .searchScope:hover .radiomark {
+    border: 1px solid rgba(102, 102, 102, 1);
+}
+
+.reviewUsage .radioContainer input:checked ~ .radiomark {
+    border: 1px solid #008272;
+}
+
+.reviewUsage .radioContainer .chkbox-container input:checked ~ .radiomark {
+    border: 1px solid #008272;
+}
+
+    .reviewUsage .radioContainer .chkbox-container input:checked ~ .radiomark:after {
+        display: block;
+    }
+
+.reviewUsage .radioContainer input:checked ~ .radiomark:after {
+    display: block;
+}
+
+.reviewUsage .radioContainer .chkbox-container {
+    display: block;
+    position: relative;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1;
+    padding-left: 0 !important;
+}
+
+.reviewUsage .radioContainer .chkbox-container {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin: 0 !important;
+}
+
+.reviewUsage .radioContainer .radiomark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.reviewUsage .radioContainer input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.reviewUsage .radioContainer .chkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.reviewUsage .radioContainer .chkbox-container .ms-Label {
+    top: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 0;
+    color: #666;
+    padding-top: 3px;
+    margin-right: 0;
+    vertical-align: super;
+}
+
+.reviewOption {
+    position: relative;
+}
+
+.Loader_container {
+    height: 253px;
+    width: 90%;
+    FLOAT: LEFT;
+    margin: 20PX 0 20px 20px;
+}
+
+
+.reviewContainer {
+    /*max-width: 760px;
+    border: 0.5px solid #999;
+    margin: 50px auto;
+    box-shadow: 3px 3px 5px #adadad;*/
+    padding: 16px 20px 20px 20px;
+    overflow: hidden;
+    min-height: 530px;
+}
+
+.reviewTitleCont {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.reviewOption a.active {
+    background: #FFF !important;
+}
+
+.smeReviewTab, .peerReviewTab {
+    min-height: 304px;
+    max-height: 304px;
+    overflow-y: auto;
+    /*box-shadow: inset -3px 3px 5px 0px #adadad;*/
+}
+
+.userIdalias a {
+    color: #0072c6 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+    .userIdalias a:focus {
+        padding-bottom: 0 !important;
+        border-bottom: none !important;
+        outline: none;
+    }
+
+    .userIdalias a:hover {
+        border-bottom: none !important;
+        text-decoration: underline !important;
+    }
+
+.documentTitleDiv {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom: 6px;
+    text-overflow: ellipsis;
+}
+
+.docAuthorsParentDiv {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.reviewContainer h3 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    flex: 1;
+}
+
+.documentTitleDiv .doctitle {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #0072c6;
+    margin-left: 5px;
+}
+
+.docAuthorsParentDiv label {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.docAuthorsParentDiv .docAuthors {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    color: #0072c6;
+    font-size: 14px;
+    margin-left: 8px;
+    vertical-align: bottom;
+}
+
+.reviewContainer p:first-of-type {
+    font-size: 16px;
+    margin-bottom: 0;
+    white-space: normal;
+}
+
+.reviewContainer span {
+    color: #000;
+}
+
+.reviewTitle p {
+    padding: 0px 10px !important;
+    vertical-align: bottom;
+}
+
+.reviewSummary .reviewUsageNote {
+    display: none;
+}
+
+.icn-cancel {
+    float: right;
+    font-size: 16px !important;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.icn-file {
+    padding-right: 5px;
+    color: #ff1c1c;
+    float: left;
+}
+
+.starRating {
+    float: right;
+    font-size: 15px;
+}
+
+    .starRating .star {
+        width: 15px;
+    }
+
+.reviewOption ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 43px;
+}
+
+.starrtngSme {
+    float: none;
+}
+
+.starrtngPeer {
+    float: left;
+}
+
+.reviewOption li, .reviewOption li a {
+    display: inline-block;
+    text-decoration: none !important;
+    color: #000;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.reviewOption a:hover {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #00b294;
+}
+
+.reviewOption a:focus {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #00b294;
+    outline: none;
+}
+
+.CancelRateandReviewpopup:focus {
+    outline: 1px dotted #333;
+}
+
+.CancelButton {
+    background: none;
+    float: right;
+}
+
+    .CancelButton:hover {
+        background: none;
+    }
+
+.reviewOption p {
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.ratingReviewTab {
+    max-width: 760px;
+    min-height: 281px;
+    border: 1px solid #999;
+    overflow: hidden;
+}
+
+    .ratingReviewTab p {
+        margin: 15px;
+        padding: 5px 10px;
+    }
+
+    .ratingReviewTab .docversion {
+        float: right;
+        text-align: right;
+    }
+
+.reviewTab-content {
+    min-width: 50px;
+    padding: 10px;
+}
+
+    .reviewTab-content p:nth-child(3) {
+        font-size: 14px;
+        margin-left: 70px;
+        color: #777676;
+        margin-top: 0px;
+    }
+
+.reviewContainer .documentTitleDiv img {
+    vertical-align: text-top;
+}
+
+.stars label:nth-child(1) {
+    padding-top: 7px;
+}
+
+.stars label:nth-child(2) {
+    float: right !important;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.reviewTab-content label {
+    float: left;
+    min-width: 60px;
+    margin: 0 10px 0 3px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+    .reviewTab-content label:nth-child(2) {
+        margin-left: 0px;
+    }
+
+.reviewTab-content input[type="text"] {
+    width: 267px;
+    height: 30px;
+    outline: none;
+    border: 0.5px solid #999;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.reviewTab-content textarea {
+    box-sizing: border-box;
+    background: no-repeat;
+    max-width: 85%;
+    min-width: 85%;
+    outline: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    box-shadow: none;
+    overflow: hidden;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #999;
+}
+
+.rateAndReviewsTabs li a {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.reviewTab-content input[type="text"]:hover,
+.reviewTab-content textarea:hover {
+    border-color: #000;
+}
+
+.reviewTab-content input[type="text"]:focus,
+.reviewTab-content textarea:focus {
+    border-color: #00b294;
+}
+
+.stars-outer::before {
+    content: '\E735 \E735 \E735 \E735 \E735';
+    color: #b9b9b9;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FabricMDL2Icons;
+    font-style: normal;
+    margin-top: 1px;
+    font-weight: 400;
+    speak: none;
+}
+
+.stars-inner::before {
+    content: '\E735 \E735 \E735 \E735 \E735';
+    color: #FFB900;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.kmRatingReviewPopUp .reviewContainer .stars-inner::before, .kmRatingReviewPopUp .reviewContainer .stars-outer::before {
+    font-size: 16px !important;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    font-size: 14px;
+}
+
+:-ms-input-placeholder {
+    font-style: italic;
+    font-size: 14px;
+}
+
+::-moz-placeholder {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.reviewUsage {
+    padding-right: 0px;
+    float: left;
+    width: 100%;
+    padding: 5px 5px 0 5px !important;
+}
+
+.reviewTab-content.reviewTitle {
+    padding: 5px 10px 10px 10px;
+}
+
+.radioContainer .radioButton-Label {
+    margin-left: 10px;
+}
+
+.reviewTab-content input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.buttonContainerrateandreview {
+    float: right;
+    margin-right: 15px;
+}
+
+    .buttonContainerrateandreview button:focus {
+        outline: 1px dotted #333 !important;
+        border: none !important;
+    }
+
+    .buttonContainerrateandreview button:hover {
+        border: none;
+        background: none;
+    }
+
+.addRateAndReview {
+    background-color: #008272 !important;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    width: 110px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin: 1px 5px 30px 0;
+    cursor: pointer;
+}
+
+.cancelReviewPopup:hover {
+    background-color: rgba(234, 234, 234, 1) !important;
+}
+
+.addRateAndReview:hover {
+    background-color: rgba(0, 115, 101, 1) !important;
+}
+
+.cancelReviewPopup {
+    background-color: rgba(244, 244, 244, 1) !important;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    width: 110px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin: 1px 15px 30px 0;
+    cursor: pointer;
+}
+/*Sme review Tab start*/
+.smeReview {
+    max-width: 760px;
+    min-height: 129px;
+    border: 1px solid #999;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+span.ratingStar {
+    vertical-align: baseline;
+}
+
+.smeReview .reviewTab-content {
+    padding: 5px 10px;
+}
+
+.smeReview ul {
+    font-size: 14px;
+    margin: 0px;
+}
+
+    .smeReview ul li {
+        width: 15%;
+        padding: 10px 0;
+        white-space: nowrap;
+        vertical-align: text-top;
+    }
+
+.smeReview .star {
+    font-size: 16px;
+}
+
+.smeReview .docversion {
+    text-align: center;
+    width: 15%;
+}
+
+li.reviewCommunity {
+    width: 25% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.smeReview li:nth-child(5) {
+    width: 200px;
+    margin: 0px;
+    white-space: nowrap;
+    vertical-align: middle;
+    float: right;
+    text-align: right;
+}
+
+.reviewDesc h5 .rrReviewTitle {
+    font-size: 14px;
+    font-weight: 600 !important;
+    font-style: normal;
+}
+
+.reviewDesc p {
+    font-size: 14px !important;
+    margin: 0px;
+    padding: 10px 0;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+}
+/*Sme review Tab end*/
+.reviewTab.peerReviewTab {
+    min-height: auto;
+    border: none;
+    /*box-shadow: inset -3px 3px 5px 0px #adadad;*/
+}
+
+.peerReview ul li {
+    width: 15%;
+    padding: 10px 0;
+}
+
+.peerReview li i {
+    padding-right: 5px;
+    vertical-align: -2px;
+}
+
+.peerReview li:nth-child(1) {
+    width: 120px;
+}
+
+.peerReview .userreviewdate {
+    text-align: right;
+}
+
+.peerReview .docversion {
+    text-align: right;
+}
+/*star rating css*/
+.star {
+    font-size: 20px;
+    width: 20px;
+    display: inline-block;
+    color: gray;
+    vertical-align: 0px;
+}
+
+    .star:last-child {
+        margin-right: 0;
+    }
+
+    .star:before {
+        content: '\2605';
+    }
+
+    .star.on {
+        color: gold;
+    }
+
+    .star.half:after {
+        content: '\2605';
+        color: gold;
+        position: absolute;
+        margin-left: -20px;
+        width: 10px;
+        overflow: hidden;
+    }
+
+.ratingstars {
+    vertical-align: middle;
+}
+
+span.ratingstars i {
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.starRating label {
+    vertical-align: text-bottom;
+    margin-right: 4px;
+}
+
+.starRating .stars-outer {
+    vertical-align: bottom;
+}
+
+span.ratingstars i.ms-Icon--FavoriteStar {
+    color: #AEAEAE;
+}
+
+span.ratingstars i.current-star-glow {
+    color: rgb(255, 185, 0) !important;
+}
+
+span.ratingstars i.ms-Icon--FavoriteStarFill {
+    color: #FFB900;
+}
+
+    span.ratingstars i.ms-Icon--FavoriteStar:focus, span.ratingstars i.ms-Icon--FavoriteStarFill:focus {
+        outline: 1px dotted #666;
+    }
+
+.rrstartabsul i.ms-Icon--FavoriteStarFill.starSelected {
+    font-style: normal;
+    font-size: 16px;
+    color: #FFB900;
+}
+
+.rrstartabsul i.ms-Icon--FavoriteStarFill.starUnselected {
+    font-size: 16px;
+    color: #E4E4E4;
+}
+
+.ratingStar .starUnselected {
+    font-size: 16px !important;
+}
+
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .star {
+        color: gray !important;
+    }
+
+        .star.on {
+            color: gold !important;
+        }
+
+        .star.half:after {
+            color: gold !important;
+        }
+}
+/*star rating css end*/
+/*high contrast queries start*/
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast: black-on-white), (-ms-high-contrast: white-on-black) {
+    .smeReview li:nth-child(5) {
+        float: right;
+    }
+
+    .kmRatingReviewPopUp, .SSUXRRDialog {
+        border: 1px solid;
+    }
+
+    .buttonContainerrateandreview button {
+        border: 1px solid !important;
+    }
+
+        .buttonContainerrateandreview button:focus {
+            border: 1px solid !important;
+        }
+
+    .buttonStylerateandreview {
+        background-color: #008272;
+        color: #fff;
+        -ms-high-contrast-adjust: none;
+    }
+
+    .buttonStyleCancelrateandreview {
+        background-color: #d4d4d4;
+        color: #000;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    .smeReview li:nth-child(5) {
+        float: right;
+    }
+}
+/*high contrast queries end*/
+/*Responsive queries*/
+@media only screen and (max-width:320px) {
+    .reviewOption ul {
+        margin-top: 25px;
+    }
+
+    .reviewOption li,
+    a {
+        font-size: 13px;
+        padding-bottom: 8px;
+        margin-right: 7px;
+    }
+
+    .reviewContainer h3 {
+        padding: 15px 10px;
+    }
+
+    .reviewContainer p {
+        padding: 3px 10px;
+    }
+
+    .reviewOption ul {
+        margin-top: 25px;
+    }
+
+    .reviewTab-content ul {
+        margin-top: 0px;
+    }
+
+    .starRating {
+        font-size: 13px;
+        font-weight: 350;
+        display: block;
+        width: 100%;
+        float: none;
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+
+    .star {
+        font-size: 19px;
+        width: 20px;
+        display: inline-block;
+        color: gray;
+        vertical-align: -1px;
+        padding-left: 5px;
+    }
+
+    .reviewTab-content label {
+        font-size: 13px;
+        min-width: 55px;
+    }
+
+    .reviewTab-content .star {
+        padding-left: 0;
+    }
+
+    .ratingReviewTab .reviewTitle label {
+        margin-top: 5px;
+    }
+
+    .ratingReviewTab .reviewSummary {
+        margin-top: 6px;
+    }
+
+        .ratingReviewTab .reviewSummary label {
+            margin-top: 5px;
+        }
+
+    .reviewTab-content input[type="text"] {
+        width: 80%;
+    }
+
+    .reviewTab-content textarea {
+        min-width: 80%;
+        height: 70px;
+    }
+
+    .reviewTab-content p:first-of-type {
+        font-size: 12px;
+    }
+
+    .reviewTab-content p:nth-child(3) {
+        margin-left: 45px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-style: italic;
+        font-size: 13px;
+    }
+
+    :-ms-input-placeholder {
+        font-style: italic;
+        font-size: 13px;
+    }
+
+    ::-moz-placeholder {
+        font-style: italic;
+        font-size: 13px;
+    }
+
+    .reviewUsage {
+        padding-right: 0px;
+    }
+
+    .radioContainer .radioButton-Label {
+        margin-left: 10px;
+        width: auto;
+    }
+
+    .smeReview {
+        min-height: 180px;
+    }
+
+        .smeReview li:nth-child(1) {
+            width: 27%;
+        }
+}
+
+@media only screen and (max-width: 480px) {
+    .reviewContainer {
+        padding: 0px 5px;
+    }
+
+    .buttonContainerrateandreview {
+        margin-right: 15px;
+    }
+
+        .buttonContainerrateandreview button {
+            margin: 10px 15px 10px 0 !important;
+        }
+
+    .reviewTitle p {
+        display: none;
+    }
+
+    .reviewSummary .reviewUsageNote {
+        display: block;
+    }
+
+    .reviewTab-content label {
+        font-size: 13px;
+        min-width: 53px;
+    }
+
+    .reviewTab-content input[type="text"] {
+        width: 80%;
+    }
+
+    li.userIdalias {
+        width: 42% !important;
+        overflow: hidden;
+    }
+
+    .reviewContainer h3 {
+        font-size: 20px;
+        padding: 16px 10px;
+    }
+
+    .icn-cancel {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .reviewContainer p {
+        font-size: 14px;
+        padding: 3px 10px;
+    }
+
+        .reviewContainer p:first-of-type {
+            font-size: 14px;
+            max-width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+    .docAuthorsParentDiv {
+        padding-top: 0 !important;
+    }
+
+    .documentTitleDiv {
+        padding-bottom: 0;
+    }
+
+    .documentTitleDiv {
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+
+    .starRating {
+        font-size: 14px;
+        display: block;
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
+        .starRating .star {
+            padding-left: 5px;
+        }
+
+    .reviewOption p {
+        font-size: 12px;
+    }
+
+    .reviewOption ul {
+        padding-left: 10px;
+    }
+
+    .reviewOption li,
+    .reviewOption li a {
+        font-size: 14px;
+        margin-right: 7px;
+    }
+
+    .rateAndReviewsTabs li a {
+        font-size: 14px;
+    }
+
+    .reviewTab-content {
+        padding: 8px 10px;
+    }
+
+    .reviewUsage {
+        padding: 8px 0 8px 10px;
+    }
+
+    .reviewTab-content label {
+        /*width: 15%;*/
+        margin: 0px;
+    }
+
+    .ratingReviewTab .reviewTitle label {
+        margin-top: 5px;
+    }
+
+    .ratingReviewTab .reviewSummary {
+        margin-top: 5px;
+    }
+
+    .reviewTab-content textarea {
+        min-width: 80%;
+    }
+
+    .reviewTab-content label:nth-child(2) {
+        margin-left: 0px;
+        width: auto;
+    }
+
+    .reviewTab-content p:nth-child(3) {
+        margin-left: 50px;
+        font-size: 12px;
+        padding: 3px 3px;
+    }
+
+    .radioContainer .radioButton-Label {
+        margin-left: 10px;
+    }
+
+    .buttonStylerateandreview {
+        font-size: 13px;
+        margin: 25px 0px;
+    }
+    /*smeReview responsive start*/
+    .smeReview {
+        min-height: 140px;
+    }
+
+        .smeReview ul li {
+            width: 25%;
+            padding: 5px 0;
+            font-size: 14px;
+            padding-bottom: 3px;
+        }
+
+        .smeReview li:nth-child(1) {
+            width: 25%;
+            margin-right: 14px;
+        }
+
+    .reviewTab-content .star {
+        width: 14px;
+    }
+
+    .smeReview li:nth-child(3) {
+        float: right;
+        text-align: right;
+        margin-right: 0;
+        margin-top: 1px;
+    }
+
+    .smeReview .docversion {
+        float: right;
+        text-align: right;
+        margin-right: 0;
+    }
+
+    .smeReview li:nth-child(5) {
+        margin-left: 0px;
+        white-space: nowrap;
+        float: left;
+        text-align: left;
+    }
+
+    .reviewTab-content.reviewDesc {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .reviewDesc h5 {
+        padding-left: 0px;
+        padding-bottom: 5px;
+    }
+
+    .reviewTab-content.reviewDesc p {
+        white-space: normal;
+        padding-left: 0px;
+    }
+
+    .reviewTab-content ul {
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    /*smeReview responsive end*/
+}
+
+@media only screen and (min-width:481px) and (max-width:539px) {
+    .reviewContainer {
+        padding: 12px;
+    }
+
+    .buttonContainerrateandreview button {
+        margin: 10px 15px 10px 0 !important;
+    }
+
+    .reviewTitle p {
+        display: none;
+    }
+
+    .reviewSummary .reviewUsageNote {
+        display: block;
+    }
+
+    .reviewContainer h3 {
+        font-size: 22px;
+    }
+
+    .icn-cancel {
+        font-size: 22px;
+    }
+
+    .reviewContainer p {
+        padding: 0 0 5px 0px;
+        font-size: 14px;
+    }
+
+        .reviewContainer p:first-of-type {
+            max-width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 14px;
+        }
+
+    .starRating {
+        display: block;
+        width: 100%;
+        float: left;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .documentTitleDiv {
+        padding-bottom: 0;
+    }
+
+    .reviewOption ul {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .reviewOption li, .reviewOption li a {
+        margin-right: 20px;
+        padding-bottom: 8px;
+    }
+
+    .documentTitleDiv a {
+        padding-bottom: 0;
+    }
+
+    .reviewTab-content {
+        padding: 9px 5px;
+    }
+
+        .reviewTab-content label {
+            min-width: 55px;
+            margin: 0 5px;
+        }
+
+        .reviewTab-content p:nth-child(3) {
+            margin-left: 65px;
+            font-size: 13px;
+        }
+
+    .reviewTab:nth-child(4) {
+        padding-top: 0;
+    }
+
+    .buttonStylerateandreview {
+        margin: 25px 10px;
+    }
+    /*smeReview responsive start*/
+    .reviewContainer p:first-of-type {
+        font-size: 14px;
+    }
+
+    .reviewContainer p {
+        font-size: 14px;
+    }
+
+    .smeReview ul li {
+        width: 25%;
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .smeReview li:nth-child(1) {
+        width: 105px;
+    }
+
+    .smeReview li:nth-child(3) {
+        float: right;
+        text-align: right;
+        margin-right: 0;
+        margin-top: 1px;
+    }
+
+    .smeReview .docversion {
+        float: right;
+        text-align: right;
+        margin-right: 0;
+    }
+
+    .smeReview li:nth-child(5) {
+        margin-left: 0px;
+        white-space: nowrap;
+        float: left;
+        text-align: left;
+    }
+
+    .reviewTab-content.reviewDesc {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .reviewDesc h5 {
+        padding-bottom: 10px;
+    }
+
+    .reviewTab-content.reviewDesc p {
+        white-space: normal;
+    }
+
+    .reviewTab-content ul {
+        margin-top: 0px;
+    }
+    /*smeReview responsive end*/
+}
+
+@media only screen and (min-width:540px) and (max-width:620px) {
+  
+    .reviewTitle p {
+        display: none;
+    }
+
+    .buttonContainerrateandreview {
+        margin-bottom: 15px;
+    }
+
+        .buttonContainerrateandreview button {
+            margin: 10px 15px 10px 0 !important;
+        }
+
+    .reviewSummary .reviewUsageNote {
+        display: block;
+    }
+
+    .reviewContainer {
+        padding: 15px;
+    }
+
+        .reviewContainer h3 {
+            font-size: 26px;
+        }
+
+    .icn-cancel {
+        font-size: 24px;
+    }
+
+    .reviewContainer p {
+        padding: 5px 0;
+    }
+
+    .docAuthorsParentDiv {
+        padding-top: 0 !important;
+    }
+
+    .documentTitleDiv {
+        padding-bottom: 0
+    }
+
+    .starRating {
+        display: block;
+        width: 100%;
+        float: left;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .rateAndReviewsTabs li a {
+        padding-bottom: 8px;
+    }
+
+    .reviewOption ul {
+        margin-top: 25px;
+    }
+
+    .reviewOption li a {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .reviewTab-content {
+        padding-bottom: 5px;
+    }
+
+        .reviewTab-content label {
+            margin: 0px 5px;
+        }
+
+    .buttonStylerateandreview {
+        margin: 25px 10px;
+    }
+    /*smeReview responsive start*/
+    .reviewContainer p:first-of-type {
+        font-size: 14px;
+    }
+
+    .reviewTab-content p:nth-child(3) {
+        font-size: 13px;
+    }
+
+    .reviewContainer p {
+        font-size: 14px;
+    }
+
+    .smeReview ul li {
+        width: 25%;
+        padding: 5px 0;
+    }
+
+    .smeReview li:nth-child(3) {
+        float: right;
+        text-align: right;
+    }
+
+    .smeReview .docversion {
+        float: right;
+        text-align: right;
+    }
+
+    .smeReview li:nth-child(5) {
+        margin-left: 0px;
+        white-space: nowrap;
+        float: left;
+        text-align: left;
+    }
+
+    .reviewTab-content.reviewDesc {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .reviewDesc h5 {
+        padding-bottom: 10px;
+    }
+
+    .reviewTab-content ul {
+        margin-top: 0px;
+    }
+    /*smeReview responsive end*/
+}
+
+@media only screen and (min-width:621px) and (max-width:799px) {
+ 
+    .reviewTitle p {
+        display: none;
+    }
+
+    .reviewSummary .reviewUsageNote {
+        display: block;
+    }
+
+    .reviewContainer {
+        padding: 15px 20px;
+    }
+
+        .reviewContainer p {
+            font-size: 14px;
+            white-space: normal;
+        }
+
+    .reviewOption li a {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .reviewTab-content {
+        padding-bottom: 5px;
+    }
+
+        .reviewTab-content label {
+            margin: 0px 5px;
+        }
+
+    .buttonStylerateandreview {
+        margin: 25px 10px;
+    }
+    /*smeReview responsive start*/
+    .reviewContainer p:first-of-type {
+        font-size: 14px;
+    }
+
+    .reviewTab-content p:nth-child(3) {
+        margin-left: 60px;
+    }
+
+    .reviewContainer p {
+        font-size: 14px;
+    }
+
+    .smeReview ul li {
+        width: 28% !important;
+        padding: 4px 0;
+    }
+
+    .smeReview li:nth-child(3) {
+        float: right;
+        text-align: right;
+    }
+
+    .smeReview .docversion {
+        float: right;
+        text-align: right;
+    }
+
+    .smeReview li:nth-child(5) {
+        margin-left: 0px;
+        white-space: nowrap;
+        float: left;
+        text-align: left;
+    }
+
+    .reviewDesc h5 {
+        padding-bottom: 5px;
+    }
+
+    .reviewTab-content.reviewDesc {
+        margin-top: 30px;
+    }
+
+    .reviewTab-content ul {
+        margin-top: 0px;
+    }
+    /*smeReview responsive end*/
+}
+/*Responsive queries*/
