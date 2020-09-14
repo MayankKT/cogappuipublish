@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script
+      src="https://statics.teams.cdn.office.net/sdk/v1.5.2/js/MicrosoftTeams.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="https://alcdn.msauth.net/lib/1.3.3/js/msal.js"></script>
+    <script type="text/javascript">
+      microsoftTeams.initialize();
+      microsoftTeams.getContext(function (msTeamsContext) {
+        // Config object to be passed to Msal on creation
+        const msalConfig = {
+          auth: {
+            clientId: "e0f60ff0-327b-43e2-9055-54782bbed141",
+            redirectUri: window.location.origin + "/auth-start.html",
+            authority: "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/"
+          },
+          cache: {
+            cacheLocation: "localStorage", // This configures where your cache will be stored
+            storeAuthStateInCookie: true, // Set this to "true" if you are having issues on IE11 or Edge
+          },
+        };
+
+        const msalInstance = new Msal.UserAgentApplication(msalConfig);
+
+        const loginRequest = {
+          scopes: ["User.Read"],
+        };
+
+        const tokenRequest = {
+          scopes: ["User.Read"],
+        };
+
+        if (msalInstance.getAccount()) {
+          msalInstance
+            .acquireTokenSilent(tokenRequest)
+            .then((res) => {
+              alert("token-res" + JSON.stringify(res));
+              console.log(res.accessToken);
+              microsoftTeams.authentication.notifySuccess(res.accessToken);
+            })
+            .catch((err) => alert("token-err" + JSON.stringify(err)));
+        } else {
+          alert("login");
+          msalInstance.handleRedirectCallback((err, res) => {
+            alert("err" + JSON.stringify(err));
+            alert("res" + JSON.stringify(res));
+            console.log(res);
+          });
+          msalInstance.loginRedirect(loginRequest);
+        }
+      });
+    </script>
+  </body>
+</html>
