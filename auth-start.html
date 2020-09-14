@@ -40,17 +40,11 @@
           msalInstance
             .acquireTokenSilent(tokenRequest)
             .then((res) => {
-              alert("token-res" + JSON.stringify(res));
-              console.log(res.accessToken);
               microsoftTeams.authentication.notifySuccess(res.accessToken);
             })
             .catch((err) => alert("token-err" + JSON.stringify(err)));
         } else {
-          alert("login");
           msalInstance.handleRedirectCallback((err, res) => {
-            alert("err" + JSON.stringify(err));
-            alert("res" + JSON.stringify(res));
-            console.log(res);
           });
           msalInstance.loginRedirect(loginRequest);
         }
