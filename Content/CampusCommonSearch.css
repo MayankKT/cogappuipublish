@@ -2468,22 +2468,47 @@ box-shadow: 2px 0 0 #F76315, 4px 0 0 #F76315, 4px -2px 0 #F76315, 4px -4px 0 #F7
     top: 0;
 }
 
-.styled-checkbox:checked + label:after {
+#filterInput
+{
+    box-shadow: none !important;    
+    float: left;
+    width: 190px;
+    height: 18px;
+    margin-left: 5px;
+    border: none;
+    padding: 0;
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px !important;
+    color: rgb(118, 118, 118) !important;
+}
+.filterInputHR{
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.testing {
+    color:red;
+}
+.testing::after {
     position: absolute;
-    left: 0;
-    top: 0;
+    top: 3px;
+    left: 12px;
+    height: 18px;
+    width: 18px;
+    MARGIN-TOP: 3PX;
+    line-height: 16px;
+    font-size: 16px;
     background-color: #00B395;
     border: 1px solid #00B395;
-    height: 14px;
-    width: 14px;
     color: #fff;
-    line-height: 12px;
-    font-size: 12px;
     font-weight: normal;
     content: '\E73E';
     font-family: FabricMDL2Icons;
 }
-
 
 .CommonSearchResultContent .styled-checkbox:checked + label:after {
     top: 3px;
@@ -8340,6 +8365,7 @@ span.newFilescount {
     font-size: 13px !important;
     color: rgb(118, 118, 118) !important;
 }
+
 
 #SS-FilterbyKeyword-HR {
     display: inline-block;
