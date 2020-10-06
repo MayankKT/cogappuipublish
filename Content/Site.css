@@ -182,7 +182,7 @@ html {
     position: fixed;
     overflow-y: auto;
     width: 100%;
-    top: 54px;
+    top: 0px;
     left: 0px;
     bottom: 0px;
 }
