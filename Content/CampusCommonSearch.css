@@ -88,6 +88,7 @@ div#SS-FeedBack-SingleSearchMobile {
     width: 14px;
     float: left;
     height: 20px;
+    font-size: 14px !important;
 }
 
 .ssDocumentsPeopleChoice li {
@@ -687,7 +688,7 @@ input#SS-Search-KeywordInput-HR:focus {
     height: 0;
     width: 0;
     position: relative;
-    background: url(../Content/images/FolderBeak-gray.png) no-repeat;
+    background: url("/assets/FolderBeak-gray.png") no-repeat;
     left: 50%;
     margin: -19px 0 0 -15px;
     width: 32px;
@@ -854,7 +855,7 @@ input#SS-Search-KeywordInput-HR:focus {
     height: 0;
     width: 0;
     position: relative;
-    background: url(../Content/images/FolderBeak-gray.png) no-repeat;
+    background: url("/assets/FolderBeak-gray.png") no-repeat;
     left: 50%;
     margin: -19px 0 0 -15px;
     width: 32px;
@@ -2492,6 +2493,9 @@ box-shadow: 2px 0 0 #F76315, 4px 0 0 #F76315, 4px -2px 0 #F76315, 4px -4px 0 #F7
 
 .testing {
     color:red;
+}
+.dropdown-toggle::after{
+    border:none !important;
 }
 .testing::after {
     position: absolute;
@@ -4750,7 +4754,7 @@ i.ms-Icon--FavoriteStarFill.halfSelectedStar {
 .tooltip-picker-arrow {
     top: auto;
     position: relative;
-    background: url(../Content/images/FolderBeak-gray.png) no-repeat;
+    background: url("/assets/FolderBeak-gray.png") no-repeat;
     left: 51%;
     margin: -19px 0 0 -15px;
     width: 32px;
@@ -7363,7 +7367,7 @@ span.newFilescount {
 .paginationDropdownBeak {
     top: 3px;
     position: absolute;
-    background: url(../Content/images/FolderBeak-gray.png) no-repeat;
+    background: url("/assets/FolderBeak-gray.png") no-repeat;
     left: 70%;
     margin: -19px 0 0 -15px;
     width: 32px;
