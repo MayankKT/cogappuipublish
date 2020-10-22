@@ -1,0 +1,6320 @@
+.adosearchQueryBoardliHide {
+    display: none !important;
+}
+.cursorPointer {
+    cursor: pointer !important;
+}
+.textPointer {
+    cursor: text !important;
+}
+
+.ssPeerandSMEReviewsLoader p {
+    position: absolute;
+    left: 50%;
+    top: 65px;
+}
+.ssPeerandSMEReviewsLoader .Fabric_Loader {
+    margin: 51px auto !important;
+    /*left: 49%*/
+    align-items: center;
+}
+.ssPeerandSMEReviewsLoader .Fabric_Loader, .ssPeerandSMEReviewsLoader .Fabric_Loader:after {
+        width: 2em !important;
+        height: 2em !important;
+}
+input[type=text]::-ms-clear {
+    display: none;
+}
+.EsmtblogLink
+{
+    width:auto !important;
+    display:inline-block !important;
+}
+
+.cookieclass {
+    top: 140px;
+}
+
+
+.ieBannerClass {
+    top: 189px;
+}
+
+#popupDialogOverlay {
+    z-index: 9999 !important;
+}
+
+.midcontr-with-footer.cookieclass.ieBannerClass .User-Cookies-Banner {
+    padding: 0 0 10px 0;
+}
+#MM-ReusableIP-Technology-ServerTools {
+margin-left:1px;
+}
+
+.mainSearchBoxClass {
+    padding:5px 5px !important;
+}
+.searchTipsClass {
+    margin-top:0px !important;
+}
+
+#campusPopupDialog {
+    z-index: 10000;
+}
+
+#campusPopupDialog.kmPopUp {
+    margin-top: 0px !important;
+}
+
+.User-Cookies-Banner {
+    width: 100%;
+    float: left;
+    padding: 0 10px 5px 0;
+    z-index: 99999;
+    background-color: rgba(255, 244, 206, 1);
+    border: none;
+    position: fixed;
+    top: 54px;
+}
+
+.hideHeaderTop {
+    top:0;
+}
+
+.CK-Message {
+    padding-top: 14px;
+    font-family: 'Segoe UI' !important;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666 !important;
+    line-height: 18px;
+    padding-left: 0px !important;
+    font-size:14px !important;
+}
+
+.CK-Warningicon {
+    padding-top: 13px;
+    padding-left: 18.5px !important;
+}
+
+.CK-Agree {
+    float: right;
+    padding-right: 26px;
+    margin-top: 2px;
+}
+
+.BT-Agree {
+    border-width: 0px;
+    width: 80px;
+    height: 32px !important;
+    min-width: 4.5em !important;
+    left: 0px;
+    top: 0px;
+    background: inherit;
+    background-color: rgba(217, 217, 217, 1) !important;
+    border: none !important;
+    border-radius: 0px !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI' !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    padding-top: 3px !important;
+}
+
+.truncate-3lines {
+    display: block;
+    display: -webkit-box;
+    width: 200px;
+}
+
+.truncate-2lines {
+    display: block;
+    display: -webkit-box;
+    width: 196px;
+}
+
+body {
+    font-family: "Segoe UI Regular", "Segoe UI", Tahoma, Arial, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Start of Azure base page created css classes*/
+.header {
+    /* margin: 63px 0 0 0;*/
+    margin: 0px;
+    float: left;
+    width: 100%;
+}
+
+.campusLogo {
+    float: left;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.megamenu {
+    width: 89%;
+    float: left;
+    border: 1px solid;
+    padding: 26px;
+}
+
+.left-nav {
+    float: left;
+    width: 14%;
+}
+
+.body-content {
+    border: 1px solid;
+    margin-bottom: 20px;
+    /* height: 92%; */
+    min-height: 300px;
+}
+
+.left-nav ul li {
+    list-style: none;
+}
+
+.projtitle {
+    padding: 12px;
+    border: 1px solid;
+    margin: 20px 0;
+}
+
+/*End of Azure base page created css classes*/
+
+
+
+.label {
+    font-weight: normal !important;
+    text-align: left !important;
+    white-space: normal !important;
+}
+
+body .Campus_Layout a, body .Campus_Layout a:active {
+    color: #00738b !important;
+}
+
+.ms-imnlink:focus span {
+    outline: 1px dotted #777777 !important;
+}
+
+.js-callout-closeButton:focus {
+    outline: 1px dotted #777777 !important;
+}
+
+.removeheaderfooter {
+    display: none;
+}
+
+.start-customersite-new {
+    position: relative;
+    top: 60px;
+}
+
+.crmIdcpID-new {
+    width: 100%;
+    position: absolute;
+    top: 155px;
+}
+
+/*
+h3, .h3 {font-size:14px !important;}
+
+h1, h2,h3 {	margin-bottom:1px !important;}
+
+h1,h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {font-family: "Segoe UI Light", "Segoe UI" !important;}*/
+.WarningDialogTitleSpan {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    line-height: 55px;
+    margin-top: -15px;
+}
+
+#dialogTitleSpan {
+    font-family: "Segoe UI Light", "Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: #333333;
+    text-align: left;
+    line-height: 55px;
+    margin-top: -15px;
+}
+
+
+#msiconwarning {
+    color: white;
+    float: left;
+    font-size: 35px !important;
+    line-height: 1 !important;
+    padding-right: 5px;
+}
+
+.WarningFrameContainer {
+    overflow: hidden;
+    padding: 22px 27px 27px 27px;
+}
+
+
+.WarningContent #dialogTitleSpan {
+    margin: 0;
+    padding: 0 !important;
+    line-height: 30px;
+}
+
+.WarningTitle {
+    background-color: rgba(0, 130, 114, 1);
+    width: 450px;
+    padding: 27px 27px 33px 27px;
+}
+
+
+.WarningContent {
+    width: 450px !important;
+    height: 253px !important;
+}
+
+    .WarningContent.ms-dlgContent {
+        border: 0;
+    }
+
+.WarningBorder {
+    width: 450px !important;
+}
+
+.Warningheading {
+    text-align: center !important;
+    color: white !important;
+    padding-right: 80px !important;
+    padding-top: 7px !important;
+}
+
+.WarningTitleSpan {
+    text-align: left !important;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    font-family: "Segoe UI Semilight", "Segoe UI Regular", "Segoe UI" !important;
+    padding-top: 18px !important;
+    padding-left: 19px !important;
+}
+
+.Confirmpopup {
+    width: 390px !important;
+}
+
+#SiteSettings_Warning {
+    float: right;
+    margin-right: 11px;
+    margin-top: 36px;
+    display: inline-block;
+    width: 87px;
+    height: 33px;
+    padding-top: 3px;
+    background-color: #008272;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Segoe UI Semilight", "Segoe UI Regular", "Segoe UI";
+}
+
+    #SiteSettings_Warning:hover {
+        background-color: rgba(0, 108, 94, 1) !important;
+    }
+
+.PopupBtnLabel {
+    padding-right: 30px;
+}
+
+.Popupbody {
+    font-family: Segoe UI;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #505050;
+    line-height: 18px;
+}
+
+#divProjClosure {
+    margin-top: -80px;
+    margin-left: -49px;
+}
+
+iframe {
+    outline: 0px !important;
+}
+
+.ms-wpContentDivSpace .commleadCont .ms-imnSpan a:focus {
+    outline: 1px dotted #777777 !important;
+}
+
+#MM-SkipNavigation-Link {
+    position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+    padding: 5px;
+    font-size: 13px;
+}
+
+    #MM-SkipNavigation-Link:focus {
+        position: relative !important;
+        outline: 1px dotted #777777;
+        text-decoration: none;
+    }
+
+div#MM-SkipNavigation {
+    padding: 5px;
+}
+
+.ms-core-pageTitle, .ms-core-pageTitle a {
+    line-height: normal !important;
+}
+
+#globalNavBox table {
+    border-collapse: separate !important;
+}
+
+a#zz14_V4QuickLaunchMenu_NavMenu_AddLink:focus {
+    outline: 1px dotted #777777 !important;
+    text-decoration: none;
+}
+
+.CampusMidWidth {
+    margin: 0 auto;
+    width: 1110px;
+    padding-top: 20px;
+    clear: both;
+}
+
+/*.CampusLogo { margin: 7px 10px 0px 10px; }*/
+
+.campusLogo {
+    background-image: url('images/campus_logo.png');
+    height: 34px;
+    width: 108px;
+    margin-top: 7px;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    margin-left: -6px;
+}
+
+.CampusInput {
+    background-color: #999999;
+    border: 1px solid #888787;
+}
+
+.CampusWebpart ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: #969696;
+}
+
+.CampusWebpartClr {
+    clear: both;
+}
+
+.CampusWebpart h2 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #969696;
+}
+
+.CampusWebProject h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #777777;
+    margin: 2px;
+    padding: 0px;
+}
+
+.CampusWebProject p {
+    color: #969696;
+    margin: 5px;
+}
+
+.CampusWebProject {
+    width: 66%;
+    float: left;
+    padding-right: 10px;
+}
+
+.CampusWebpart {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.CampusWebpartOne {
+    float: left;
+    padding-left: 23px;
+    padding-right: 39px;
+    width: 330px;
+}
+
+.CampusWebpartTwo {
+    width: 334px;
+    float: right;
+    padding-left: 20px;
+}
+
+.CampusTxtpartOne {
+    width: 24%;
+    float: left;
+    padding-right: 12px;
+}
+
+.CampusTxtpartTwo {
+    width: 24%;
+    float: right;
+}
+
+.CampusContentWhite {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.CampusContentColor {
+    margin-top: 10px;
+    padding: 0px;
+    background: #e2e2e2;
+}
+
+.footer {
+    background: rgba(249, 249, 249, 1);
+    text-align: center;
+    color: rgba(0, 129, 114, 1);
+    height: auto;
+    bottom: 0;
+    padding-top: 35px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px !important;
+}
+
+    .footer a {
+        color: #000;
+        text-decoration: none;
+    }
+
+.thankmesg {
+    padding: 0 15px !important;
+}
+
+.footer-links {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.footer a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.footMslogo {
+    vertical-align: baseline;
+    display: inline-block;
+    height: 26px;
+    width: 88px;
+    position: relative;
+    top: -3px;
+    margin-right: 12px;
+    background-image: url('images/MicrosoftFooterLogo-Black.png');
+}
+
+.FooCtrlMargi {
+    padding-top: 43px;
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+    .FooCtrlMargi a, .FooCtrlMargi span {
+        color: #444 !important;
+        font-size: 12px;
+        padding: 0 1px 0 1px;
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .FooCtrlMargi img {
+        margin-right: 10px;
+    }
+
+    .FooCtrlMargi .FterLinkBold {
+        float: right;
+        margin-top: 13px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+.AddGSX {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-size: 14px;
+    cursor: pointer;
+    color: #509FAF;
+}
+
+    .AddGSX a {
+        color: #489cdf !important;
+    }
+
+        .AddGSX a:visited {
+            color: #489cdf !important;
+        }
+
+        .AddGSX a:hover {
+            color: #489cdf !important;
+        }
+
+        .AddGSX a:focus {
+            color: #489cdf !important;
+        }
+
+.CampusWebProjectYellow {
+    width: 100%;
+    background-color: #e2e2e2;
+    border-top: 5px solid #ffff00;
+}
+
+.CampusWebProjectRed {
+    width: 100%;
+    background-color: #e2e2e2;
+    border-top: 5px solid #ee1c24;
+}
+
+.CampusWebProjectGreen {
+    width: 100%;
+    background-color: #e2e2e2;
+    border-top: 5px solid #39b54a;
+}
+
+.ms-core-pageTitle {
+    display: none !important;
+}
+
+.ms-csrlistview-controldiv {
+    margin-bottom: 10px;
+}
+
+#titleAreaBox {
+    /*margin-left: 0px !important; 
+	margin-right: 0px !important;*/
+    background: #FFFFFF !important;
+    width: 100%;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.ms-breadcrumb-box {
+    width: 0px !important;
+}
+
+.ms-srch-sb-border, .ms-srch-sb-borderFocused {
+    background-color: #FFFFFF !important;
+    font-size: 16px !important;
+    border: 2px solid #bababa !important;
+    color: rgba(0, 0, 0, 0.247058) !important;
+    font-family: "Segoe UI Regular", "Segoe UI" !important; /*border: 1px solid #888787; margin-top: 10px; margin-right: 5px; */
+}
+
+.ms-srch-ellipsis {
+    height: 23px;
+}
+
+.ms-srch-item-link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 660px;
+}
+
+.ms-srch-item-summary {
+    max-width: 700px;
+}
+
+.ms-srch-item-icon {
+    padding-right: 7px !important;
+}
+
+    .ms-srch-item-icon img {
+        max-height: 17px !important;
+    }
+
+#ps-project-recommendedipkits {
+    padding-bottom: 30px;
+}
+
+/*#searchInputBox .ms-srch-sb-border, .ms-srch-sb-borderFocused {
+    font-size: 16px !important;
+    border: 1px solid rgba(215, 215, 215, 1) !important;
+    height: 36px;
+    width: 245px;
+}*/
+
+#searchInputBox .ms-srch-sb-border, .ms-srch-sb-borderFocused {
+    font-size: 16px !important;
+    border: 1px solid rgba(215, 215, 215, 1) !important;
+    height: 36px;
+    width: 367px !important;
+    position: relative;
+    box-sizing: border-box !important;
+    display: flex !IMPORTANT;
+}
+
+
+.SearchAllClass:focus {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+}
+    .SearchAllClassFocus:focus {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+}
+
+#MM-AdvanceSearch:focus {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+}
+
+.ms-srch-sb-searchLink:focus {
+    outline: 1px dotted #777777 !important;
+    outline-offset: 1px !important;
+}
+/*@supports (-ms-ime-align: auto) {
+ 
+  .MainSearchClass :checked.styled-checkbox + label::after
+   {
+   top:2px !important;
+   }
+
+}*/
+
+.CustomStyleSB {
+    width: 243px !important;
+    height: 34px !important;
+}
+
+#searchInputBox .ms-srch-sb > input {
+    font-size: 15px !important;
+    height: 34px;
+    color: rgba(51, 51, 51, 0.67) !important;
+    margin: 0 0 0 7px !important;
+    padding-bottom: 1px;
+    flex: 1;
+    flex-grow: 1;
+    width: auto !important;
+    padding-top: 1px;
+    padding-right: 0px;
+    border:none;
+}
+
+
+    #searchInputBox .ms-srch-sb > input:focus {
+        box-shadow: none !important;
+    }
+
+.ms-srch-item {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.ms-srch-item-summaryPreview {
+    width: 455px !important;
+}
+
+.ms-breadcrumb-top {
+    margin-top: 31px;
+}
+
+.ms-siteicon-a {
+    margin-top: 20px;
+}
+
+    .ms-siteicon-a img {
+        margin-left: -5px;
+    }
+
+#s4-titlerow {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+/*#s4-workspace{//Do not uncomment as it hides the horizontal scrollbar across Campus
+	overflow-x:hidden;
+}*/
+
+.ms-status-red {
+    display: none !important;
+}
+
+.ms-core-listMenu-horizontalBox {
+    font-family: Segoe UI, Tahoma, Arial, Verdana, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    color: #d6d7d6 !important;
+}
+
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link, .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited, .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected {
+        color: #d6d7d6 !important;
+    }
+
+    .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+        color: #d6d7d6 !important;
+    }
+
+    .ms-core-listMenu-horizontalBox .ms-core-listMenu-item:link {
+        color: #d6d7d6 !important;
+    }
+
+.ms-helperText, input.ms-helperText {
+    color: #d6d7d6 !important;
+    font-size: 13px !important;
+    font-style: italic;
+}
+
+input[type="text"] {
+    color: rgba(51,51,51,0.67) !important;
+    font-size: 12px !important;
+}
+
+.surveyradio {
+    margin: 4px 2px 0 !important;
+    margin-top: -5px !important;
+    line-height: normal;
+}
+
+.surveyrdtext {
+    color: rgb(51, 51, 51);
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ml-16 {
+    margin-left: 16px !important;
+}
+/*.ms-core-listMenu-selected:link, .ms-core-listMenu-selected:visited, .ms-core-listMenu-selected { background-color: #777777 !important; color: #FFFFFF !important; }*/
+
+.ms-core-listMenu-selected:link, .ms-core-listMenu-selected:visited, .ms-core-listMenu-selected {
+    background-color: #ffffff !important;
+    color: #00738B !important;
+}
+
+#contentRow {
+    min-height: 715px;
+}
+
+.WhiteLineSec {
+    border-bottom: 1px solid #FFF !important;
+    margin: 5px 20px 5px 0px;
+    height: 5px !important;
+}
+
+.ImgStyleName {
+    font-size: 15px;
+    color: #777777;
+}
+
+.ImgStyleOne {
+    font-size: 12px;
+    color: #777777;
+}
+
+.ImgStyleTwo {
+    color: #7FBA00 !important;
+    text-decoration: none;
+}
+
+    .ImgStyleTwo a {
+        font-size: 12px;
+        color: #7FBA00 !important;
+        text-decoration: none;
+    }
+
+        .ImgStyleTwo a:hover {
+            font-size: 12px;
+            color: #7FBA00 !important;
+            text-decoration: underline;
+        }
+
+.propleimagediv {
+    display: block;
+    float: left;
+    width: 52px;
+    height: 52px;
+    margin: 0px 15px 10px 0px;
+    border-left: 1px solid white;
+}
+
+.peopleimagediv {
+    display: block;
+    float: left;
+    width: 41px;
+    height: 36px;
+    margin: 0px 7px 4px 0px;
+    border-left: 1px solid white;
+}
+
+.ComDirCol {
+    height: 52px;
+    line-height: 1.2em;
+}
+
+.MarginsSpace {
+    margin: 0;
+    padding: 0px;
+    height: 3px !important;
+    clear: both;
+}
+
+.ms-webpartzone-cell {
+    margin-bottom: 0px !important;
+    margin-top: 5px;
+}
+
+.amber {
+    background-image: url(../../Style%20Library/Campus/Images/amber.png);
+    float: left;
+    width: 46px;
+    height: 29px;
+    margin: 3px 5px 5px 5px;
+    float: left;
+    display: block;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.ms-dialog #dvFooter {
+    display: none !important;
+}
+
+.ms-dialog #contentRow {
+    min-height: 100px !important;
+}
+
+.ms-dialog .ms-core-overlay {
+    background-color: #FFF !important;
+}
+
+.FooterPadLeft {
+    text-align: left !important;
+    color: #FFF !important;
+    float: left;
+}
+
+    .FooterPadLeft a:link, .FooterPadLeft a:active, .FooterPadLeft a:visited {
+        text-decoration: none;
+        color: #FFF !important;
+        float: left;
+    }
+
+    .FooterPadLeft a:hover {
+        text-decoration: underline !important;
+        color: #FFF !important;
+        float: left;
+    }
+
+.ms-core-pageTitle1 {
+    font-size: 1.46em;
+    white-space: nowrap;
+    font-weight: 300;
+    padding-top: 20px;
+    color: #FFF;
+    font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+}
+
+    .ms-core-pageTitle1 a {
+        font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+        color: #262626;
+    }
+
+        .ms-core-pageTitle1 a:hover,
+        .ms-core-pageTitle1 a:active {
+            text-decoration: none;
+        }
+
+.ms-core-listMenu-horizontalBox > ul.ms-core-listMenu-root > li > a {
+    display: none !important;
+}
+
+.Campus_ElementSelect {
+    background-color: #FFFFFF !important;
+    border: 1px solid #dadada;
+    padding: 2px;
+    float: left;
+}
+
+.Campus_RightElement {
+    padding: 0px;
+    margin: 0px;
+    width: 210px;
+}
+
+    .Campus_RightElement p {
+        font-size: 11px;
+        color: #717171;
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .Campus_RightElement h2 {
+        font-size: 16px;
+        color: #717171;
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+.Campus_RightElementLeft {
+    width: 53px;
+    padding: 2px;
+    margin-right: 15px;
+    float: left;
+}
+
+.Campus_RightElementRight {
+    width: 53px;
+    padding: 2px;
+    float: left;
+}
+
+.Campus_MasterBanner {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+    .Campus_MasterBanner h1 {
+        color: #333;
+        width: 770px;
+        font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        font-style: normal;
+        margin: 0px !important;
+        padding-top: 0px;
+        text-align: left;
+        line-height: 45px;
+        margin-left: -2px;
+    }
+
+.Campus_MasterBannerInn {
+    margin: 0 auto !important;
+    width: 1063px !important;
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+.ComDirColHome {
+    height: 92px;
+    width: 52px;
+    line-height: 1.2em;
+    display: inline-table;
+}
+
+.ImgStyleNameHome {
+    font-size: 13px;
+    color: #707070;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Campus_ElementSelectHome {
+    background-color: #FFFFFF !important;
+    border: 1px solid #dadada;
+    padding: 2px;
+    width: 205px !important;
+    float: left;
+}
+
+#contentRow {
+    padding-top: 85px !important;
+}
+
+#contentBox {
+    min-height: 450px;
+    margin-left: 0 !important;
+    float: left;
+    width: 895px;
+    margin-right: 0 !important;
+}
+
+/*#contentBox{
+    width: 965px\9;*/
+/*float: left\9;
+}*/
+/*div#contentBox{
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}*/
+.smallContentbox {
+    float: left;
+    width: 963px;
+}
+
+.Campus_RightElement a:link, .Campus_RightElement a:visited, .Campus_RightElement a:active, #divPeopleManager a:link, #divPeopleManager a:visited, #divPeopleManager a:active {
+    text-decoration: none;
+    color: #7FBA00 !important;
+}
+
+.Campus_RightElement a:hover, #divPeopleManager a:hover {
+    cursor: pointer !important;
+    color: #7FBA00 !important;
+    text-decoration: underline !important;
+}
+
+html.ms-dialog .Campus_MasterBanner {
+    display: none !important;
+}
+
+.article-content, .welcome-content {
+    margin: 12px 0 0;
+    margin-top: 0px;
+}
+
+.divError {
+    background: none repeat scroll 0 0 #777777;
+    border: 2px solid #7FBA00;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 0 5px 5px 12px;
+    position: fixed;
+    width: 200px;
+    bottom: 5%;
+    left: 0%;
+}
+
+.diverrorArrow {
+    background: none repeat scroll 0 0 #777777;
+    border-bottom: 2px solid #7FBA00;
+    border-right: 2px solid #7FBA00;
+    float: left;
+    height: 18px;
+    margin-left: -23px;
+    margin-top: 20px;
+    transform: rotate(135deg);
+    width: 17px;
+}
+
+.divHover {
+    z-index: 90000;
+    background-color: #777777;
+    border: 2px solid #7FBA00;
+    padding: 10px;
+    padding-top: 7px;
+    font-size: 9pt;
+    color: white;
+    position: fixed;
+    bottom: 10%;
+    left: 0%;
+}
+
+.divError label, .divError input {
+    color: #7FBA00 !important;
+}
+
+/* .ms-breadcrumb-box { clear: left !important; float: left !important; } */
+
+#s4-titlerow {
+    height: 114px !important;
+}
+
+#siteIcon {
+    height: 84px !important;
+    min-height: 84px !important;
+    line-height: 0px;
+}
+
+.ms-siteicon-img {
+    display: none !important;
+    max-width: 220px !important;
+    max-height: 84px !important;
+}
+
+.ms-core-overlay {
+    background-color: #FFF !important;
+}
+
+ul.megamenu {
+    background-color: transparent !important;
+}
+
+#SearchBox {
+    margin-right: -277px !important;
+    margin-top: 12px;
+    float: right;
+}
+
+.ms-srch-sb > .ms-srch-sb-searchLink img {
+    display: none;
+}
+
+
+.ms-srch-sb > .ms-srch-sb-searchLink {
+    float: right;
+    width: 20px;
+    /*background: url('images/SearchBoxMagGlassIcon.png') no-repeat 8px 7px;*/
+    background-position-y: 0px;
+    background-position-x: 0px;
+    padding-right: 0px;
+    margin-top: 8px;
+    border: 0px;
+    margin-right: 6px;
+    text-decoration:none;
+}
+/*@supports (-ms-ime-align: auto) {
+
+    .MainSearchClass :checked.styled-checkbox + label::after {
+        top: 2px !important;
+    }
+}*/ 
+.FterLink, .FterLink a, .FterLink a:link, .FterLink a:visited, .FterLink a:active, .FterLink a:hover {
+    color: #565656 !important;
+}
+
+.FterLinkBold, .FterLinkBold a, .FterLinkBold a:link, FterLinkBold a:visited, FterLinkBold a:active, FterLinkBold a:hover {
+    color: #000 !important;
+}
+
+.o365cs-theme.o365cs-nav-header .o365cs-nav-leftAlign, .o365cs-theme.o365cs-nav-header .o365cs-nav-headerRegion, .o365cs-theme.o365cs-nav-header .o365cs-p-bg, .o365cs-theme.o365cs-nav-header .o365cs-p-bgh:hover {
+    background-color: #505050 !important;
+}
+
+.o365cs-theme.o365cs-nav-header .o365cs-nav-leftAlign, .o365cs-theme.o365cs-nav-header .o365cs-nav-headerRegion, .o365cs-theme.o365cs-nav-header .o365cs-p-bg, .o365cs-theme.o365cs-nav-header .o365cs-p-bgh:hover {
+    background-color: #505050 !important;
+}
+
+.cam-taxpicker {
+    font-size: 13px !important;
+}
+
+.tabtext {
+    padding: 5px;
+    width: 99%;
+    height: 44px;
+    background: #CFCFCF;
+    margin-bottom: 10px;
+}
+
+ul.tabs {
+    padding: 5px 0px 0px 20px !important;
+    width: 1110px;
+    margin: 0 auto;
+    clear: both;
+}
+
+ul.hometab {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+}
+
+.tabs li {
+    list-style: none;
+    display: inline;
+}
+
+.hometab li {
+    list-style: none;
+    display: inline;
+}
+
+.tabs a {
+    padding: 5px 0px 5px 83px;
+    display: inline-block;
+    font-family: 'Segoe UI Light','Segoe UI';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    color: #333;
+    text-decoration: none;
+}
+
+    .tabs a:hover {
+        font-weight: 600 !important;
+    }
+
+.hometab a {
+    padding: 5px 10px;
+    display: inline-block;
+    font-family: 'Segoe UI Regular','Segoe UI';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+}
+
+.tabs a.hover, .tabs a.active {
+    color: #333;
+    font-family: 'Segoe UI Regular','Segoe UI Semibold';
+    font-size: 24px;
+    font-weight: 600 !important;
+    padding: 5px 69px 5px 0px;
+    display: inline-block;
+}
+
+.hometab a.active {
+    color: #333;
+    font-family: 'Segoe UI Regular','Segoe UI';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul.tabInner {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    background-color: #D2D2D2;
+    height: auto;
+}
+
+.tabInner li {
+    list-style: none;
+    display: inline;
+    margin: 0px;
+}
+
+.tabInner a {
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Segoe UI Regular','Segoe UI';
+    font-size: 13px;
+    font-style: normal;
+    color: #000;
+    text-decoration: none;
+}
+
+.mstabblock {
+    display: block !important;
+}
+
+.mssiteiconcamlogo {
+    margin-top: 30px;
+    margin-left: -70px;
+    cursor: pointer;
+}
+
+.ms-navedit-editLinksText > span > .ms-metadata, .ms-core-listMenuEdit > tr > .ms-navedit-linkCell > .ms-core-listMenu-item {
+    color: #00738B !important;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+ul.dynamic .ms-core-listMenuEdit .ms-core-listMenu-item, .ms-core-listMenu-verticalBox .ms-core-listMenuEdit .ms-core-listMenu-item {
+    padding: 0px;
+}
+
+.ms-core-listMenu-item, .ms-core-listMenu- item:link, .ms-core-listMenu-item:visited, .ms- tv-item:link, .ms-tv-item:visited, .ms-tv- header:link, .ms-tv-header:visited {
+    color: #00738B !important;
+}
+
+.ms-core-listMenu-verticalBox > .ms-core- listMenu-root > li > .ms-core-listMenu-item, .ms- core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenuEdit, .ms-core-listMenu- heading, .ms-tv-header {
+    font-family: 'Segoe UI Regular','Segoe UI' !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+}
+
+li > a.ms-core-listMenu-item.ms-core-listMenu- selected:hover, li > a.ms-core-listMenu- item:hover, li > a.ms-core-listMenu-item:active {
+    background-color: #FFFFFF !important;
+    color: #00738B !important;
+}
+
+.ms-tileview-tile-content {
+    background-color: #76B905 !important;
+}
+
+/*.ms-tileview-tile-content img { height: 100px !important; left: 15% !important; top: 15% !important; width: 100px !important; }*/
+/*WebPart Image Styling*/
+#Tile_WPQ2_1_7 {
+    left: 18%;
+    top: 19%;
+    height: 93px;
+    width: 94px;
+    position: absolute;
+}
+
+#Tile_WPQ2_2_7 {
+    left: 22%;
+    top: 15%;
+    height: 105px;
+    width: 83px;
+    position: absolute;
+}
+
+#Tile_WPQ2_3_7 {
+    left: 3%;
+    top: 16%;
+    height: 96px;
+    width: 140px;
+    position: absolute;
+}
+
+#Tile_WPQ2_4_7 {
+    left: 18%;
+    top: 21%;
+    height: 81px;
+    width: 96px;
+    position: absolute;
+}
+
+#Tile_WPQ2_5_7 {
+    left: 18%;
+    top: 19%;
+    height: 93px;
+    width: 94px;
+    position: absolute;
+}
+
+#Tile_WPQ2_6_7 {
+    left: 15%;
+    top: 27%;
+    height: 70px;
+    width: 104px;
+    position: absolute;
+}
+
+#Tile_WPQ2_7_7 {
+    left: 15%;
+    top: 14%;
+    height: 104px;
+    width: 104px;
+    position: absolute;
+}
+
+.ms-core-listMenu-verticalBox, .ms-core-listMenu-horizontalBox { /*margin-top: 45px !important;*/
+}
+
+#sideNavBox {
+    width: 150px !important;
+    margin-left: 19px;
+    margin-right: 0px;
+}
+
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-item,
+.ms-core-listMenu-verticalBox li.static > .ms-core-listMenu-item {
+    padding: 5px 0 5px 10px !important;
+}
+
+/*.ms-core-sideNavBox-removeLeftMargin {margin-left: -38px !important; margin-top:-1px !important}*/
+
+.tableCol-75 {
+    display: none;
+    min-width: 100%;
+}
+
+body .ms-webpart-titleText > a {
+    color: #333333 !important;
+    font-family: 'Segoe UI Light','Segoe UI';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: left;
+    padding-top: 70px !important;
+}
+
+#message {
+    font-family: 'Segoe UI Semibold','Segoe UI';
+    font-size: 16px !important;
+    font-weight: 600;
+    color: #333333;
+    line-height: 22px !important;
+}
+
+.tableCol-50 {
+    display: table-cell;
+    min-width: 59.9% !important;
+    vertical-align: top;
+    padding-left: 15px;
+}
+
+.o365cs-base .o365cs-topnavBackground, .o365cs-base .o365cs-topnavBGColor {
+    background-color: #505050 !important;
+}
+
+.o365cs-base .o365cs-topnavLinkBackground {
+    background-color: #505050 !important;
+}
+
+.Campus_IpKitPopupDialogTable {
+    font-family: "Segoe UI Light", "Segoe UI";
+    background-color: #FFF;
+    width: 415px;
+    padding: 5px;
+}
+
+.Campus_LinkProjectPopupDialogTable {
+    font-family: "Segoe UI Light", "Segoe UI";
+    background-color: #FFF;
+    width: 960px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+.Campus_IpKitPopupDialogTable h2 {
+    margin: 0px 0px 10px 5px;
+    padding: 0px;
+    font-family: "Segoe UI Light","Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+
+.Campus_IpKitPopupDialogTable table th {
+    text-transform: uppercase;
+    color: #008272;
+    width: 24%;
+    text-align: left;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Segoe UI Regular','Segoe UI';
+}
+
+.Campus_IpKitPopupDialogTable table td {
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 24%;
+    font-family: 'Segoe UI Regular','Segoe UI';
+    color: #333333 !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.Campus_ReviewGrayButton {
+    margin-right: 10px;
+    background-color: #006666 !important;
+    border: 2px solid #006666 !important;
+    color: #ffffff !important;
+    padding: 0px !important;
+    cursor: pointer !important;
+    width: 104px;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    font-size: 13px !important;
+    font-weight: 400;
+    text-align: center;
+    height: 30px;
+}
+
+.Campus_ReviewWhiteButton {
+    border: 2px solid #CECECE !important;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    padding: 0px !important;
+    cursor: pointer !important;
+    width: 104px;
+    height: 30px;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    font-size: 13px !important;
+    font-weight: 400;
+}
+
+.recommendedtitle {
+    font-family: "Segoe UI Semilight", "Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(51,51,51);
+    text-align: left;
+    line-height: normal;
+    padding-bottom: 43px;
+    padding-top: 20px;
+    height: 43px;
+    line-height: normal;
+}
+
+    .recommendedtitle .Campus_ReviewGrayButton {
+        float: right;
+        margin-right: 0;
+        margin-top: -2px;
+    }
+
+.relatedipkits_main {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    color: #00738b !important;
+    line-height: 28px;
+}
+
+    .relatedipkits_main ul {
+        list-style: none;
+        padding-left: 0px !important;
+        color: #00738b !important;
+    }
+
+/*.relatedipkits_header { width: 125px; height: 22px; font-family: "Segoe UI Regular", "Segoe UI"; font-weight: 300; font-style: normal; font-size: 20px; color: rgb(51,51,51); text-align: left; line-height: 22px;}*/
+
+#ps-project-stats {
+    color: rgb(0, 115, 139) !important;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.survey_home {
+    min-width: 346px !important;
+    margin-top: 28px;
+}
+
+.dvNotificationParent {
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -180px;
+    width: 1110px;
+    background: #fffc9f;
+    height: 30px;
+    z-index: 1;
+}
+
+.dvNotificationChild {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    border: 0px solid gray;
+    width: 940px;
+    text-align: left;
+}
+
+.dvNotificationClose {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+    margin-top: -23px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.fdlooksubmit {
+    background-color: #006666 !important;
+    color: #FFF !important;
+    width: 134px;
+    font-size: 12px;
+}
+
+.linkkitdiv {
+    min-height: 260px !important;
+    height: 260px !important;
+    overflow: auto !important;
+}
+
+.linkprojectdiv {
+    min-height: 390px !important;
+    height: 390px !important;
+    overflow: auto !important;
+}
+
+#LinkProjectDiv {
+    margin-top: 15px;
+}
+
+.dialogTitleSpan {
+    font-family: "Segoe UI Light", "Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+
+.CampusProjectStats {
+    color: rgb(0, 115, 139);
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.CampusProjectStatstxt {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    line-height: 15px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#ps-project-stats_headerimage {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#ps-embedded-feed {
+    height: 620px;
+    margin-left: 13px;
+}
+
+    #ps-embedded-feed > div {
+        float: right !important;
+        margin-top: -35px !important;
+        margin-right: 20px;
+    }
+
+#project-relatedipkits_header {
+    font-family: "Segoe UI Light", "Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+
+#zz10_TopNavigationMenu {
+    display: block !important;
+}
+
+.ms-dlgTitleBtns {
+    margin-top: -11px;
+    margin-right: 0px;
+    height: 30px;
+    float: right;
+}
+
+.campusTextEllipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 49px;
+    margin-top: 25px;
+    margin-left: -1px;
+}
+
+.ms-core-sideNavBox-removeLeftMargin {
+    margin-left: -40px;
+}
+
+.campusTextEllipsisipkit {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 223px;
+}
+
+.ms-core-listMenu-horizontalBox {
+    display: none !important;
+}
+
+/*
+.ms-fullscreenmode #s4-titlerow {display: block !important;} 
+*/
+
+#campusFrame {
+    display: none;
+}
+
+div.welcome {
+    padding: 0px !important;
+}
+
+#dvImgProjectLogo {
+    margin-left: 18px;
+}
+
+.CampusFooterHeading {
+    font-family: "Segoe UI";
+    clear: right;
+    display: block;
+    padding-bottom: 5px;
+    font-weight: normal !important;
+    font-style: normal;
+    font-size: 14px !important;
+    color: #444 !important;
+    text-align: left !important;
+    line-height: 16px !important;
+}
+
+.CampusFooterLink {
+    color: #1b7d73 !important;
+    text-align: left !important;
+    line-height: 28px !important;
+    font-size: 14px;
+}
+
+.Campus_ReviewGreenButton {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px !important;
+    text-align: center;
+    line-height: normal;
+    font-weight: 400;
+    margin-right: 10px;
+    height: 30px;
+    width: 150px;
+    background-color: #008272 !important;
+    color: #FFFFFF !important;
+    padding: 0px !important;
+    cursor: pointer !important;
+    margin-left: 0px !important;
+}
+
+.projectStatussummaryHeader {
+    color: #333333;
+    font-family: 'Segoe UI Light', 'Segoe UI';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: left;
+    padding-top: 14px;
+}
+
+.projectStatussummaryMain {
+    font-family: 'Segoe UI Regular', 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    line-height: 22px;
+    background-color: #f3f3f3;
+    padding: 0px 0px 0px 10px;
+    margin-top: 24px;
+}
+
+#WebPartWPQ2 { /* margin-top:-12px !important;*/
+}
+
+.Campus_StepWiz01 {
+    background-color: #FFFFFF !important;
+}
+
+.Campus_StepWizJsPanelone {
+    background-color: #FFFFFF !important;
+}
+
+.Campus_StepWiz02 {
+    background-color: #FFFFFF !important;
+}
+
+.Campus_StepWizJsPaneltwo {
+    background-color: #FFFFFF !important;
+}
+
+.Campus_StepWizardMainInnerGreen {
+    background-color: #FFFFFF !important;
+}
+
+#projUl {
+    padding-top: 11px;
+}
+
+.CampusDocumentsLib {
+    font-family: "Segoe UI Light", "Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+
+.CampusMegamenuTitle {
+    font-family: "Segoe UI Semibold", "Segoe UI" !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-size: 18px !important;
+    color: #ffffff !important;
+    display: block;
+    height: 52px;
+}
+
+.Campusmenupad {
+    padding: 3px !important;
+}
+
+    .Campusmenupad:focus {
+        outline: 1px dotted #777777 !important;
+        font-weight: 600 !important;
+    }
+
+.CampusmenunpadPublish {
+    padding-left: 60px !important;
+}
+
+.innermenu {
+    position: absolute;
+    width: 1110px;
+}
+
+#ps-project-relatedipkits {
+    margin-left: 8px;
+}
+
+#ps-project-survey {
+    margin-left: 20px;
+}
+
+#ps-header-feed {
+    margin-left: 8px;
+}
+
+/*#WebPartWPQ2_ChromeTitle{margin-top:-10px !important;}*/
+
+#WebPartWPQ3_ChromeTitle a {
+    font-family: "Segoe UI Light", "Segoe UI";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+
+#promotedlinksheader_WPQ2 { /* border-bottom:8px !important; display:none !important;*/
+}
+
+
+.bx-viewport {
+    margin-left: 5px !important;
+}
+
+.bx-prev {
+    margin-left: 5px !important;
+}
+
+.ms-promlink-body {
+    margin-top: -12px;
+    width: 1000px !important;
+}
+
+.CampusHelptxt {
+    color: rgb(0, 115, 139) !important;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    font-size: 14px !important;
+    display: block;
+    margin-top: 0px !important;
+    line-height: 8px !important;
+}
+
+.Campusmemberft {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #00738b !important;
+    text-align: left;
+    line-height: 22px;
+    padding-top: 19px;
+}
+
+.Campusmembersname {
+    color: #777777;
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-size: 11px;
+}
+
+.fm {
+    height: 50px !important;
+    background-color: #F3F3F3;
+    display: block;
+    padding: 5px;
+    clear: both;
+}
+
+.nfm {
+    height: 50px !important;
+    background-color: #F3F3F3;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    clear: both;
+}
+
+.em {
+    height: 50px !important;
+    background-color: #F3F3F3;
+    display: block;
+    width: 97%;
+    padding: 5px;
+    clear: both;
+}
+
+
+
+
+.gm {
+    height: 50px !important;
+    background-color: #F3F3F3;
+    display: block;
+    padding: 5px;
+    clear: both;
+}
+
+/* IPKT */
+
+.addcontentmain {
+    width: 47%;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: "Segoe UI Semibold","Segoe UI";
+    float: left;
+    margin: 0 17px 20px 0;
+}
+
+.addcontentmaintr {
+    height: 213px;
+    background-color: #FFFFFF;
+    border: 1px solid #797979;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.addcontentmaintdtop {
+    height: 101px;
+    background-color: #FFFFFF;
+}
+
+    .addcontentmaintdtop h2 {
+        margin-left: 0px !important;
+        line-height: 1.2em;
+        margin: 0px;
+        padding: 0px;
+        font-family: "Segoe UI Semibold", "Segoe UI";
+        font-weight: 600;
+        font-style: normal;
+        font-size: 18px;
+        color: #000000;
+    }
+
+.addcontentmainheadicon {
+}
+
+.addcontentmaintdtop h2 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+    .addcontentmaintdtop h2 a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+
+.addcontentmaintdtop p {
+    font-family: "Segoe UI Regular","Segoe UI";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+    width: 245px;
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    height: 42px;
+}
+
+.addcontentmainCommonPad {
+    padding: 5px;
+}
+
+.addcontentmainbgbot {
+    background-color: #E8E8E8;
+    height: 110px;
+}
+
+    .addcontentmainbgbot p {
+        color: #000000;
+        font-family: "Segoe UI Regular","Segoe UI";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2em;
+        overflow: hidden;
+        margin: 0px;
+        height: 52px;
+    }
+
+    .addcontentmainbgbot a {
+        color: #00738b; /*text-decoration: none;*/
+        text-transform: uppercase;
+    }
+
+        .addcontentmainbgbot a:hover {
+            color: #00738b;
+            text-decoration: underline;
+        }
+
+.addconmainheadleft {
+    float: left;
+    height: 30px;
+    width: 220px;
+}
+
+    /*.addconmainheadleft a { text-decoration:none;}*/
+
+    .addconmainheadleft h2 {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 160px;
+        text-overflow: ellipsis;
+        margin-left: 5px !important;
+        margin-top: -2px;
+    }
+
+.addconmainheadright {
+    float: right;
+    width: 20px;
+    height: 22px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.addcontentmaincap {
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+.addcontentmainclear {
+    clear: both;
+}
+
+.addcontentmaizoom {
+    zoom: 1.5;
+    margin-top: -35px;
+}
+
+.addcontentmainleft {
+    float: left;
+}
+
+.addcontentmainright {
+    float: right;
+}
+
+.addcontentmainCommonPad span {
+    font-size: 12px;
+}
+
+.addcontentmainsubtleLink {
+    padding: 0px 0px 0px 5px !important;
+    display: inline-block;
+    color: #000 !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+}
+
+    .addcontentmainsubtleLink a {
+        color: #000 !important;
+        font-family: 'Segoe UI Regular' !important;
+        font-weight: normal !important;
+    }
+
+.addcontentTaxImg {
+    margin-bottom: -6px;
+}
+
+a img {
+    border: 0;
+}
+
+.pl9 {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.addcontentmanageIP {
+}
+
+.txt12 {
+    font-size: 12px;
+}
+
+/*----------------------------*/
+
+.mt-4 {
+    margin-top: -1px;
+}
+
+li > a.ms-core-listMenu-selected.ms-core-listMenu-item:hover, li > a.ms-core-listMenu-item:hover, li > a.ms-core-listMenu-item:active {
+    background-color: rgba(235,247,241,1) !important;
+}
+
+.CampusCPMtxt {
+    margin-left: -2px;
+    position: relative;
+    top: -35px;
+}
+
+#divShareInfo {
+    background: #d2d2d2 !important;
+    padding: 6px 2px !important;
+    position: fixed !important;
+    width: 300px !important;
+    height: 50px !important;
+    left: 969px !important;
+    top: 221px !important;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    color: #333333 !important;
+    text-align: center !important;
+    line-height: normal !important;
+    border: 0px solid #000 !important;
+}
+
+#sharingExternalSpn {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+    line-height: 20px;
+}
+
+#sharingDivCss {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+    line-height: 20px;
+}
+
+#teamMembersSpn {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+    line-height: 20px;
+}
+
+#ps-header-feed {
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(51,51,51);
+}
+
+#QCB1 {
+    padding-left: 10px;
+}
+
+
+option {
+    display: block;
+}
+/*WWC LAYOUT STYLES */
+.Campus_Layout h1, h2, h3, h4, h5 {
+    color: #333;
+    font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+    font-style: normal;
+    text-align: left;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.Campus_Layout .page_section h2, .Campus_Layout .page_section h3, .Campus_Layout .page_section h4 {
+    color: #333;
+}
+
+.Campus_Layout h1 {
+    font-size: 35px;
+    line-height: 45px;
+    margin: 30px 0px 24px 0;
+}
+
+.Campus_Layout .linkslist h2 {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.Campus_Layout h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+
+.WWC_StartLayout {
+}
+
+    .WWC_StartLayout > .container > .col-md-9 {
+        /*padding-left: 0px;*/
+    }
+
+    .WWC_StartLayout .right-col h2, .WWC_StartLayout .right-col h2 * {
+        /*padding-top: 20px;*/
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .WWC_StartLayout .cbs-Item, .WWC_StartLayout .cbs-diagnostic-Container {
+        padding: 5px;
+    }
+
+    .WWC_StartLayout h2.ms-webpart-titleText {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .WWC_StartLayout .col-md-3.right-col h2,
+    .WWC_StartLayout .col-md-3.right-col h2,
+    .WWC_StartLayout .col-md-3.right-col h2 * {
+        font-family: "Segoe UI Regular", "Segoe UI", Tahoma, Arial, Verdana, sans-serif !important;
+        font-size: 20px !important;
+        color: #000000 !important;
+        margin: 0px 0 10px 0;
+    }
+
+        .WWC_StartLayout .col-md-3.right-col h2.h2-big-title {
+            font-size: 21px !important;
+            font-family: "Segoe UI Semibold", "Segoe UI", Tahoma, Arial, Verdana, sans-serif !important;
+        }
+
+    .WWC_StartLayout .col-md-3.right-col > * {
+        width: 362px;
+    }
+/*Stats Section*/
+.WWC_stats .stat {
+    display: inline-block;
+    width: 283px;
+    margin: 0 4px 0 0;
+    margin: 0 5px 0 0\9;
+    background: #797979;
+    color: #fff !important;
+    font-size: 18px;
+    padding: 6px 7px;
+    height: 60px;
+}
+
+#CommunitiesStatsWP div {
+    padding-top: 20px;
+    font-size: 14px;
+    display: none;
+}
+
+#CommunitiesStatsWP .DateLbl, #CommunitiesStatsWP .dateLnk {
+    color: #00738b;
+    font-family: "Segoe UI Regular","Segoe UI";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.WWC_stats .stat:first-child {
+    width: 205px;
+}
+
+    .WWC_stats .stat:first-child span {
+        width: 131px;
+    }
+
+    .WWC_stats .stat:first-child .number {
+        width: 55px;
+    }
+
+.WWC_stats .stat.active {
+    background: #008272;
+}
+
+.WWC_stats .stat .number {
+    font-size: 50px;
+    line-height: 50px;
+    margin: -1px 0 0;
+    padding: 0;
+    width: 55px;
+}
+
+.WWC_stats .stat span {
+    display: block;
+    float: left;
+    line-height: 22px;
+    margin: 2px 0 0;
+    padding: 0 12px;
+    text-transform: uppercase;
+    width: 214px;
+}
+
+/*Coommunity Directors*/
+
+.WWC_communitydirectors {
+    height: 140px;
+}
+
+    .WWC_communitydirectors h2 {
+        margin-bottom: 12px;
+    }
+
+    .WWC_communitydirectors .director {
+        background: none repeat scroll 0 0 green;
+        display: block;
+        float: left;
+        height: 52px;
+        margin: 0 13px 0 0;
+        width: 143px;
+        text-decoration: none;
+    }
+
+        .WWC_communitydirectors .director:hover {
+            text-decoration: none;
+        }
+
+        .WWC_communitydirectors .director img {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .WWC_communitydirectors .director span {
+            /*color:#333;*/ /*Commented out tochange the Text on WWC Director block as White*/
+            display: block;
+        }
+
+            .WWC_communitydirectors .director span.team {
+                clear: both;
+                color: #333 !important;
+            }
+
+        .WWC_communitydirectors .director.red span, .WWC_communitydirectors .director.blue span, .WWC_communitydirectors .director.purple span {
+            color: #fff;
+        }
+
+        .WWC_communitydirectors .director.red {
+            color: #fff;
+            background: #EB1123;
+        }
+
+        .WWC_communitydirectors .director.yellow {
+            color: #fff;
+            background: #FFB900;
+        }
+
+        .WWC_communitydirectors .director.green {
+            color: #fff;
+            background: #7FBA00;
+        }
+
+        .WWC_communitydirectors .director.lgreen {
+            color: #fff;
+            background: #107C10;
+        }
+
+        .WWC_communitydirectors .director.blue {
+            color: #fff;
+            background: #0078D7;
+        }
+
+        .WWC_communitydirectors .director.lblue {
+            color: #fff;
+            background: #00BCF2;
+        }
+
+        .WWC_communitydirectors .director.purple {
+            color: #fff;
+            background: #5C2D91;
+        }
+
+        .WWC_communitydirectors .director.teal {
+            color: #fff;
+            background: #008272;
+            margin-right: 0px;
+        }
+
+        .WWC_communitydirectors .director.magenta {
+            color: #fff;
+            background: #B4009E;
+        }
+
+.ms-promlink-header {
+    display: block !important;
+}
+
+
+
+/*Links Section*/
+.WWC_Layout .linkslist .row div {
+    padding: 0 10px 0 0;
+}
+
+.WWC_Layout .linkslist .internal_col {
+    border-right: 10px solid white;
+}
+
+.WWC_Layout .page_section {
+    margin: 0 0 20px 0;
+    word-wrap: normal;
+}
+
+.WWC_Layout .linkslist ul {
+    background: #EFEFEF;
+    list-style: none;
+    padding: 0 0 10px 0;
+}
+
+    .WWC_Layout .linkslist ul li {
+        border-left: 6px solid #ccc;
+    }
+
+        .WWC_Layout .linkslist ul li.st_green {
+            border-color: #7FBA00;
+        }
+
+        .WWC_Layout .linkslist ul li.st_lgreen {
+            border-color: #107C10;
+        }
+
+        .WWC_Layout .linkslist ul li.st_blue {
+            border-color: #0078D7;
+        }
+
+        .WWC_Layout .linkslist ul li.st_lblue {
+            border-color: #00BCF2;
+        }
+
+        .WWC_Layout .linkslist ul li.st_yellow {
+            border-color: #FFB900;
+        }
+
+        .WWC_Layout .linkslist ul li.st_red {
+            border-color: #EB1123;
+        }
+
+        .WWC_Layout .linkslist ul li.st_purple {
+            border-color: #5C2D91;
+        }
+
+        .WWC_Layout .linkslist ul li.st_magenta {
+            border-color: #B4009E;
+        }
+
+        .WWC_Layout .linkslist ul li.st_teal {
+            border-color: #008272;
+        }
+
+        .WWC_Layout .linkslist ul li a {
+            background: url("images/wwc_arrowicon.jpg") no-repeat scroll 7px 6px rgba(0, 0, 0, 0);
+            color: #828282;
+            line-height: 28px;
+            padding: 0 10px 0 30px;
+            display: block;
+        }
+
+.ind_comm ul, .arch_comm ul {
+    height: 178px;
+}
+
+.bus_comm ul {
+    height: 203px;
+}
+
+.tech_comm ul {
+    height: 203px;
+}
+
+.bannerSecWrapper {
+    background-color: white;
+    margin: 0 0 -36px;
+    width: 100%;
+}
+
+option {
+    display: block !important;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.CampusMidWidth {
+    margin-top: -30px;
+}
+
+.CommTitleInternal:visited, .CommTitleInternal:focus, .CommTitleInternal:link {
+    color: #333;
+    line-height: 45px;
+    margin: 3px 0 20px 0;
+    display: block;
+    text-decoration: none;
+}
+
+.ipkitNavTitle:visited, .ipkitNavTitle:focus, .ipkitNavTitle:link {
+    color: #428bca !important;
+}
+
+.ipkitNavTitle:hover {
+    color: #2a6496 !important;
+    text-decoration: underline !important;
+}
+/*Community Actions*/
+
+.communityactions_section {
+    margin: -30px 0 30px;
+}
+
+.WWC_community_Action {
+    width: 300px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #00738b !important;
+}
+
+    .WWC_community_Action a {
+        font-size: 20px;
+    }
+
+/*Recommended Content */
+
+.RecommendedContent {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.ms-promlink-root {
+    width: 100%;
+    /*overflow: visible!important;*/
+}
+
+.headerNavShow {
+    display: inline !important;
+}
+
+.headerNavHide {
+    display: none !important;
+}
+
+.ms-promlink-button-left,
+.ms-promlink-button-left-hover {
+    left: -131px !important;
+    top: -236px !important;
+    position: absolute;
+}
+
+.ms-promlink-button-right,
+.ms-promlink-button-right-hover {
+    left: -203px !important;
+    top: -232px !important;
+    position: absolute;
+}
+
+/*Accordion Styling*/
+.right-col .accordionzone {
+    width: 362px;
+    margin-top: 20px;
+}
+
+.accordionzone h2.ms-webpart-titleText, .accordionzone #CommunitiesStatsWP h2 {
+    border-bottom: 1px solid #E4E4E4;
+    /*background: url(images/accordion_arrow.png) no-repeat right center;*/
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+
+.accordionzone #CommunitiesStatsWP {
+    position: relative;
+}
+
+    .accordionzone h2.ms-webpart-titleText:after, .accordionzone #CommunitiesStatsWP h2:after {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: url(images/accordion_up.png) no-repeat right center;
+        content: "";
+        width: 23px;
+        height: 23px;
+        display: block;
+        transform: rotate(-180deg);
+    }
+
+    .accordionzone #CommunitiesStatsWP h2:after {
+        position: absolute;
+        top: 3px;
+        right: 0px;
+    }
+
+    .accordionzone #CommunitiesStatsWP .activeArrow:after, .accordionzone h2.activeArrow:after {
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        transform: rotate(-360deg);
+    }
+
+/*StartPage Wps*/
+.right-col .cbs-List a.cbs-ItemLink {
+    display: none;
+}
+
+.right-col .cbs-Detail {
+    margin: 0px;
+}
+
+.right-col .cbs-List .cbs-Item {
+    padding: 5px 0;
+}
+
+.statsdate {
+    font-size: 16px;
+}
+/*Projects Fixes*/
+.ps-project-recommendedipkits_main {
+}
+
+.campusTextEllipsis {
+    width: auto !important;
+}
+
+#idHeaderPPR {
+    display: block !important;
+    position: absolute !important;
+    right: 375px;
+    top: 0;
+}
+
+
+.Campus_MasterBannerInn .sharingDetailD {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 250px;
+}
+/*Master PAge Optimizations*/
+.footer_container > div {
+    float: left;
+}
+
+.footer_container {
+    text-align: left;
+    background-color: #7FBA00;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+#settingsiFrame {
+    margin-left: 0px !important;
+    margin-top: -40px !important;
+}
+
+.ms-promlink-button-enabled:after, .ms-inlineSearch-searchImgSpanStandard:after {
+    box-sizing: initial;
+}
+
+.Campus_MainContainer {
+    margin: 0 auto;
+    width: 1110px !important;
+}
+
+.editMode .CampusMidWidth,
+.editMode #contentBox {
+    width: 1110px !important;
+}
+
+.editMode .WWC_StartLayout .right-col {
+    margin-left: 5px;
+    width: 330px;
+    padding-right: 0;
+}
+
+.editMode .WWC_StartLayout .col-md-9 {
+    padding-left: 0px;
+    width: 586px;
+}
+
+.VisiblePageTitle {
+    width: 900px;
+    padding-top: 121px;
+    margin-left: -55px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#DeltaPlaceHolderPageTitleInTitleArea span {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 300;
+    color: #333;
+}
+
+    #DeltaPlaceHolderPageTitleInTitleArea span a:visited {
+        color: #262626;
+    }
+
+#dvHelp {
+}
+
+    #dvHelp .fotterHtmlDiv {
+        overflow: hidden;
+        padding-left: 80px;
+    }
+
+        #dvHelp .fotterHtmlDiv > div {
+            float: left;
+            padding: 0 2%;
+            width: 33%;
+        }
+
+            #dvHelp .fotterHtmlDiv > div .columnOrder {
+                height: 215px;
+            }
+
+            #dvHelp .fotterHtmlDiv > div br {
+                display: none;
+            }
+
+            #dvHelp .fotterHtmlDiv > div a {
+                line-height: 19px !important;
+                margin-bottom: 11px;
+            }
+
+        #dvHelp .fotterHtmlDiv > .footerColumn1 {
+            padding-left: 0px;
+        }
+
+    #dvHelp .CampusMegamenuTitle {
+        line-height: 43px;
+        height: auto;
+        margin: 0 0 0px 0px;
+    }
+/*Accordion Display Templates*/
+.field1, .field2, .field3, .field4, .field5 {
+    display: inline-block;
+}
+
+.field1 {
+    width: 10%;
+}
+
+.field2 {
+    width: 45%;
+}
+
+.field3 {
+    width: 15%;
+}
+
+.field4 {
+    width: 15%;
+}
+
+.field5 {
+    width: 15%;
+}
+
+
+
+.accordionzone .cbs-Detail {
+    margin: 0px;
+}
+
+.accordionzone .cbs-List {
+    width: 100%;
+}
+/*Blog Template styling*/
+.blog_section {
+    margin: 25px 0 20px 0;
+    display: none; /*Adding Display as None to Hide the News & Updates Section based on Leland suggestion dt:23-Jun-2016*/
+}
+
+    .blog_section h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+.blog_template {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+    .blog_template .publisheddate {
+        background: #7FBA00;
+        width: 10%;
+        color: #fff;
+        float: left;
+        display: block;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+        .blog_template .publisheddate strong {
+            font-size: 18px;
+        }
+
+    .blog_template .mainpost {
+        float: left;
+        width: 90%;
+        padding: 0 20px;
+    }
+
+    .blog_template a {
+        color: #00738B;
+        margin-right: 10px;
+    }
+
+        .blog_template a.blogcomments {
+            margin: 0px;
+        }
+
+    .blog_template .mainpost h3 {
+        color: #7fba00;
+        font-size: 18px;
+    }
+
+
+
+/*Leadership Template*/
+
+.col-md-3.right-col .section {
+    width: 362px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+    .col-md-3.right-col .section strong {
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+
+    .col-md-3.right-col .section .geo {
+        display: inline-block;
+        width: 15%;
+    }
+
+    .col-md-3.right-col .section .sme_load, .col-md-3.right-col .section .tzlead_load, .col-md-3.right-col .section .champion_load {
+        position: absolute;
+        left: 140px;
+    }
+
+.tech_readinesslnk {
+    margin-top: -20px;
+}
+
+
+/*SME REVIEW SECTION*/
+.smereview_section {
+    font-size: 14px;
+}
+
+    .smereview_section table {
+        width: 100%;
+    }
+
+    .smereview_section thead {
+        font-weight: 600;
+    }
+
+    .smereview_section .field1 {
+        width: 10%;
+    }
+
+    .smereview_section .field2 {
+        width: 45%;
+    }
+
+    .smereview_section .field3 {
+        width: 10%;
+    }
+
+    .smereview_section .field4 {
+        width: 10%;
+    }
+
+    .smereview_section .field5 {
+        width: 20%;
+    }
+
+
+/*SME Review Customization*/
+.SME_Tasks table {
+    width: 100%;
+}
+
+.SME_Tasks .ms-wpContentDivSpace {
+    width: 690px;
+    overflow-x: scroll;
+}
+
+.accordionzone .cbs-List li {
+    display: block;
+}
+
+.col-md-9 .accordionzone h2 a:hover, .col-md-9 .accordionzone h2 a:link {
+    text-decoration: none;
+}
+
+.internalnk {
+    position: relative;
+    float: right;
+}
+
+#mySMEReviews {
+    cursor: pointer;
+}
+
+
+.internalnkDivider {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cbs-List li:nth-child(even), .SME_Tasks .odd {
+    background: #F2F2F2;
+}
+
+/* Search pages
+.disclaimer-icon
+{
+padding-right:5px;
+float:left;
+height:16px;
+padding-top: 2px;
+}
+.disclaimer-icon img
+{
+max-width:25px;
+max-height:25px;
+overflow:hidden;
+}
+*/
+
+/* Campus Projects Sites */
+
+/*#DeltaPlaceHolderMain .ms-fullWidth{
+	width: auto !important;
+}
+*/
+#DeltaPlaceHolderMain .WWC_Layout .ms-fullWidth {
+    width: 100% !important;
+}
+
+#DeltaPlaceHolderMain .accordionzone .ms-fullWidth {
+    width: 100% !important;
+}
+
+#DeltaPlaceHolderMain .ms-fullWidth.s4-wpcell-plain {
+    width: 100% !important;
+}
+
+#DeltaPlaceHolderMain .ms-fullWidth.s4-wpcell.ms-webpartzone-cell.ms-webpart-cell-vertical.ms-fullWidth {
+    width: 100% !important;
+}
+
+#DeltaPlaceHolderMain table.ms-core-tableNoSpace.ms-webpartPage-root {
+    width: auto !important;
+}
+
+#DeltaPlaceHolderMain .title_h1 {
+    margin-top: 0px !important;
+}
+/*To override the AllMembers.aspx style section*/
+.Campusmemberstxt {
+    padding-top: 0px !important;
+}
+
+/*Notification Bar mods*/
+/*
+#pageTitle{
+	padding-top: 132px !important;
+}*/
+
+#contentRowSite {
+    margin-top: -26px;
+}
+
+/*#dvNotificationParent span{
+	margin-top: -13px !important;
+}*/
+
+.amberBar {
+    display: none;
+    position: absolute;
+    margin-top: -11px;
+    margin-left: -180px;
+    width: 1110px;
+    background: #fffc9f;
+    height: 30px;
+    z-index: 1;
+}
+
+    .amberBar div {
+        position: relative;
+        top: 5px;
+        left: 10px;
+        border: 0px solid gray;
+        width: 940px;
+        text-align: left;
+    }
+
+    .amberBar span {
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        float: right;
+        margin-top: -23px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+
+.yammerhandler {
+    float: right;
+    margin-top: -17px;
+    margin-right: 20px;
+}
+/*.ImgStyleNameHome{
+	height: 20px;
+}*/
+#divSpecialUsers, #divMembers, #membersVendorsContainer, #divFollowers {
+    margin-right: 40px;
+    min-width: 380px;
+    width: 100%;
+}
+
+.memberExtnldiv {
+    /*float:left;
+	margin-top:-16px;
+	padding-right: 30px;*/
+    width: 100%;
+}
+/*.memberextnlright{
+	float: left;
+    margin-top: 14px;
+    padding-right: 30px;
+    margin-right: 312px;
+}
+#Vendorsdiv2{
+	float: left;
+	margin-top:-16px;
+	padding-right: 30px;
+}*/
+*/ #divVendors, #divSpecialUsers, #divVendor {
+    padding-right: 0px !important;
+}
+/*.memberusersalign{
+	float: left;
+	padding-right: 30px;	
+	margin-top:-15px;
+}
+#divMembers{
+	padding-top:26px;
+}
+#divSpecialUsers .div2,#divMembers .div2,#divFollowers .div2{
+	width: 45% !important;
+}
+.YammerTitle{
+	margin-right: 22px !important;
+}
+.fm,.nfm,.em{
+
+}
+
+.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a{
+	font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important
+}
+
+#ps-project-recommendedipkits_header span{
+	margin-right: 266px !important;
+}
+
+
+/***/
+/*
+.ms-srch-group-content .ms-srch-item {
+	min-height: 90px;
+}
+
+.ms-srch-group-content .ms-srch-item:hover .ms-srch-hover-outerContainer {
+	opacity: 1!important;
+	visibility: visible!important;
+	left:748px;
+}*/
+
+
+/***/
+
+#excelWebPartZone .ewa-scrollbars img {
+    width: 960px !important;
+    height: auto !important;
+}
+
+#excelWebPartZone .ewr-chrtcontarea {
+    overflow: visible !important;
+}
+
+/* SME Ratings */
+
+.sme_links {
+    cursor: pointer;
+    text-decoration: none;
+    color: #7ECAF2;
+    border-top: blueviolet;
+    float: right;
+    margin: 0;
+}
+
+.smeReviewsSearch {
+    margin-top: 10px;
+    display: block;
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+}
+
+#file_name {
+    margin-top: 0px;
+}
+
+#author_name {
+    margin-left: 3px;
+}
+
+span.sme_links:hover {
+    text-decoration: none;
+}
+
+#sme_ratings {
+    padding: 0 0 100px 2px;
+    width: 760px;
+}
+
+    #sme_ratings .text-right {
+        text-align: right;
+    }
+
+.sme_rating_module {
+    width: 700px;
+    padding: 15px;
+    border: 1px solid #DDD;
+}
+
+.sme_rating_row_1 {
+    overflow: hidden;
+}
+
+.sme_rating_row_2 {
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 10px;
+}
+
+    .sme_rating_row_1 div,
+    .sme_rating_row_2 div {
+        float: left;
+        font-weight: bold;
+    }
+
+.sme_review_author {
+    width: 315px;
+}
+
+.sme_review_date {
+    width: 144px;
+}
+
+.sme_review_rating {
+    width: 377px;
+}
+
+.sme_review_wwc {
+    width: 258px;
+}
+
+.sme_review_version {
+    width: 357px;
+}
+
+.sme_review_title {
+    font-weight: bold;
+}
+
+#sme_ratings .sme_review_comment {
+    font-size: 14px;
+    width: 97%;
+    line-height: 22px;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.review_sprite {
+    background: url('images/ratings-sme.png') no-repeat rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 90px;
+    height: 15px;
+    margin: 1px 0 0 5px;
+    vertical-align: top;
+}
+
+.review_0 {
+    background-position: 0 0;
+}
+
+.review_1 {
+    background-position: 0 -22px;
+}
+
+.review_1-5 {
+    background-position: 0 -44px;
+}
+
+.review_2 {
+    background-position: 0 -66px;
+}
+
+.review_2-5 {
+    background-position: 0 -88px;
+}
+
+.review_3 {
+    background-position: 0 -109px;
+}
+
+.review_3-5 {
+    background-position: 0 -131px;
+}
+
+.review_4 {
+    background-position: 0 -152px;
+}
+
+.review_4-5 {
+    background-position: 0 -174px;
+}
+
+.review_5 {
+    background-position: 0 -196px;
+}
+
+.refiner_review_sprite {
+    background: url('images/ratings-sme.png') no-repeat rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 90px;
+    height: 15px;
+    margin: 0px 0 0 0px;
+    vertical-align: top;
+}
+
+.refiner_review_1 {
+    background-position: 0 -196px;
+    width: 17px;
+}
+
+.refiner_review_2 {
+    background-position: 0 -196px;
+    width: 35px;
+}
+
+.refiner_review_3 {
+    background-position: 0 -196px;
+    width: 51px;
+}
+
+.refiner_review_4 {
+    background-position: 0 -196px;
+    width: 68px;
+}
+
+.refiner_review_5 {
+    background-position: 0 -196px;
+    width: 85px;
+}
+
+.smeReviewOtherValue {
+    display: none;
+}
+
+.prjStatsContainer {
+    display: table;
+    width: 100%;
+}
+
+.prjSiteStats {
+    background-color: #F0F0F0;
+    padding-bottom: 10px;
+}
+
+.prjStatsRow {
+    display: table-row;
+}
+
+.prjStatsColumn {
+    padding-left: 10px;
+    padding-top: 5px;
+    display: table-cell;
+    width: 50%;
+    font-size: 12px;
+}
+
+.restrictedMessageDiv {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.siteUsersLinkDiv {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+#spnCRMId {
+    display: block;
+}
+
+#spnProjectEngagements {
+    display: block;
+}
+
+.projectDetailsBody {
+    padding-left: 5px;
+}
+
+#divProjPerfWP {
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.memberswpContainer {
+    margin-top: 22px;
+    display: table;
+    width: 100%;
+}
+
+.memberswpRow {
+    display: table-row;
+}
+
+a.ms-dlgCloseBtn:focus span span {
+    outline: 1px dotted #777777;
+}
+
+.memberswpColumn {
+    /* padding-left:10px;*/
+    padding-top: 5px;
+    display: table-cell;
+    width: 50%;
+    font-size: 12px;
+}
+
+    .memberswpColumn img {
+        height: 30px;
+    }
+
+#role {
+    padding-top: 26px !important;
+    margin: 0px !important;
+    color: #555555;
+}
+
+#nodatadiv {
+    padding-bottom: 50px;
+    padding-left: 9px;
+    color: #555555;
+}
+
+.membersFollowersContainer {
+    margin-top: 25px;
+    width: 100%;
+    /*margin-left: 10px;*/
+}
+
+#membersVendorsContainer {
+    padding-left: 0px !important;
+    min-width: 380px;
+    padding-top: 22px;
+}
+
+#divVendor {
+    padding-top: 28px;
+    width: 420px;
+}
+
+.memberswpPermissionsLink {
+    width: 100%;
+    height: 55px;
+}
+
+.memberswpPermsLink {
+    background-color: rgba(254, 251, 158, 1);
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: #333333;
+}
+
+.memberswpAccessReqLinks {
+    background-color: rgba(254, 251, 158, 1);
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: #333333;
+}
+
+
+.ratingImg {
+    cursor: pointer;
+}
+
+.ratingCntrlMain {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.ratingCntrlTitle {
+    color: #767676;
+    padding-bottom: 5px;
+}
+
+#imgCollapse.arrowUp {
+    background: url('images/accordion_up.png') no-repeat 0 0 transparent;
+}
+
+#imgCollapse.arrowDown {
+    background: url('images/accordion_arrow.png') no-repeat 0 0 transparent;
+}
+
+.divSharedWith {
+    background-color: rgba(254, 251, 158, 1);
+    color: #333 !important;
+    margin-top: -20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.librarySharedWithLink {
+    text-decoration: underline;
+}
+
+#podDisclaimerDiv {
+    display: block;
+    background-color: rgba(254, 251, 158, 1);
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 2px;
+    margin-top: 20px;
+}
+
+#DeltaPlaceHolderPageDescription {
+    display: none;
+}
+
+.ms-inlineSearch-searchImgSpanBase {
+    margin: 0px 0px 0px 0px !important;
+}
+
+.checkPPRLink {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Segoe UI Regular", "Segoe UI";
+    font-style: normal;
+    color: #2a6496 !important;
+}
+
+.campus-category {
+    padding: 10px 0;
+}
+
+    .campus-category nobr {
+        /*If you need to change the text color of the field labels to be visible over the background color, this is where to set the color.*/
+        /*color: white;*/
+    }
+
+    .campus-category .campus-category-container {
+        margin: 0 -10px;
+        padding: 0 10px 5px 10px;
+    }
+
+        .campus-category .campus-category-container > h2 {
+            padding: 10px;
+            margin: 0 -10px;
+        }
+
+            .campus-category .campus-category-container > h2:hover {
+                cursor: pointer;
+            }
+
+            .campus-category .campus-category-container > h2 > span {
+                float: right;
+            }
+
+        .campus-category .campus-category-container > table {
+            display: block;
+            border-top: 1px solid #B0B0B0;
+            padding-top: 10px;
+            margin-top: 5px;
+        }
+
+.campus-category-governance {
+    background-color: rgba(205, 230, 247, 1);
+    border: 1px solid rgba(205, 230, 247, 1);
+}
+
+.campus-category-risks {
+    background-color: rgb(255, 225, 225);
+    border: 1px solid rgb(255, 225, 225);
+}
+
+.campus-category-changemgmt {
+    background-color: rgb(225, 255, 225);
+    border: 1px solid rgb(225, 255, 225);
+}
+
+.divPodDisclaimer {
+    background-color: rgba(253, 250, 157, 1);
+    width: 1085px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#divProjectSiteRatingNew {
+    margin-bottom: 25px;
+}
+
+.ps-project-survey {
+    display: none !important;
+}
+
+
+.ms-contextmenu-link {
+    width: auto !important;
+    display: block !important;
+    min-width: auto !important;
+}
+
+[title='Download a Copy'].ms-contextmenu-link {
+    display: none !important;
+}
+
+.ms-contextmenu-item {
+    padding-right: 0 !important;
+}
+
+/*.ipKitBody #contentBox h2:first-child{
+  padding-top: 25px;
+}*/
+/*.ipKitBody {
+  overflow: hidden;
+}*/
+
+/* IPKits Search Results */
+.ms-srch-ipkit-body {
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+
+    .ms-srch-ipkit-body h3 {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+        .ms-srch-ipkit-body h3 a {
+            color: #428bca;
+            font-size: 17px;
+            font-family: "Segoe UI Regular","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+        }
+
+    .ms-srch-ipkit-body .ms-srch-item-summary, .ms-srch-ipkit-body .ms-srch-item-path {
+        display: block;
+    }
+
+    .ms-srch-ipkit-body .ms-srch-item-summary {
+        padding: 5px 0 5px;
+    }
+
+        .ms-srch-ipkit-body .ms-srch-item-summary:empty {
+            display: none;
+        }
+
+    .ms-srch-ipkit-body .ms-srch-item-path {
+        margin: 0;
+        padding: 5px 0 10px;
+    }
+
+    .ms-srch-ipkit-body .ipkitResults #ipkit_Metadata {
+        padding: 15px 0 0;
+        margin: 0;
+        overflow: hidden;
+        clear: both !important;
+    }
+
+        .ms-srch-ipkit-body .ipkitResults #ipkit_Metadata div {
+            font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+            color: #5f5f5f;
+            font-size: 12px;
+            width: 32% !important;
+            margin-right: 15px;
+        }
+
+            .ms-srch-ipkit-body .ipkitResults #ipkit_Metadata div:nth-child(3) {
+                margin-right: 0;
+            }
+
+            .ms-srch-ipkit-body .ipkitResults #ipkit_Metadata div:nth-child(5) {
+                margin-right: 0;
+                width: 100% !important;
+                float: none;
+                padding-top: 20px;
+                overflow: hidden;
+            }
+
+            .ms-srch-ipkit-body .ipkitResults #ipkit_Metadata div a {
+                color: #0c7ba0;
+            }
+
+            .ms-srch-ipkit-body .ipkitResults #ipkit_Metadata div .ipkitSearchLink {
+                color: #338200;
+                font-size: 14px;
+                font-family: "Segoe UI Regular","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+            }
+
+                .ms-srch-ipkit-body .ipkitResults #ipkit_Metadata div .ipkitSearchLink:hover {
+                    text-decoration: underline;
+                }
+
+    .ms-srch-ipkit-body .ipkitResults .IPKitViews {
+        float: left !important;
+        width: auto !important;
+        border-right-color: #959595 !important;
+        padding-right: 15px;
+        color: #7b7b7b !important;
+        font-size: 12px !important;
+        font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+    }
+
+        .ms-srch-ipkit-body .ipkitResults .IPKitViews b {
+            font-size: 14px !important;
+            color: #333333 !important;
+            font-family: "Segoe UI Semibold","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+        }
+
+    .ms-srch-ipkit-body .ipkitResults #IPKitAuthors {
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+/*Comm Layout*/
+.Comm_Layout .WWC_stats .stat {
+    width: 214px !important;
+}
+
+    .Comm_Layout .WWC_stats .stat .number, .Comm_Layout .WWC_stats .stat.active .number {
+        width: auto !important;
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+
+    .Comm_Layout .WWC_stats .stat .number, .Comm_Layout .WWC_stats .stat.title .number {
+        width: auto !important;
+        font-size: 40px !important;
+        line-height: 48px !important;
+    }
+
+
+    .Comm_Layout .WWC_stats .stat span {
+        width: 147px !important;
+        padding-right: 0px !important;
+        text-transform: capitalize !important;
+    }
+
+    .Comm_Layout .WWC_stats .stat.title {
+        width: 657px !important;
+    }
+
+        .Comm_Layout .WWC_stats .stat.title span {
+            font-size: 40px !important;
+            width: 595px !important;
+            line-height: 42px !important;
+        }
+
+
+.Comm_Layout .arc_comm .col-md-3,
+.Comm_Layout .bus_comm .col-md-3,
+.Comm_Layout .dom_comm .col-md-3,
+.Comm_Layout .dom_comm .rowContainerFull,
+.Comm_Layout .ind_comm .col-md-3 {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.Comm_Layout .dom_comm .col-md-3,
+.Comm_Layout .ind_comm .col-md-3 {
+    width: 214px !important;
+    margin-bottom: 10px !important;
+    margin-right: 10px !important;
+}
+
+    .Comm_Layout .dom_comm .col-md-3:last-child,
+    .Comm_Layout .ind_comm .col-md-3:last-child {
+        margin-right: 0 !important;
+    }
+
+.Comm_Layout .dom_comm .rowContainerFull {
+    width: 100% !important;
+}
+
+.Comm_Layout .arc_comm .col-md-3 ul,
+.Comm_Layout .bus_comm .col-md-3 ul {
+    margin: 0px;
+    height: 164px;
+}
+
+.Comm_Layout .dom_comm .col-md-3 ul,
+.Comm_Layout .ind_comm .col-md-3 ul,
+.Comm_Layout .dom_comm .rowContainerFull ul {
+    padding: 0;
+    margin: 0;
+}
+
+.Comm_Layout .dom_comm .rowContainerFull ul {
+    height: auto !important;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.Comm_Layout .ind_comm .col-md-3 ul {
+    padding-bottom: 10px;
+}
+
+.Comm_Layout .dom_comm .col-md-3 ul {
+    height: 450px !important;
+}
+
+.Comm_Layout .ind_comm .col-md-3 ul {
+    height: 305px !important;
+}
+
+    .Comm_Layout .dom_comm .col-md-3 ul li,
+    .Comm_Layout .ind_comm .col-md-3 ul li,
+    .Comm_Layout .dom_comm .rowContainerFull ul li {
+        padding: 0 10px;
+        margin: 0;
+    }
+
+        .Comm_Layout .dom_comm .col-md-3 ul li:first-child,
+        .Comm_Layout .dom_comm .rowContainerFull ul li:first-child {
+            background-color: #dbeef3;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .Comm_Layout .dom_comm .col-md-3 ul li:last-child {
+            padding-bottom: 10px;
+        }
+
+.Comm_Layout .dom_comm .rowContainerFull ul li {
+    float: left;
+    width: 20%;
+}
+
+    .Comm_Layout .dom_comm .rowContainerFull ul li:first-child {
+        float: none;
+        width: 100%;
+    }
+
+.Comm_Layout .ind_comm .col-md-3 ul li:first-child {
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+    .Comm_Layout .ind_comm .col-md-3 ul li:first-child a {
+        background-image: none;
+        padding: 0;
+        margin: 0;
+    }
+
+.Comm_Layout .ind_comm .col-md-3 ul li:nth-child(2) {
+    padding-top: 10px;
+}
+
+.Comm_Layout .arc_comm h2,
+.Comm_Layout .bus_comm h2,
+.Comm_Layout .dom_comm h2,
+.Comm_Layout .dom_comm h2,
+.Comm_Layout .ind_comm h2 {
+    color: #595959 !important;
+    font-size: 28px !important;
+    font-weight: normal !important;
+    margin-bottom: 5px;
+}
+
+    .Comm_Layout .arc_comm h2 b,
+    .Comm_Layout .bus_comm h2 b,
+    .Comm_Layout .dom_comm h2 b,
+    .Comm_Layout .dom_comm h2 b,
+    .Comm_Layout .ind_comm h2 b {
+        font-weight: 600 !important;
+    }
+/*end Comm Layout*/
+.ipkitSearchLink {
+    cursor: pointer;
+    text-decoration: none;
+    color: #7ECAF2;
+    border-top: blueviolet;
+    float: right;
+    margin: 0;
+}
+
+.ipkit_Communities {
+    float: left;
+    width: 26%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ipkit_Industries {
+    float: left;
+    width: 36%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ipkit_Products {
+    float: left;
+    width: 26%;
+    position: relative;
+    overflow: hidden;
+}
+/*
+.megamenu {
+position: relative;
+}
+
+
+.megamenu .mm-item {
+position: absolute;
+}
+
+ul.megamenu div.mm-item-content {
+position: fixed !important;
+}
+*/
+
+/*
+.megamenu > .mm-item {
+    margin-left: 200px;
+}
+
+.megamenu > .mm-item + .mm-item {
+ margin-left: -350px; 
+}
+
+.megamenu > .mm-item + .mm-item + .mm-item {
+    margin-left: -260px;
+}
+
+.megamenu > .mm-item + .mm-item + .mm-item  + .mm-item{
+    margin-left: 10px;
+}
+*/
+
+#MM-WWCommunities-A > img {
+    display: none;
+}
+
+#PriorityArea1 {
+    display: none;
+}
+
+.ms-srch-sb > input {
+    width: 206px;
+}
+
+/* bug fix 6106 */
+
+
+.ipKitBody #contentBox {
+    width: 580px;
+}
+
+.ipKitBody {
+    min-height: 140px;
+}
+
+    .ipKitBody div#contentBox {
+        margin-top: 10px !important;
+    }
+
+/* fix 6163 */
+
+#s4-titlerow {
+    height: 90px !important;
+    /*margin-bottom: 12px;*/
+    margin-top: -19px;
+}
+
+#titleAreaBox {
+    margin-top: -8px;
+}
+
+.ms-qSuggest-container {
+    color: #767676;
+}
+
+/* fix 7044 */
+.ms-list-emptyText-compact {
+    color: #767676;
+}
+
+#spnSiteType {
+    color: #767676 !important;
+}
+
+a {
+    color: #0072c6;
+}
+
+.ms-vh2-nofilter,   .ms-vh2-nofilter-notextalign,   .ms-vh2-nofilter-perm, .ms-vh a,   .ms-vh2,   .ms-vh2 a  {
+    color: #767676;
+}
+
+/* high contrast */
+
+@media screen and (-ms-high-contrast: active) {
+    .fbk_Options.active{
+        border:1px solid;
+    }
+    .BT-Agree {
+        border: 1px solid yellow !important;
+    }
+    .User-Cookies-Banner {
+        border-bottom: 1px solid yellow !important;
+    }
+    #bannerIe {
+        border-bottom: 1px solid yellow !important;
+    }
+    .ms-srch-sb > .ms-srch-sb-searchLink {
+        background: url('images/SearchBoxMagGlass-yellow.png') no-repeat;
+    }
+
+    .campusLogo {
+        background-image: url('images/CampusLogo-yellow.png');
+        background-size: contain;
+    }
+
+    .footMslogo {
+        background-image: url('images/MicrosoftFooterLogo-yellow.png');
+    }
+
+    .refiner_review_sprite {
+        background: url('images/ratings-sme-yellow.png') no-repeat rgba(0, 0, 0, 0);
+        background-position: 0 -196px;
+    }
+
+    .review_sprite {
+        background: url('images/ratings-sme-yellow.png') no-repeat rgba(0, 0, 0, 0);
+    }
+
+    .review_0 {
+        background-position: 0 0;
+    }
+
+    .review_1 {
+        background-position: 0 -22px;
+    }
+
+    .review_1-5 {
+        background-position: 0 -44px;
+    }
+
+    .review_2 {
+        background-position: 0 -66px;
+    }
+
+    .review_2-5 {
+        background-position: 0 -88px;
+    }
+
+    .review_3 {
+        background-position: 0 -109px;
+    }
+
+    .review_3-5 {
+        background-position: 0 -131px;
+    }
+
+    .review_4 {
+        background-position: 0 -152px;
+    }
+
+    .review_4-5 {
+        background-position: 0 -174px;
+    }
+
+    .review_5 {
+        background-position: 0 -196px;
+    }
+}
+
+@media screen and (-ms-high-contrast: white-on-black) {
+
+    .ms-srch-sb > .ms-srch-sb-searchLink {
+        background: url('images/SearchBoxMagGlass-white.png') no-repeat;
+    }
+    .BT-Agree {
+        border: 1px solid white !important;
+    }
+    .User-Cookies-Banner{
+        border-bottom: 1px solid white !important;
+    }
+    #bannerIe {
+        border-bottom: 1px solid white !important;
+    }
+    .campusLogo {
+        background-image: url('images/CampusLogo-white.png');
+        background-size: contain;
+    }
+
+    .footMslogo {
+        background-image: url('images/MicrosoftFooterLogo-white.png');
+    }
+
+    .refiner_review_sprite {
+        background: url('images/ratings-sme-white.png') no-repeat rgba(0, 0, 0, 0);
+        background-position: 0 -196px;
+    }
+
+    .review_sprite {
+        background: url('images/ratings-sme-white.png') no-repeat rgba(0, 0, 0, 0);
+    }
+
+    .review_0 {
+        background-position: 0 0;
+    }
+
+    .review_1 {
+        background-position: 0 -22px;
+    }
+
+    .review_1-5 {
+        background-position: 0 -44px;
+    }
+
+    .review_2 {
+        background-position: 0 -66px;
+    }
+
+    .review_2-5 {
+        background-position: 0 -88px;
+    }
+
+    .review_3 {
+        background-position: 0 -109px;
+    }
+
+    .review_3-5 {
+        background-position: 0 -131px;
+    }
+
+    .review_4 {
+        background-position: 0 -152px;
+    }
+
+    .review_4-5 {
+        background-position: 0 -174px;
+    }
+
+    .review_5 {
+        background-position: 0 -196px;
+    }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+
+    .ms-srch-sb > .ms-srch-sb-searchLink {
+        background: url('images/SearchBoxMagGlass-black.png') no-repeat;
+    }
+
+    .campusLogo {
+        background-image: url('images/CampusLogo-black.png');
+        background-size: contain;
+    }
+    .BT-Agree {
+        border: 1px solid black !important;
+    }
+    .User-Cookies-Banner {
+        border-bottom: 1px solid black !important;
+    }
+
+    #bannerIe {
+        border-bottom: 1px solid black !important;
+    }
+
+    .footMslogo {
+        background-image: url('images/MicrosoftFooterLogo-black.png');
+    }
+
+    .refiner_review_sprite {
+        background: url('images/ratings-sme-black.png') no-repeat rgba(0, 0, 0, 0);
+        background-position: 0 -196px;
+    }
+
+    .review_sprite {
+        background: url('images/ratings-sme-black.png') no-repeat rgba(0, 0, 0, 0);
+    }
+
+    .review_0 {
+        background-position: 0 0;
+    }
+
+    .review_1 {
+        background-position: 0 -22px;
+    }
+
+    .review_1-5 {
+        background-position: 0 -44px;
+    }
+
+    .review_2 {
+        background-position: 0 -66px;
+    }
+
+    .review_2-5 {
+        background-position: 0 -88px;
+    }
+
+    .review_3 {
+        background-position: 0 -109px;
+    }
+
+    .review_3-5 {
+        background-position: 0 -131px;
+    }
+
+    .review_4 {
+        background-position: 0 -152px;
+    }
+
+    .review_4-5 {
+        background-position: 0 -174px;
+    }
+
+    .review_5 {
+        background-position: 0 -196px;
+    }
+}
+
+/* move survey global */
+
+/* Help Survey */
+.hpSurvey {
+    background-color: rgba(217, 217, 217, 1);
+    height: 50px;
+    padding: 12px 0 0 0 !important;
+    box-sizing: border-box !important;
+    /*width:1110px; */
+    /*position:relative;
+    display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hpSurveyCenter {
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 1110px;*/
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.hpSurveySpan {
+    display: block;
+    background: yellow;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.surveyleadintext {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#surveyyes {
+}
+
+#surveysomewhat {
+}
+
+#surveyno {
+}
+
+.plr0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.surveythankyoudiv {
+    display: block;
+    padding-bottom: 18px;
+}
+
+.surveyinput {
+    height: 90px;
+    width: 420px;
+    resize: none;
+}
+
+.surveyclick {
+    border: 1px solid rgba(176,176,176,1);
+    padding: 4px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.surveybuttons {
+    display: block;
+    margin-top: 20px;
+}
+
+.hpSurveySecWrapper {
+    background-color: rgba(217, 217, 217, 1);
+    height: 52px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background-position: 50% 0px;
+    /*margin: 0px auto 0 auto;
+    text-align: center;           
+    margin-left: -1465px;
+    margin-right: -1485px;*/ /*Should be set only gor HomePage*/
+}
+
+.hpSurveyfeedback {
+    height: 208px;
+}
+
+.footerSecWrapper {
+    background-color: rgba(249, 249, 249, 1);
+    /*margin-left: -1465px;
+    margin-right: -1485px;*/ /*Should be set only gor HomePage*/
+}
+
+
+/* focus */
+
+a:focus#HP-MM-Logo {
+    outline: 1px dotted #777777 !important;
+    outline-offset: 1px;
+}
+
+.ms-vb a:focus, .ms-vb2 a:focus {
+    text-decoration: underline !important;
+}
+
+.startFocus {
+    outline: 0px dotted #fff !important;
+    outline-offset: 1px !important;
+}
+
+campusLogo:focus {
+    outline: 0px dotted #fff !important;
+    outline-offset: 1px !important;
+}
+
+
+#titleAreaRow:focus {
+    outline: 0px dotted #fff !important;
+    outline-offset: 1px !important;
+}
+
+
+#notifiIconDiv > div:focus .notifiIcon {
+    outline: 1px dotted #777777 !important;
+    /*outline-offset: 1px !important;
+border: 1px dotted #777 !important*/
+}
+
+
+#notifiIconDiv > div:nth-child(1):focus img {
+    outline: 1px dotted #777777 !important;
+    outline-offset: 1px !important;
+    border: 1px dotted #777777 !important;
+}
+
+#notifiIconDiv > div:nth-child(1):focus {
+    outline: 0px dotted #777777 !important;
+    outline-offset: 0px !important;
+    border: 0px dotted transparent !important;
+}
+
+
+input:focus#ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr_sbox {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+    margin: 4px 0 0 5px !important;
+    padding-top: 2px !important;
+    padding-bottom: 0px !important;
+    height: 23px;
+    -ms-animation: blink 2s linear 0s infinite;
+}
+
+.focus:focus {
+    outline: 1px dotted #777777;
+    outline-offset: 1px;
+    height: 20px;
+    -ms-animation: blink 2s linear 0s infinite;
+}
+
+
+@-ms-keyframes blink {
+    0% {
+        background: transparent;
+    }
+
+    47% {
+        background: transparent;
+    }
+
+    50% {
+        background: transparent;
+    }
+
+    97% {
+        background: transparent;
+    }
+
+    100% {
+        background: transparent;
+    }
+}
+
+/* WWC Qualifiers */
+.championqualifierdiv {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    width: 200px;
+    white-space: normal;
+    line-height: 1.5em;
+}
+
+.tzqualifierdiv {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.smequalifierdiv {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    width: 200px;
+    white-space: normal;
+}
+
+/* Image focus*/
+a.ms-subtleLink.ms-peopleux-imgUserLink:focus span {
+    border: 1px dotted #777777;
+}
+
+/* Accessibility Starts */
+
+/* Close Button*/
+div#contentBox div#MSOZoneCell_WebPartWPQ2 span#imgClose:focus {
+    outline: 1px dotted #777777;
+}
+
+/* Collapse Button*/
+div#contentBox div#MSOZoneCell_WebPartWPQ2 img#imgCollapse:focus {
+    outline: 1px dotted #777777;
+}
+
+/* Previous Button Link*/
+div#contentBox div#MSOZoneCell_WebPartWPQ2 table tbody tr td#scriptWPQ2 a#promotedlinks_prev_WPQ2:focus {
+    outline: 1px dotted #777777;
+}
+
+/* Next Button Link*/
+div#contentBox div#MSOZoneCell_WebPartWPQ2 table tbody tr td#scriptWPQ2 a#promotedlinks_next_WPQ2:focus {
+    outline: 1px dotted #777777;
+}
+
+/* Project Slider on Customize your size*/
+div#promotedlinksbody_WPQ2 a:focus {
+    outline: 1px dotted #777777;
+}
+
+/* Documents */
+button#QCB1_Button1:focus, button#QCB1_Button2:focus, button#QCB1_Button3:focus, button#inplaceSearchDiv_WPQ3_lsinput:focus {
+    outline: 1px dotted #777777;
+}
+
+/* Accessibility Ends*/
+
+/* IPKit Accessiblity Starts */
+/*#ipkit-submenu .tabs li a:focus span{
+		font-weight : 600;
+		outline: 1px dotted #777777;		
+	}*/
+
+#tab3 ul.tabInner a:focus {
+    font-weight: 600 !important;
+    text-decoration: underline;
+}
+/* IPKit Accessiblity ends */
+
+input[type=password]:hover, input[type=text]:hover, input[type=file]:hover,
+textarea:hover, .sp-peoplepicker-topLevel:hover, .ms-inputBox:hover {
+    border-color: #88d1ac;
+}
+
+input[type=password]:focus, input[type=text]:focus, input[type=file]:focus, select:focus, .ms-inputBoxActive.ms-inputBox:hover,
+textarea:focus, .sp-peoplepicker-topLevel:focus, .ms-inputBox:focus, input[type=number]:focus {
+    border-color: #88d1ac;
+    outline: 0px solid #008272;
+    -box-shadow: 0 0 1px #008272;
+    -webkit-box-shadow: 0 0 1px #008272 !important;
+}
+
+input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, button:hover {
+    border-color: #88d1ac;
+    background-color: #ebf7f1;
+}
+
+button:active, input[type=submit]:active, input[type=button]:active {
+    border-color: #88d1ac;
+    background-color: #ebf7f1;
+    -box-shadow: outset 0 0 1px #008272;
+    -webkit-box-shadow: outset 0 0 1px #008272 !important;
+}
+
+button:focus, input[type=submit]:focus, input[type=button]:focus {
+    outline: 1px auto #88d1ac;
+    border: 1px solid #88d1ac;
+}
+
+::selection {
+    background: #008272;
+    color: white;
+}
+
+select option:hover {
+    background: #008272;
+    color: white;
+}
+
+.Downarrow {
+    background: url('images/accordion_arrow.png') no-repeat 0 0 transparent;
+}
+
+.Uparrow {
+    background: url('images/accordion_up.png') no-repeat 0 0 transparent;
+}
+
+.PcwHeaderSpace {
+    margin-top: 30px;
+    margin-bottom: 0px !important;
+}
+
+.ProjCloseHeaderSpace {
+    margin-top: 25px;
+}
+
+.innerDiv {
+    padding-left: 23px;
+}
+
+.bodyContainerPadding { /*All pages except HomePage*/
+    padding-left: 40px;
+}
+
+.ms-core-form {
+    padding-top: 50px;
+}
+
+
+/*High contrast*/
+@media screen and (-ms-high-contrast: active) {
+    .fbk_Options.active {
+        border: 1px solid;
+    }
+    .accordionzone #CommunitiesStatsWP h2:after {
+        background: url('images/accordion_up-yellow.png') no-repeat 0 0 transparent;
+    }
+
+    #imgClose {
+        background: url('images/accordionclose-yellow.png') no-repeat 0 0 transparent;
+    }
+
+    .Uparrow {
+        background: url('images/accordion_up-yellow.png') no-repeat 0 0 transparent;
+    }
+
+    .Downarrow {
+        background: url('images/accordion_up-yellow.png') no-repeat 0 0 transparent;
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+
+    .accordionzone h2.ms-webpart-titleText::after {
+        background: url('images/accordion_up-yellow.png') no-repeat right center;
+    }
+}
+
+@media screen and (-ms-high-contrast: white-on-black) {
+    .accordionzone #CommunitiesStatsWP h2:after {
+        background: url('images/accordion_up-white.png') no-repeat 0 0 transparent;
+    }
+
+    #imgClose {
+        background: url('images/accordionclose-white.png') no-repeat 0 0 transparent;
+    }
+
+    .Uparrow {
+        background: url('images/accordion_up-white.png') no-repeat 0 0 transparent;
+    }
+
+    .Downarrow {
+        background: url('images/accordion_up-white.png') no-repeat 0 0 transparent;
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+
+    .accordionzone h2.ms-webpart-titleText::after {
+        background: url('images/accordion_up-white.png') no-repeat right center;
+    }
+}
+
+@media screen and (-ms-high-contrast: black-on-white) {
+    .accordionzone #CommunitiesStatsWP h2:after {
+        background: url('images/accordion_up-black.png') no-repeat 0 0 transparent;
+    }
+
+    #imgClose {
+        background: url('images/accordionclose.png') no-repeat 0 0 transparent;
+    }
+
+    .Uparrow {
+        background: url('images/accordion_up-black.png') no-repeat 0 0 transparent;
+    }
+
+    .Downarrow {
+        background: url('images/accordion_up-black.png') no-repeat 0 0 transparent;
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+
+    .accordionzone h2.ms-webpart-titleText::after {
+        background: url('images/accordion_up-black.png') no-repeat right center;
+    }
+}
+
+/* Accessibility Feature Starts */
+
+label#AccessLabel1 {
+    font-weight: normal;
+    display: inline-block;
+    font-size: 13.5px;
+    color: #555;
+    text-align: left;
+    margin-bottom: 5px;
+    padding: 0px 0 0 0px;
+    line-height: 25px;
+    letter-spacing: .3px;
+}
+
+label#AccessLabel2 {
+    font-weight: normal;
+    display: inline;
+    vertical-align: baseline;
+}
+
+label#MainSearchBoxLabel {
+    font-family: Segoe UI;
+    font-size: 11px;
+    color: #767676;
+    padding: 0px 3px 0 3px;
+    position: relative;
+    left: 46px;
+    bottom: 20px;
+    background-color: white;
+}
+
+.js-callout-closeButton {
+    border: none;
+}
+
+.ms-dlgCloseBtn > span {
+    border: none;
+}
+
+.projectMembers#contentBox {
+    /*margin-top: -20px;*/
+    /*width: 895px !important; */
+    /*height:500px;*/
+}
+
+.homePage#contentBox {
+    min-height: auto !important;
+    float: left !important;
+    width: 100% !important;
+    margin-top: -12px !important;
+    margin-right: 0 !important;
+    margin: 0 auto !important;
+}
+
+.ipKitStartPage#contentBox {
+    margin-top: -20px;
+    width: 895px !important;
+}
+
+
+/* Accessibility Feature Ends */
+
+@media (min-width: 1200px) {
+    .container {
+        /*max-width: 1110px;*/
+        padding: 0;
+    }
+
+    .portalSecWrapper {
+        max-width: 1160px;
+        width: 1160px;
+    }
+
+    .newsLinkSecWrapper > .container > .newsLinkSec {
+        width: 1130px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        /*max-width: 1110px;*/
+        /*width: 1110px;*/
+        padding: 0;
+    }
+
+    .portalSecWrapper {
+        max-width: 1155px !important;
+        width: 1155px !important;
+    }
+
+    .newsLinkSecWrapper > .container > .newsLinkSec {
+        width: 1130px;
+    }
+}
+
+@media (max-width: 1080px) {
+    #UARBanner_div {
+        line-height: normal;
+    }
+
+    .help {
+        top: 10px;
+    }
+
+    .media-left {
+        position: relative;
+    }
+
+    #UARBanner_text .media-body {
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 1150px) {
+    /*.portalSecWrapper {
+	    max-width: 1155px !important;
+	    width: 1155px !important;
+	}*/
+    .mssiteiconcamlogo {
+        margin-left: -50px;
+    }
+
+    .hpSurvey {
+        padding-left: 40px !important;
+    }
+
+    /*.footer {
+			padding-left: 40px !important;
+		}*/
+
+    .Campus_MasterBanner {
+        padding-left: 40px !important;
+    }
+
+    .innerDiv {
+        padding-left: 43px !important;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .portalSecWrapper {
+        max-width: 1155px !important;
+        width: 1155px !important;
+    }
+
+    .mssiteiconcamlogo {
+        margin-left: -50px;
+    }
+
+    .hpSurvey {
+        padding-left: 40px !important;
+    }
+
+    /*.footer {
+			padding-left: 40px !important;
+		}*/
+}
+@media only screen and (min-width:405px)and (max-width: 508px) {
+    .cookieclass {
+        top: 175px !important;
+    }
+    .ieBannerClass {
+        top: 298px !important;
+    }
+}
+@media only screen and (min-width:320px)and (max-width: 399px) {
+    .midcontr-with-footer.ieBannerClass {
+        top: 355px !important;
+    }
+}
+@media (max-width: 404px) {
+    .cookieclass {
+        top: 193px !important;
+    }
+    .ieBannerClass {
+        top: 298px !important;
+    }
+}
+@media (max-width: 717px) {
+    .cookieclass {
+        top: 158px;
+    }
+
+    .ieBannerClass {
+        top: 234px;
+    }
+}
+@media (min-width: 1370px) {
+    .cookieclass {
+        top: 128px;
+    }
+    .ieBannerClass {
+        top: 169px;
+    }
+}
+    @media (max-width: 768px) {
+
+     
+
+        .mssiteiconcamlogo {
+            margin-left: 0px;
+        }
+
+        .portalSecWrapper > .portalsSec {
+            width: 1116px;
+        }
+    }
+
+    /*@media (max-width: 1024px){
+	..hpsidetiles{		
+		width: 468px;
+	}
+}*/
+
+    /*.ms-dialog #contentBox {    
+    padding-top: 50px;
+}*/
+
+    a.ms-subtleLink:focus {
+        text-decoration: underline;
+    }
+
+    a.ms-ellipsis-a:focus {
+        outline: 1px dotted #777777;
+    }
+
+    a.ms-headerSortArrowLink:focus {
+        outline: 1px dotted #777777;
+    }
+
+    .ms-draggable[aria-label='Folder']:focus {
+        outline: 1px dotted #777777;
+    }
+
+    #PS-LeftNavigation-ProjectLogo {
+        width: 150px;
+        height: 45px;
+    }
+
+    .FterLinkBold {
+        margin-top: 15px !important;
+    }
+
+    #sideNavBoxUl {
+        padding: 0 20px 0 18px;
+    }
+    /*----CUI Banner-----*/
+    #u16652 {
+        border-width: 0px;
+        padding-left: 14px;
+        padding-top: 12px;
+        width: 433px;
+        word-wrap: break-word;
+        border-width: 0px;
+        position: absolute;
+        background: inherit;
+        background-color: rgba(248, 212, 212, 1);
+        display: block;
+        box-sizing: border-box;
+        border-style: solid;
+        border-color: rgba(246, 181, 182, 1);
+        font-family: "Segoe UI Bold", "Segoe UI Regular", "Segoe UI";
+        font-style: normal;
+        color: #444444;
+        text-align: left;
+    }
+
+    #u16651_div {
+        border-width: 0px;
+        width: 100%;
+        height: 44px;
+        background: inherit;
+        background-color: rgba(248, 212, 212, 1);
+        box-sizing: border-box;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(246, 181, 182, 1);
+        border-radius: 0px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI';
+        font-style: normal;
+        color: #444444;
+        text-align: left;
+        margin-bottom: 13px;
+    }
+
+    #CUIWarningID {
+        font-family: "Segoe UI Bold", "Segoe UI Regular", "Segoe UI";
+        font-weight: 700;
+    }
+
+    #CUIContentID {
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+
+    .CUIWarning {
+        font-family: "Segoe UI Bold", "Segoe UI Regular", "Segoe UI";
+        font-weight: 700;
+    }
+
+    .CUIContent {
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+    /*----CUI Banner-----*/
+
+    #UARBanner_text .media-body, .media-left {
+        display: table-cell;
+        vertical-align: top;
+    }
+
+    #UARBanner_text .media-body {
+        width: 1000px;
+        padding-left: 9px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    #UARBanner_text .media:first-child {
+        line-height: normal;
+    }
+
+    .media-body > a {
+        color: #da3b01;
+    }
+
+        .media-body > a:hover {
+            color: #da3b01;
+        }
+
+
+    #PS-UAR-StartReview {
+        font-family: "Segoe UI";
+        font-weight: 400;
+        text-decoration: underline;
+        margin-left: 12px;
+        color: #444444;
+    }
+
+    .CompletedUAR {
+        margin-left: 8px;
+    }
+
+    .mt20 {
+        margin-left: 20px !important;
+    }
+
+    #PS-UAR-OnlineGuidance {
+        text-decoration: underline;
+        color: #444444;
+    }
+
+    #UARBanner_text {
+        color: black;
+        margin: 19px 26px 13px 13px;
+    }
+
+    .btnBackGroundCancel {
+        background-color: rgba(244, 244, 244, 1);
+        color: black;
+        padding: 6px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: none;
+        font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI';
+        font-weight: 700;
+        font-style: normal;
+    }
+
+        .btnBackGroundCancel:hover {
+            background-color: rgba(234, 234, 234, 1);
+        }
+
+
+    #UARBanner_div {
+        background-position: inherit;
+        width: 99.8%;
+        min-height: 56px;
+        background-color: rgba(248, 212, 212, 1);
+        box-sizing: border-box;
+        border-radius: 0px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        color: #444444;
+        text-align: left;
+        line-height: 18px;
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-top-style: solid;
+        border-top-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        background-image: inherit;
+        background-repeat: inherit;
+        background-attachment: inherit;
+        border: 2px solid #ff0000;
+        margin-bottom: 20px;
+    }
+
+    #UARWarningID {
+        /*margin-left:40px;*/
+        color: #444444;
+    }
+
+    #UARContentID {
+        font-family: "Segoe UI";
+        font-weight: 400;
+        color: #444444;
+    }
+
+    .UARWarning {
+        font-family: "Segoe UI Bold", "Segoe UI Regular", "Segoe UI";
+        font-weight: 700;
+        color: #333333;
+    }
+
+    .UARContent {
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+
+    .StartReviewContent {
+        margin: 10px;
+        margin-top: 18px;
+    }
+
+    .help {
+        background-repeat: no-repeat !important;
+        /*position: absolute !important;*/
+        color: red;
+        cursor: default;
+    }
+
+    .helpSuccess {
+        background-repeat: no-repeat !important;
+        position: absolute !important;
+        color: #107c10 !important;
+        margin-top: -1px;
+        cursor: default;
+    }
+
+    .helpFailure {
+        background-repeat: no-repeat !important;
+        position: absolute !important;
+        color: #ff0000 !important;
+        margin-top: -1px;
+        cursor: default;
+    }
+
+    .ml5 {
+        margin-left: 5px !important;
+        color: #444444 !important;
+    }
+
+
+    #Onlinetext {
+        margin-left: 31px;
+        word-wrap: break-word;
+        margin-right: 49px;
+        line-height: 24px;
+        color: #444444;
+    }
+
+    #selection {
+        margin-left: 31px;
+        border: 1px solid white;
+        margin-right: 19px;
+        background-color: white;
+        padding: 3px 16px 10px 16px;
+        line-height: 33px;
+        min-height: 73px;
+        margin-top: 16px;
+    }
+
+    /*.ms-Icon {
+    font-size: 32px !important;
+}*/
+
+    .SuccessIcon {
+        font-size: 30px !important;
+    }
+
+    .Successtext {
+        margin-top: 19px;
+        margin-left: 10px;
+    }
+
+    #SuccessWarningID {
+        font-family: "Segoe UI Bold", "Segoe UI Regular", "Segoe UI";
+        font-weight: 600;
+        margin-left: 40px;
+    }
+
+    #SuccessContentID {
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+
+    .SuccessWarning {
+        font-family: "Segoe UI Bold", "Segoe UI Regular", "Segoe UI";
+        font-weight: 700;
+        color: #444444;
+    }
+
+    .SuccessContent {
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+
+    #FailureWarningID {
+        font-family: "Segoe UI Bold", "Segoe UI Regular", "Segoe UI";
+        font-weight: 600;
+        margin-left: 40px;
+    }
+
+    #FailureContentID {
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+
+    .FailureWarning {
+        font-family: "Segoe UI Bold", "Segoe UI Regular", "Segoe UI";
+        font-weight: 700;
+        color: #444444;
+    }
+
+    .FailureContent {
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+
+
+    .ButtonsUAR {
+        margin-top: 29px;
+        text-align: right;
+        margin-right: 19px;
+        margin-bottom: 31px;
+    }
+
+    .ApplyUAR {
+        height: 32px;
+        text-align: center;
+        width: 100px;
+        font-size: 14px !important;
+        background-color: rgba(255, 0, 0, 1) !important;
+        color: white !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI' !important;
+        text-align: center !important;
+        border: 1px solid rgba(255, 0, 0, 1) !important;
+        box-sizing: border-box !important;
+        margin-right: 10px;
+        padding-top: 4px !important;
+    }
+
+    .CancelUAR {
+        height: 32px;
+        text-align: center;
+        width: 100px;
+        font-size: 14px !important;
+        background-color: #F4F4F4 !important;
+        color: #666666 !important;
+        font-weight: 700 !important;
+        font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI' !important;
+        text-align: center !important;
+        border: 1px solid #F4F4F4 !important;
+        box-sizing: border-box !important;
+        padding-top: 5px !important;
+    }
+
+
+    #PS-UAR-Apply:hover {
+        background: rgba(204, 0, 0, 1) !important;
+        color: white !important;
+    }
+
+    #PS-UAR-StartReviewIcon {
+        font-size: 18px !important;
+        color: red;
+    }
+
+    #NomessageIcon {
+        font-size: 37px !important;
+        float: left;
+        color: white;
+        margin-top: -8px;
+    }
+
+    #UARSUccess {
+        font-size: 30px !important;
+        color: #008272;
+    }
+
+    #UARFailure {
+        font-size: 30px !important;
+        color: red;
+    }
+
+    #CUIWarningicon {
+        color: white;
+        margin-left: 5px;
+        float: left;
+        font-size: 37px !important;
+    }
+
+
+    #UARWarningIcon {
+        font-size: 32px !important;
+        color: red;
+        float: right;
+        margin-top: 0px;
+    }
+
+
+    #PS-UAR-Cancel:hover {
+        background: #EAEAEA !important;
+        color: #666666 !important;
+        border-color: #EAEAEA !important;
+    }
+
+    #SuccessUARBanner_div {
+        border: 2px solid rgba(16, 124, 16, 1);
+        width: 99.8%;
+        height: 57px;
+        box-sizing: border-box;
+        color: #444444;
+        text-align: left;
+        line-height: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        box-shadow: none;
+        background-color: #E7F2E7 !important;
+        margin-bottom: 20px;
+    }
+
+    #CloseSuccess {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI' !important;
+        text-align: center !important;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .StartReviewIcon {
+        color: #ff0000;
+        margin-left: 8px !important;
+        background-repeat: no-repeat !important;
+        position: absolute !important;
+        margin-top: 2px !important;
+    }
+
+    #ChevrondownSmall {
+        font-size: 18px !important;
+    }
+
+    .Hide {
+        display: none !important;
+    }
+
+    .Show {
+        display: block;
+    }
+
+
+    #FailureUARBanner_div {
+        border: 2px solid #ff0000;
+        width: 99.8%;
+        height: 57px;
+        box-sizing: border-box;
+        color: #444444;
+        text-align: left;
+        line-height: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        box-shadow: none;
+        background-color: rgba(248, 212, 212, 1) !important;
+        margin-bottom: 20px;
+    }
+
+    .CloseSuccess {
+        text-decoration: underline;
+        margin-left: 3px;
+        cursor: pointer;
+        color: #444444;
+    }
+
+    .CloseFailure {
+        text-decoration: underline;
+        margin-left: 3px;
+        cursor: pointer;
+        color: #444444;
+    }
+
+    .PopUp {
+        color: white;
+        font-size: 35px !important;
+        margin-top: 6px;
+    }
+
+    .spacing {
+        white-space: nowrap;
+        margin-top: 9px;
+    }
+
+    .leftContUAR {
+        position: absolute;
+        left: 25px;
+        width: 96px;
+        margin-top: 34px;
+    }
+
+    .rightContUAR {
+        left: 67px;
+        width: 280px;
+        position: absolute;
+        margin-top: 20px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: "Segoe UI Semilight", "Segoe UI Regular", "Segoe UI";
+    }
+
+    .is-checked.ms-RadioButton-field::after {
+        background-color: #ff0000 !important;
+        left: 6px !important;
+        width: 12px !important;
+        height: 13px !important;
+    }
+
+
+    .in-focus.is-checked.ms-RadioButton-field::before, .is-checked.ms-RadioButton-field:focus::before, .is-checked.ms-RadioButton-field:hover::before {
+        border-color: #ff0000 !important;
+    }
+
+    .is-checked.ms-RadioButton-field::before {
+        border: 2px solid #ff0000 !important;
+        background-color: transparent !important;
+    }
+
+    .ms-RadioButton-field:focus {
+        outline: 1px dotted #777777 !important;
+    }
+
+    .ms-RadioButton-field::before {
+        width: 17px !important;
+        height: 17px !important;
+        margin-top: 7px !important;
+    }
+
+    .ms-RadioButton-field.is-checked::after {
+        background-color: #ff0000 !important;
+        left: 6.4px !important;
+        width: 9px !important;
+        height: 9px !important;
+        top: 13px !important;
+    }
+
+    #PS-UAR-Acknowledge-Deactivate:focus {
+        outline: 1px dotted #777777 !important;
+    }
+
+    #PS-UAR-Acknowledge-Cancel:focus {
+        outline: 1px dotted #777777 !important;
+    }
+
+    #PS-UAR-NoAcknowledgeDeactivate:focus {
+        outline: none !important;
+    }
+
+
+    .rotate180 {
+        overflow: hidden;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    #PS-UAR-StartReview:focus {
+        outline: 1px dotted #777777 !important;
+    }
+
+    #PS-UAR-OnlineGuidance:focus {
+        outline: 1px dotted #777777 !important;
+    }
+
+
+
+
+    /*..............*/ CUI-ALERT-PopUP------------*/ .ms-Icon {
+        color: white !important;
+        font-size: 37px !important;
+    }
+
+    .leftCont {
+        position: absolute;
+        left: 25px;
+        top: 25px;
+        width: 96px;
+    }
+
+    .leftContImg {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .rightCont {
+        left: 71px;
+        top: 30px;
+        width: 280px;
+        position: absolute;
+    }
+
+    .rightContContent {
+        top: 0px;
+        color: white;
+        font-family: "Segoe UI Semilight", "Segoe UI Regular", "Segoe UI";
+        font-size: 28px;
+        font-style: normal;
+        position: absolute;
+    }
+
+
+    .content {
+        width: 438px;
+        -ms-word-wrap: break-word;
+        padding-top: 17px !important;
+        padding-left: 27px !important;
+        padding-bottom: 24px !important;
+        padding-right: 5px !important;
+    }
+
+    .contentContent {
+        margin-right: 34px !important;
+        text-align: left;
+        line-height: 21px;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        -ms-word-wrap: break-word;
+    }
+
+    .btnText {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 13px;
+        cursor: pointer;
+        font-weight: 600 !important;
+    }
+
+    .ContainerL {
+        background-color: rgba(0, 130, 114, 1);
+        height: 100px;
+        width: 450px;
+    }
+
+    .ContainerM {
+        background-color: white;
+    }
+
+    .btnBackGround {
+        background-color: rgba(0, 130, 114, 1);
+        color: white;
+        padding: 6px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+        .btnBackGround:focus {
+            // outline: solid;
+        }
+
+        .btnBackGround:hover {
+            background-color: rgba(0, 108, 94, 1);
+        }
+
+    .ui-widget-content {
+        /* border: 0px !important;*/
+        padding: 0px !important;
+        height: auto !important;
+    }
+
+    .ui-dialog .ui-dialog-content {
+        padding: 0px !important;
+        padding-right: 5px !important;
+        overflow: hidden !important;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+        margin-bottom: 19px !important;
+        border: 0px !important;
+    }
+
+    .bottomSpace {
+        height: 10px;
+    }
+
+    @media screen and (-ms-high-contrast: active) {
+        #PS-CUIAcknowledge, #PS-UARAcknowledge {
+            border: 1px;
+            border-style: solid;
+            border-color: white;
+        }
+
+        .ui-dialog {
+            border: 1px solid white !important;
+        }
+
+        .fbk_Options.active {
+            border: 1px solid !important;
+        }
+
+        ul.NewMegamenu li a.active {
+            border: 1px solid;
+            border-bottom: none;
+        }
+    }
+
+    @media screen and (-ms-high-contrast: black-on-white) {
+        .fbk_Options.active {
+            border: 1px solid !important;
+        }
+
+        #PS-CUIAcknowledge, #PS-UARAcknowledge {
+            border: 1px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        .ui-dialog {
+            border: 1px solid black !important;
+        }
+
+        ul.NewMegamenu li a.active {
+            border: 1px solid;
+            border-bottom: none;
+        }
+    }
+
+    @media screen and (-ms-high-contrast: white-on-black) {
+        .fbk_Options.active {
+            border: 1px solid !important;
+        }
+
+        #PS-CUIAcknowledge, #PS-UARAcknowledge, {
+            border: 1px;
+            border-style: solid;
+            border-color: white;
+        }
+
+        .ui-dialog {
+            border: 1px solid white !important;
+        }
+
+        ul.NewMegamenu li a.active {
+            border: 1px solid;
+            border-bottom: none;
+        }
+    }
+
+    @media screen and (-ms-high-contrast: active) {
+        .StartReviewIcon {
+            color: yellow;
+        }
+    }
+
+    @media screen and (-ms-high-contrast: white-on-black) {
+        .StartReviewIcon {
+            color: white;
+        }
+    }
+
+    @media screen and (-ms-high-contrast: black-on-white) {
+        .StartReviewIcon {
+            color: black;
+        }
+    }
+
+    .campusTextEllipsis.hideHeaderFooter {
+        margin-top: 10px;
+    }
+
+    .CampusMidWidth.hideHeaderFooter {
+        margin-left: 5px;
+    }
+
+    #contentRowSite.hideHeaderFooter {
+        margin-top: 5px;
+    }
+
+    #contentBox.hideHeaderFooter {
+        margin-top: 93px;
+    }
+
+    .PSP-Favourites {
+        background-image: url('images/Favorite.png');
+        background-repeat: no-repeat;
+        height: 20px;
+        float: right;
+        margin-top: 57px;
+        width: 16px;
+        margin-left: 7px;
+    }
+
+        .PSP-Favourites:hover {
+            background-image: url('images/FavoriteFill-teal.png');
+            background-repeat: no-repeat;
+            height: 20px;
+            float: right;
+            margin-top: 57px;
+            width: 16px;
+            margin-left: 7px;
+        }
+
+    .PSP-FavouritesOnClick {
+        background-image: url('images/FavoriteFill-teal.png') !important;
+        background-repeat: no-repeat;
+        height: 20px;
+        float: right;
+        margin-top: 57px;
+        width: 16px;
+        margin-left: 7px;
+    }
+
+    .PS-Favor {
+        float: right;
+        margin-top: 57px;
+    }
+
+    .membersExtUserContainer {
+        padding-top: 5px;
+    }
+
+    .membersOwnersContainer, .membersVendorsContainer {
+        /*padding-top: 27px;*/
+    }
+
+    .membersKeyUserContainer, .membersOwnersContainer, .membersExtUserContainer, .membersVendorsContainer {
+        min-height: 210px;
+        padding-right: 30px;
+        min-width: 380px;
+        float: left;
+    }
+
+    .forsiteuserColumn1, forsiteuserColumn2 {
+        padding-top: 5px;
+        display: table-cell;
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .forsiteuserRow {
+        width: 100%;
+    }
+
+    @media only screen and (min-width:1499px)and (max-width:1951px) {
+
+        /** Site Users Page styles**/
+
+        .forsiteuserColumn1 {
+            width: 65%;
+        }
+
+        .membersKeyUserContainer.forsiteuserRow, .membersOwnersContainer.forsiteuserRow {
+            width: 50%;
+        }
+    }
+
+    @media (min-width:1952px) {
+
+        /*.forsiteuserColumn1,.forsiteuserColumn2{
+	width:50%;	
+   }*/
+        .forsiteuserRow {
+            width: 50%;
+            float: left;
+        }
+    }
+
+
+    @media only screen and (max-width:976px) {
+
+        .memberswpContainer {
+            width: 100%;
+        }
+
+        .forsiteuserColumn1, .forsiteuserColumn2 {
+            width: 100%;
+            display: block;
+        }
+
+        .membersKeyUserContainer.forsiteuserRow, .membersOwnersContainer.forsiteuserRow {
+            width: 100%;
+            float: left;
+        }
+    }
+    /* siteUsers ends*/
+
+    .ms-core-form-section.Addalink {
+        margin-left: -50px;
+    }
+
+
+    /* Linked IPkit */
+    .LinktoIPkitdialogContent {
+        z-index: 1505;
+        display: block;
+        width: 1000px !important;
+        height: 559px !important;
+        left: 182px !important;
+        top: 50%;
+        margin-top: -300px;
+    }
+
+    .LinktoIPkitdialogBorder {
+        width: 960px !Important;
+    }
+
+    .LinktoIPkitdialogContainer {
+        width: 960px !Important;
+        overflow: hidden;
+    }
+
+    #gbox_ipkitListGrid, #gview_ipkitListGrid, .ui-state-default.ui-jqgrid-hdiv, .ui-jqgrid-htable, .ui-jqgrid-bdiv {
+        width: 960px !Important;
+    }
+
+    .LinktoIPkitdialogContainer > div {
+        width: 960px !Important;
+        height: 572px !Important;
+    }
+
+    .forlinkipkit.Campus_IpKitPopupDialogTable {
+        width: 100% !important;
+    }
+
+        .forlinkipkit.Campus_IpKitPopupDialogTable table td {
+            width: auto;
+        }
+
+    #linkipkits .ui-jqgrid-bdiv {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        margin-top: 5px;
+        height: 370px !important;
+        margin-bottom: 35px;
+    }
+
+    #linkipkits .ui-jqgrid .ui-jqgrid-title {
+        margin: .5em 0 .3em;
+    }
+
+    #linkipkits .ui-jqgrid .ui-jqgrid-titlebar {
+        padding: .3em .2em .2em 0;
+    }
+
+    #linkipkits .ui-jqgrid .ui-jqgrid-htable {
+        width: 935px !Important;
+    }
+
+    table#ipkitListGrid {
+        width: 935px !Important;
+    }
+
+    #linkipkits .LinktoIPkitdialogClose {
+        background: url(images/close.png) no-repeat;
+        float: right;
+        margin-top: 23px;
+        cursor: pointer;
+        width: 14px;
+        height: 14px;
+    }
+
+    /*@media screen and (-ms-high-contrast:active)*/
+    #linkipkits .LinktoIPkitdialogClose {
+        background: url(images/Close-yellow.png) no-repeat !important;
+    }
+
+
+    /*@media screen and (-ms-high-contrast:white-on-black)*/
+    #linkipkits .LinktoIPkitdialogClose {
+        background: url(images/Close-white.png)no-repeat !important;
+    }
+
+    /*@media screen and (-ms-high-contrast:black-on-white)*/
+    #linkipkits .LinktoIPkitdialogClose {
+        background: url(images/Close-black.png) no-repeat !important;
+    }
+
+    .sucess-name {
+        font-weight: 300;
+        font-style: normal;
+        font-size: 24px;
+        font-family: 'Segoe UI Light', 'Segoe UI Regular', 'Segoe UI';
+        margin-bottom: 20px;
+        display: inline-block;
+        line-height: normal;
+    }
+
+    .site-redirect {
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 1;
+    }
+
+        .site-redirect span span a {
+            text-decoration: underline;
+            font-size: 15px;
+            color: #008272;
+        }
+
+    h2.email-green-title {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        margin: 40px 0 10px 0;
+        color: #008272;
+    }
+
+    .summaryBodyContainer .table-bordered td {
+        background-color: #fff;
+        font-family: 'Segoe UI';
+        vertical-align: top;
+        color: #333333;
+        padding: 10px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+        .summaryBodyContainer .table-bordered td b {
+            font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI';
+            font-weight: 600;
+            font-style: normal;
+            font-size: 16px;
+            vertical-align: top;
+            color: #444444;
+        }
+
+    .summaryBodyContainer .grey-bg {
+        background-color: rgba(238, 238, 238, 1);
+        border-top: 1px solid rgba(191, 191, 191, 1);
+        border-bottom: 1px solid rgba(191, 191, 191, 1);
+        padding: 25px 0;
+    }
+
+    .site-settings-title {
+        font-family: 'Segoe UI Regular', 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        color: #1E1E1E;
+    }
+
+    .support-section {
+        font-family: 'Segoe UI Regular', 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        color: #1E1E1E;
+        line-height: 3;
+    }
+
+    .summaryBodyContainer a {
+        text-decoration: underline;
+        font-size: 15px;
+        color: #008272;
+    }
+
+        .summaryBodyContainer a:focus {
+            outline: 1px dotted #777777 !important;
+        }
+    /*.FinalNotificationBanner img {
+    width: 1110px;
+    height: 760px;
+}*/
+    #tblGuidlines ul {
+        padding-left: 40px;
+        margin-bottom: 10px;
+        list-style: disc;
+        color: #333333;
+    }
+
+    .site-settings-title-div {
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+
+    .mt40 {
+        margin-top: 40px;
+    }
+
+    .mt50 {
+        margin-top: 50px;
+    }
+
+    .nomargin {
+        margin: 0 !important;
+    }
+
+    /**************** new header ************/
+
+    .sub-header.navbar-collapse, .sub-header.navbar-default .navbar-form {
+        background: #fff;
+    }
+
+    .sub-header .navbar-nav {
+        margin: 20PX 20PX;
+    }
+
+    .sub-header .navbar-right {
+        margin: 28px 0 28px 20px;
+        position: relative;
+    }
+
+        .sub-header .navbar-right input {
+            border-radius: 0;
+            width: 245px;
+            font-size: 15px !important;
+            color: rgba(51, 51, 51, 0.67) !important;
+            font-style: italic;
+        }
+
+        .sub-header .navbar-right span {
+            position: absolute;
+            top: 10px;
+            color: green;
+            right: 10px;
+            transform: rotate(90deg);
+        }
+
+    .sub-header.navbar {
+        margin-bottom: 0;
+    }
+
+    a.CampusFooterLink {
+        display: block;
+    }
+
+
+
+    /*advanced search css start*/
+
+    .SearchAllclass {
+        border-right: 1px solid #d7d7d7;
+        /* border-left: 1px solid #d7d7d7; */
+        padding: 7px 10px;
+        background: #f3f3f3;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .SearchAllClassFocus:focus {
+        outline: 1px dotted #777777;
+        outline-offset: 1px;
+    }
+
+    #MM-AdvanceSearch:focus {
+        outline: 1px dotted #777777;
+        outline-offset: 1px;
+    }
+
+    .searchAllContent {
+        position: static !important;
+        float: left;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        color: #666666 !important;
+        font-size: 14px !important;
+        display: flex;
+    }
+
+    .notfication-contaienr {
+        margin-right: 8px;
+    }
+
+    .searchboxViewMenu li a {
+        text-decoration: none;
+        color: #666;
+        padding: 5px 10px;
+        float: left;
+        width: 100%;
+        font-size: 14px;
+        box-sizing: border-box !important;
+    }
+#MM-Scope-ThisSite .SearchAllClassFocus {
+    border-top: 1px solid #d6d6d6;
+    opacity: 0.5;
+    cursor: default;
+}
+    .MainSearchClass .styled-checkbox + label:before {
+        content: "";
+        margin-right: 6px;
+        font-family: FabricMDL2Icons;
+        display: inline-block;
+        vertical-align: sub;
+        width: 14px;
+        height: 14px;
+        background: white;
+        border: 1px solid rgba(102, 102, 102, 1);
+    }
+
+    .MainSearchClass .styled-checkbox:checked + label:after {
+        position: absolute;
+        left: 0;
+        top: 3px;
+        background-color: #00B395;
+        border: 1px solid #00B395;
+        height: 14px;
+        width: 14px;
+        color: #fff;
+        line-height: 12px;
+        font-size: 12px;
+        font-weight: normal;
+        content: '\E73E';
+        font-family: FabricMDL2Icons;
+    }
+
+    .MainSearchClass .styled-checkbox {
+        position: absolute;
+        opacity: 0;
+        width: auto !important;
+    }
+
+        .MainSearchClass .styled-checkbox + label {
+            position: relative;
+            cursor: pointer;
+            /* padding: 0; */
+        }
+
+    .searchboxViewMenu li a:hover {
+        background: rgba(244,244, 244, 1);
+    }
+
+    .searchboxViewMenu li a:active {
+        background-color: rgba(228, 228, 228, 1);
+    }
+
+    .searchAllContent i {
+        float: right;
+        margin-left: 16px;
+        margin-top: 1px;
+    }
+
+    .searchboxViewMenu {
+        padding: 0;
+    }
+
+    .searchBoxDropdown {
+        list-style-type: none !important;
+        list-style: none !important;
+        background-color: white !important;
+        border: 1px solid lightgrey !important;
+        width: 150px;
+        box-shadow: 0px 1px 4px #ccc;
+        z-index: 999999;
+        position: absolute !important;
+        left: 0 !important;
+        top: 34px;
+    }
+
+    .MainSearchClass {
+        list-style-type: none !important;
+        list-style: none !important;
+        background-color: white !important;
+        border: 1px solid lightgrey !important;
+        width: 100%;
+        /*width: 350px;*/
+        box-shadow: 0px 1px 4px #ccc;
+        z-index: 9999999;
+        position: absolute !important;
+        right: 0 !important;
+        top: 40px;
+        /* height: 82px;*/
+        padding: 17px 15px;
+        /* margin-left: 183px; */
+        position: absolute;
+        box-sizing: border-box !IMPORTANT;
+    }
+
+    #MM-AdvanceSearch {
+        float: left;
+        font-size: 13px;
+        color: #008272;
+    }
+
+    .divCheckBoxFiltersearch {
+        float: right;
+        position: relative;
+        margin-top: -5px;
+    }
+
+        .divCheckBoxFiltersearch input[type=file]:focus, .divCheckBoxFiltersearch input[type=checkbox]:focus, .divCheckBoxFiltersearch input[type=radio]:focus {
+            outline-offset: 0;
+            outline: 1px dotted #777777 !important;
+        }
+
+        .divCheckBoxFiltersearch .styled-checkbox:focus {
+            outline: 1px dotted #333333 !IMPORTANT;
+            width: 14px !IMPORTANT;
+            height: 14px !IMPORTANT;
+            margin: 7px 0 0 0px;
+            opacity: 0.5;
+        }
+
+        .divCheckBoxFiltersearch label.useSearchCheckboxLabel::after, .divCheckBoxFiltersearch label.useSearchCheckboxLabel::before {
+            box-sizing: border-box !IMPORTANT;
+        }
+
+        .divCheckBoxFiltersearch label {
+            font-size: 13px;
+            color: #767676;
+        }
+
+            .divCheckBoxFiltersearch label:hover {
+                color: rgb(0,0,0)
+            }
+
+    .searchTips {
+        position: static !important;
+        cursor: pointer;
+        font-size: 13px !important;
+        color: #666 !important;
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+        .searchTips a {
+            color: #008272;
+        }
+
+    #searchInputBox {
+        float: left;
+    }
+
+        #searchInputBox .ms-srch-sb-border:hover {
+            box-shadow: 1px 6px 10px #ccc;
+        }
+
+    .changeSearchBoxWidth {
+        width: 257px !important;
+    }
+
+    .mobisearchicon i {
+        font-size: 16px;
+        color: #00b294;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    #searchInputBox .ms-srch-sb-border .ms-Icon--Clear {
+        float: right;
+        font-size: 14px;
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.54902);
+        margin: 7px 10px 0 0px;
+        display: none;
+    }
+
+    .mobisearchicon {
+        display: none;
+        float: right;
+        z-index: 9999;
+    }
+
+
+    .mmMobileView {
+        margin-top: 52px;
+    }
+
+    .MobileSearchViewIcon {
+        margin-top: -48px !important;
+        cursor: pointer;
+    }
+
+    #searchImg {
+        position: static !important;
+        display: block !important;
+        font-size: 16px;
+        color: #00b292;
+        text-decoration: none;
+    }
+
+    .subHeader .navbar-right .searchboxViewMenu span {
+        position: static !important;
+        top: 5px;
+        color: rgb(102, 102, 102);
+        font-weight: 400;
+        font-size: 14px !important;
+        right: 0 !important;
+    }
+
+    @media (max-width: 830px) and (min-width: 530px) {
+        #searchInputBox .ms-srch-sb-border, .ms-srch-sb-borderFocused {
+            height: 36px !important;
+            width: 330px !important;
+        }
+
+        .changeSearchBoxWidth {
+            width: 150px !important;
+        }
+
+        .ms-srch-sb > input {
+            width: 250px;
+        }
+    }
+
+    @media (max-width: 529px) {
+        .mobisearchicon {
+            display: block;
+        }
+
+        #searchInputBox .ms-srch-sb-border, .ms-mpSearchBox, .ms-tableCell .ms-verticalAlignTop {
+            width: 100% !important;
+        }
+
+        #SearchBox {
+            width: 100%;
+            float: left;
+        }
+
+        #searchInputBox {
+            width: 97%;
+            float: left;
+            padding-left: 13px;
+        }
+
+        .mobiSearchInput {
+            opacity: 0;
+        }
+
+        .contentMobileView {
+            padding-top: 50px;
+        }
+
+        .mmMobileView {
+            margin-top: 50px !important;
+        }
+
+        .mobiSearchInput {
+            margin-top: -1px;
+        }
+
+        .ms-srch-sb > input {
+            width: 335px;
+        }
+
+        .changeSearchBoxWidth {
+            width: 265px !important;
+        }
+
+        .ms-srch-sb > .ms-srch-sb-searchLink {
+            display: none;
+        }
+
+        .subHeader .navbar-right {
+            width: 100%;
+        }
+
+        .notfication-contaienr {
+            float: right !important;
+            margin-right: 9px;
+        }
+
+        .mobBellIcon {
+            margin-top: -48px;
+            margin-right: 25px;
+        }
+    }
+
+    @media (min-width: 530px) {
+        .mobiSearchInput {
+            opacity: 1 !important;
+        }
+
+        #searchInputBox {
+            display: block !important;
+        }
+    }
+

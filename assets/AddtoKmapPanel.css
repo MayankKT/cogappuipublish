@@ -1,0 +1,776 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-style: normal;
+}
+.ms-RadioButton-field.is-disabled {
+    pointer-events: none !important;
+}
+.ms-Panel.ms-Panel--md.kmAddRightPane {
+    max-width: 370px !important;
+    
+}
+.KmProjectListSelection .addtoTeamChannelsSection {
+    margin-bottom: 10px;
+}
+
+
+.addtoTeamChannelsSection .is-checked.ms-RadioButton-field::after {
+    background-color: rgba(0, 178, 148, 1) !important;
+    top: 4px !important;
+    width:6px !important;
+    height: 6px !important; 
+    left: 4px !important;
+}
+
+.addtoTeamChannelsSection .ms-RadioButton-field.is-checked::before {
+    border: 1px solid rgba(0, 178, 148, 1) !important;
+}
+
+.addtoTeamChannelsSection .ms-RadioButton-field::before {
+    margin-top: 0px !important;
+    width:14px !important;
+    height: 14px !important;
+    border: 1px solid #a6a6a6;
+}
+.KmProjectListSelection .addtoTeamChannelsSection h3{
+   
+        color:#363636;
+        margin:0 0 3px 0;
+        font-size:12px;
+        font-weight: 600;
+        
+
+    
+}
+.KmProjectListSelection .addtoTeamChannelsSection ul {
+    margin: 5px 0 0 0;
+    padding: 1px 0 0 0;
+    
+    overflow: hidden;
+}
+.KmProjectListSelection .addtoTeamChannelsSection ul li{
+    padding-left: 10px;    
+    min-height: auto;
+}
+ .addtoTeamChannelsSection ul li label span.ms-Label{
+    color:#363636;
+    font-size: 12px !important;
+    padding-left:15px;
+    vertical-align: middle;
+    line-height:13px;
+    
+}
+i#kmClearSearchProjects {
+    color: #333;
+    margin: 7px 10px 0 0;
+    font-size: 10px;
+    cursor: pointer;
+    height: 14px;
+}
+
+    i#kmClearSearchProjects:hover {
+        color: #00b294;
+    }
+    i#kmClearSearchProjects:focus {
+        outline:1px dotted #333;
+    }
+.kmAddRightPane .kmPanelHeader .ms-Panel-closeButton:focus {
+    outline: 1px dotted #333;
+    border:none !important;
+}
+.addKmRtpanelContainer {
+    /*min-height: 700px !important;
+    max-width: 400px !important;
+    border: 1px solid #ccc;*/
+    /*padding: 10px 30px;*/
+}
+
+/*.addToKmheadertitle {
+    width: 90%;
+}*/
+.kmAddRightPane .ms-Panel-contentInner {
+    padding: 10px 25px 0 25px !important;
+    margin-top: 0px;
+}
+
+.kmAddRightPane .kmPanelHeader .ms-Panel-headerText {
+    margin-top: 0 !important;
+    float: left;
+}
+
+.kmAddRightPane .kmPanelHeader .ms-Panel-closeButton {
+    right: 0;
+    top: 28px;
+    height: auto;
+    width: auto;
+    line-height: normal;
+}
+
+.kmAddRightPane .kmPanelHeader button:hover {
+    background: #fff;
+}
+
+.kmPanelHeader h1 {
+    font-family: 'Segoe UI Light', 'Segoe UI';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 21px;
+}
+
+.kmAddRightPane .kmContextualHelpIcon {
+    background-image: url(../Content/images/Info.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: 30px 0 0 7px;
+    float: left;
+}
+
+.addToKmheadertitle i {
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.addToKmheadertitle p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #666666;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+    .addToKmheadertitle p:nth-child(3) {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+.kmProjectListContainer {
+    border: thin solid #ccc;
+    border-top-width: 0px;
+}
+
+.kmSelectProjectContainer {
+    padding: 0px 14px;
+    min-height: 291px;
+}
+
+.kmProjectListContainer h4 {
+    margin: 0px;
+    background: #f2f2f2;
+    border: solid #ccc;
+    border-width: 1px 0;
+    padding: 12px;
+    font-style: normal;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400 !important;
+    padding-left: 15px;
+    font-family: 'Segoe UI' !important;
+}
+
+    .kmProjectListContainer h4:nth-child(2) {
+        border-top: none;
+    }
+
+.kmProjectListContainer label {
+    font-size: 13px;
+    font-weight: 400;
+    color: #505050;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 1px;
+    line-height:1px;
+}
+
+.KmProjectFilterDiv {
+    padding: 6px 0px;
+    font-size: 13px;
+}
+
+.kmSelectProjectContainer #ProjectNameandDetails {
+    padding-left: 0px !important;
+    position:static;
+}
+
+.kmProjectListContainer input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: -5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.kmProjectSearchDiv {
+    border: thin solid rgba(188, 188, 188, 1);
+    overflow: hidden;
+    display: inline-flex;
+    padding: 1.5px 0;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+    .kmProjectSearchDiv i {
+        font-size: 13px;
+        color: #00b294;
+        margin: 7px 0px 0 5px;
+        margin-left: 8px;
+    }
+
+.kmSelectedProject {
+    padding: 18px 10px;
+    border-bottom: 1px solid #ccc;
+    display: none;
+}
+
+    .kmSelectedProject .checkBoxFilter {
+        display: none;
+    }
+
+.kmProjectSearchDiv input[type="text"] {
+    border: 0px;
+    width: 95%;
+    font-size: 12px;
+    color: #333;
+    padding: 5px;
+}
+
+.kmAddRightPane .ms-Panel-content {
+    float: left;
+}
+
+.kmProjectSearchDiv input[type="text"]:focus {
+    outline: 0;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.KmProjectListSelection {
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 178px;
+    position: relative;
+}
+
+    .KmProjectListSelection ul {
+        list-style-type: none;
+        overflow-y: auto;
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .KmProjectListSelection li {
+        font-size: 13px;
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        margin: 0;
+        float: left;
+        font-weight: 400;
+    }
+
+    .KmProjectListSelection input[type="checkbox"] {
+        margin-right: 15px;
+    }
+
+.kmSelectedProject input[type="checkbox"] {
+    display: none;
+}
+
+.kmSelectProjectContainer .chkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1;
+}
+
+.kmSelectProjectContainer .kmprojectsitelist .chkbox-container {
+    padding-left: 26px;
+}
+
+.KmProjectListSelection .chkbox-container .ms-Label {
+    margin-left: 0px;
+    top: 5px;
+    display: block;
+    margin-top: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0px !important;
+    font-family: 'SegoeUI', 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom: 0px;
+    color: #333333;
+    float: left;
+    line-height: 18px;
+    width: 232px;
+    margin-right:0;
+}
+
+.Loader_contr {
+    background: rgb(239 239 239 / 85%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 9999;
+    top: 0;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    left: 0;
+}
+
+.Fabric_Loader {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.Loader_contr p {
+    left: 31%;
+    align-content: center;
+    align-items: center;
+    font-size: 13px;
+    align-items: center;
+    align-self: center;
+}
+
+.Loader_contr p {
+    top: 53%;
+}
+
+.KmProjectListSelection .Loader_contr p {
+    top: 63%;
+    left: 24%;
+}
+
+.KmProjectListSelection .Loader_contr {
+    overflow: hidden;
+}
+
+.KmProjectListSelection .Fabric_Loader {
+    float: none;
+    margin: 45px auto !important
+}
+
+.KmProjectListSelection .styled-checkbox + label:before {
+    content: "";
+    margin-right: 6px;
+    font-family: FabricMDL2Icons;
+    display: inline-block;
+    vertical-align: top;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border: 1px solid rgba(102, 102, 102, 1);
+}
+
+.KmProjectListSelection .styled-checkbox + label:before {
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    MARGIN-TOP: 3PX;
+}
+
+.KmProjectListSelection .styled-checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.kmProjectListContainer .chkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.KmProjectListSelection input[type="checkbox"] {
+    margin: 4px 0 0;
+    line-height: normal;
+    padding: 0;
+    box-sizing: border-box;
+    display: inline;
+    font-weight: normal;
+    width: auto;
+    margin: 0;
+    height: auto;
+    margin-right: 5px;
+}
+
+.KmProjectListSelection .styled-checkbox:checked + label:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #00B395;
+    border: 1px solid #00B395;
+    height: 14px;
+    width: 14px;
+    color: #fff;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    content: '\E73E';
+    font-family: FabricMDL2Icons;
+}
+
+.KmProjectListSelection .styled-checkbox:checked + label:after {
+    height: 18px;
+    width: 18px;
+    MARGIN-TOP: 3PX;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+.KmProjectListSelection .checkBoxPrjselect {
+    position: relative;
+}
+
+.KmProjectListSelection .checkmark {
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 1px solid rgba(102, 102, 102, 1);
+}
+
+.kmProjectListContainer .chkbox-container input:checked ~ .checkmark {
+    background-color: #00b294;
+    border: none;
+}
+
+    .kmProjectListContainer .chkbox-container input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+.kmProjectListContainer .chkbox-container .checkmark:after {
+    left: 1px;
+    top: 1px;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.KmProjectListSelection .chkbox-container .checkmark:after {
+    position: absolute;
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "FabricMDL2Icons";
+    content: '\E73E';
+    height: 16px;
+    width: 16px;
+    background-color: #00b294;
+    text-align: center;
+}
+.kmProjectListContainer .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* start radio style*/
+input[type="radio"] {
+    margin: 4px 0 0;
+    line-height: normal;
+    padding: 0;
+    box-sizing: border-box;
+    display: inline;
+    font-weight: normal;
+}
+
+.KmProjectFilterDiv label:first-of-type {
+    margin-top: 5px;
+    vertical-align: baseline;
+}
+
+.KmProjectFilterDiv .chkbox-container {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+    .KmProjectFilterDiv .chkbox-container .ms-Label {
+        top: 1px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 0;
+        color: #666;
+        padding-top: 9px;
+        margin-right: 0;
+    }
+
+.kmProjectListContainer .radiomark {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid rgba(102, 102, 102, 1);
+}
+
+.kmProjectListContainer .searchScope:hover .radiomark {
+    border: 1px solid rgba(102, 102, 102, 1);
+}
+
+.kmProjectListContainer .chkbox-container input:checked ~ .radiomark {
+    border: 1px solid #008272;
+}
+
+    .kmProjectListContainer .chkbox-container input:checked ~ .radiomark:after {
+        display: block;
+    }
+
+.kmProjectListContainer .chkbox-container .radiomark:after {
+    left: 1px;
+    top: 1px;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.kmProjectListContainer .chkbox-container .radiomark:after {
+    position: absolute;
+    opacity: 1;
+    left: 4px;
+    top: 4px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: normal;
+    content: '';
+    height: 9px;
+    width: 9px;
+    background-color: #008272;
+    border: 2px solid #008272;
+    border-radius: 50%;
+}
+
+.kmProjectListContainer .radiomark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* end radio style*/
+
+.kmbuttonStyle {
+    background-color: #008272;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    padding: 8px;
+    margin: 40px 0;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #666;
+    width: 175px;
+    height: 30px;
+    line-height: 0;
+}
+
+.buttonStyleAdd:hover {
+    background-color: #007365;
+}
+
+.buttonStyleCancel {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #666;
+    margin-right: 0;
+    width: 95px;
+}
+
+.kmAddCancwlBtnContainer {
+    float: left;
+    margin-top: 37px;
+}
+     .msgContraddtoSee {
+        
+        font-size: 12px;
+        margin: 7px 0 0 0;
+    }
+#seeTeamsMessage{
+    float:left;
+}
+.msgContraddtoSee.successMsg {
+    color: teal;
+}
+         .msgContraddtoSee.errorMsg {
+            color: red;
+        }
+           .kmAddRightPane .kmPanelHeader {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.kmAddCancwlBtnContainer .kmAddbutton {
+    font-size: 13px;
+    padding: 7px 0;
+    background: rgb(5, 132, 115);
+    width: 179px;
+    font-family: 'Segoe UI Semibold', 'Segoe UI';
+    font-weight: 600;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+    .kmAddCancwlBtnContainer .kmAddbutton:focus, .kmAddCancwlBtnContainer .AddtoSEETeamCancelButton:focus {
+        outline: 1px dotted #333;
+        border: none !important;
+    }
+
+.kmProjectListContainer .radiomark:focus, .KmProjectListSelection .checkmark:focus {
+    outline: 1px dotted #333 !important;
+}
+
+.kmAddCancwlBtnContainer .AddtoSEETeamCancelButton {
+    font-size: 13px;
+    margin-left: 10px;
+    background-color: rgba(244, 244, 244, 1);
+    width: 84px !important;
+    border: 1px solid rgba(244, 244, 244, 1);
+    font-family: 'Segoe UI Semibold', 'Segoe UI';
+    font-weight: 600;
+    font-style: normal;
+    color: #333;
+    padding: 6px 0;
+}
+
+    .kmAddCancwlBtnContainer .AddtoSEETeamCancelButton:hover {
+        background-color: rgba(234, 234, 234, 1);
+    }
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.ms-ContextualHost {
+    z-index: 10000 !important;
+}
+
+.ms-ContextualHost-beak {
+    display: block !important;
+}
+.kmAddRightPane .kmContextualHelpIcon {
+    display:none;
+}
+.disableAddToKmap {    
+    pointer-events: none !important;
+    background: #efefef !important;
+    color: #6d6b6b !important;
+}
+.disableAddToSeeTeams {
+    pointer-events: none !important;   
+}
+@media screen and (-ms-high-contrast:active) {
+    .kmAddCancwlBtnContainer .kmAddbutton, .kmAddCancwlBtnContainer .AddtoSEETeamCancelButton {
+        border: 1px solid;
+    }
+    .kmAddRightPane .ms-Panel-contentInner {
+        border-left: 1px solid;
+    }
+    .kmProjectListContainer .chkbox-container .checkmark::after {
+        border: 1px solid;
+    }
+    .kmAddRightPane .kmPanelHeader .ms-Panel-closeButton:focus {
+        outline: 1px dotted;
+        outline-offset: 1px;
+        border: none !important;
+    }
+    .kmAddCancwlBtnContainer .kmAddbutton:focus, .kmAddCancwlBtnContainer .AddtoSEETeamCancelButton:focus {
+        border: 1px solid !important;
+    }
+}
+@media screen and (-ms-high-contrast:black-on-white) {
+    .kmAddCancwlBtnContainer .kmAddbutton, .kmAddCancwlBtnContainer .AddtoSEETeamCancelButton {
+        border: 1px solid;
+    }
+
+    .kmAddRightPane .ms-Panel-contentInner {
+        border-left: 1px solid;
+    }
+    .kmProjectListContainer .chkbox-container .checkmark::after {
+        border: 1px solid;
+    }
+    .kmAddRightPane .kmPanelHeader .ms-Panel-closeButton:focus {
+        outline: 1px dotted;
+        outline-offset: 1px;
+        border: none !important;
+    }
+    .kmAddCancwlBtnContainer .kmAddbutton:focus, .kmAddCancwlBtnContainer .AddtoSEETeamCancelButton:focus {
+        border: 1px solid !important;
+    }
+}
+@media screen and (-ms-high-contrast:white-on-black) {
+    .kmAddCancwlBtnContainer .kmAddbutton, .kmAddCancwlBtnContainer .AddtoSEETeamCancelButton {
+        border: 1px solid;
+        border: 1px solid;
+    }
+
+    .kmAddRightPane .ms-Panel-contentInner {
+        border-left: 1px solid;
+    }
+    .kmProjectListContainer .chkbox-container .checkmark::after {
+        border: 1px solid;
+    }
+    .kmAddRightPane .kmPanelHeader .ms-Panel-closeButton:focus {
+        outline: 1px dotted;
+        outline-offset: 1px;
+        border: none !important;
+    }
+    .kmAddCancwlBtnContainer .kmAddbutton:focus, .kmAddCancwlBtnContainer .AddtoSEETeamCancelButton:focus {
+        border: 1px solid !important;
+    }
+}

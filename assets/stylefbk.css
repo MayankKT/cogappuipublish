@@ -1,0 +1,461 @@
+
+/* Feedback emoji related style classes*/
+
+/*.fdbkWzd {
+    position: absolute;
+}*/
+
+.FeedbackPanel .label {
+    font-size: 14px;
+    text-align: left;
+}
+
+.mainContainer_fdbkWzd {
+    position: relative;
+}
+
+.content_fdbkWzd {
+    /*  height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;*/
+    float:left;
+    cursor: pointer;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+.content_fdbkWzd:focus{
+    outline:1px dotted #777777;        
+}
+.content_fdbkWzd:hover{
+    outline:none;
+}
+.ms-PanelHost .FeedbackPanel .ms-Panel-closeButton:hover{
+    background:none;
+}
+
+.content_fdkText_div {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 60px;
+    height: 20px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    color: #008272;
+}
+
+.ms-PanelHost{
+     z-index:10000;
+}
+
+.content_fdkText {
+    display:none;
+    border-width: 0px;
+    position: absolute;
+    left: 27px;
+    top: 7px;
+    width: 0px;
+    overflow-x: hidden;
+    height: 20px;
+    font-family: 'Segoe UI';
+    font-weight: 400!important;
+    font-style: normal;
+    color: #008272;    
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    word-wrap:normal!important;
+    font-size: 14px!important;
+    text-align: left!important;
+}
+
+ .ms-CalloutExample-button{
+    float:right;
+}
+.content_fdkText_text {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 58px;
+    white-space: nowrap;
+}
+
+.content_fdk_imgEmoji {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 19px;
+    height: 18px;
+    margin-top:20px;
+}
+
+.emojiContainer_fdbkWzd {
+    float:left;
+    /*border-width: 0px;
+    position: absolute;
+    left: 1px;
+    top: 7px;
+    width: 19px;
+    height: 18px;*/
+}
+
+.content_MaskDiv {
+    border-width: 0px;
+    position: absolute;
+    width: 70px;
+    height: 25px;
+    background-color: white;
+    left: 30px;
+    top: 0px;
+}
+/* End of Feedback emoji related style classes*/
+    .FeedbackPanel.ms-Panel.ms-Panel--md {
+    max-width: 450px;
+}
+
+.FeedbackPanel .ms-font-m {
+    font-family: 'Segoe UI Semilight', 'Segoe UI Regular', 'Segoe UI';
+    font-weight: 350;
+    font-style: normal;
+    font-size: 17px;
+    color: #333333;
+    white-space: nowrap;
+    transform-origin: 136.5px 11.5px 0px;
+}
+
+.fbk_OptionContainer {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 270px;
+    height: 45px;
+    background-image: none;
+    cursor: pointer;
+}
+
+.fbk_OptionLabelContainer {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 270px;
+    height: 45px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.fbk_Options {
+    border-width: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 270px;
+    height: 45px;
+    background: inherit;
+    background-color: rgba(117, 117, 117, 1);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+    .fbk_Options.mouseover {
+        border-width: 0px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 270px;
+        height: 45px;
+        background: inherit;
+        background-color: rgba(0, 108, 95, 1);
+        border: none;
+        border-radius: 0px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        color: #FFFFFF;
+        text-align: left;
+        
+    }
+    .fbk_Options:focus {
+        width: 270px;
+        height: 45px;
+        outline:1px dotted #373737;
+    }
+
+    .fbk_Options.active {
+        border-width: 0px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 270px;
+        height: 45px;
+        background: inherit;
+        background-color: rgba(0, 108, 95, 1);
+        border: none;
+        border-radius: 0px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+
+.fbk_OptionTxt {
+    border-width: 0px;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    line-height: 40px;
+    width: 228px;
+    word-wrap: break-word;
+}
+
+    .fbk_OptionTxt p {
+        margin: 0;
+    }
+
+.fbk_OptionImg {
+    border-width: 0px;
+    position: absolute;
+    left: 8px;
+    top: 11px;
+    width: 24px;
+    height: 23px;
+}
+
+.fbk_OptionImg img {
+        border-width: 0px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 24px;
+        height: 23px;
+    }
+
+
+
+.fbk_lineDivider {
+    border-width: 0px;
+    position: static; 
+    width: 200px;
+    margin: 26px 35px 0 35px;
+    height: 1px;
+  }
+
+.fbk_lineDivider img {
+    border-width: 0px;  
+    width: 201px;
+    height: 2px;
+}
+
+.FeedbackPanel p {
+    margin: 0px;
+}
+
+
+
+
+.FeedbackPanel .text_area {
+    color: #000000;
+    text-align: left;
+}
+   
+
+.FeedbackPanel .ms-TextField-field_feedbackArea {
+    height: 116px;
+    width: 270px;
+    resize: none;
+}
+
+.FeedbackPanel .ms-Button_feedback_submit {
+    float: right;
+    width: 120px;
+    height: 32px;
+    font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI';
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    background: inherit;
+    background-color: rgba(0, 130, 114, 1) !important;
+    border: 1px solid rgba(0, 130, 114, 1) !important;
+    border-radius: 0px;    
+}
+
+.ms-PanelHost .ms-Overlay{
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.FeedbackPanel .ms-Link_feedback {
+    border-width: 0px;
+    width: 159px;
+    height: 17px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #008272;
+    text-decoration: none !important;
+}
+    .FeedbackPanel .ms-Link_feedback:focus {
+        outline: 1px dotted #373737;
+    }
+
+    .FeedbackPanel .ms-Link_feedback:hover {
+        text-decoration: underline !important;
+    }
+
+.FeedbackPanel .ms-Button-label-Suggestion {
+    width: 163px !important;
+    height: 32px;
+}
+.OptionspecificContainers {
+    position: inherit;
+    left: 80px;
+    top: 340px;
+    display: none;
+}
+
+.optionSpecificSubContainer {
+    position: relative;
+    top: 35px;
+}
+
+.fbk_sugges_helptxt {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    width: 270px;
+}
+
+.fbk_submit_Container {
+    width: 270px;
+}
+.ms-Panel .fbkWzd_form_close{
+    height:44px !important;
+}
+.FeedbackPanel .ms-Button_feedback_submit:focus {
+    outline: 2px dotted #777777 !important;
+    border: none !important;
+}
+
+.fbkWzd_form_close:focus > i {
+    outline: 1px dotted #777777 !important;
+    border: none;
+}
+
+.fbkWzd_form_close:focus {
+    outline: none;
+    border: none;
+}
+
+.fbk_Options.active {
+    background-color: rgba(0, 130, 114, 1);
+}
+
+.FeedbackPanel .ms-Panel-headerText {
+    margin-top: 30px;
+    margin-bottom: 17px;
+
+}
+@media (max-width: 1024px) {
+
+   .FeedbackPanel .ms-Panel-headerText {
+        margin-top: 30px;
+        margin-bottom: 17px;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .FeedbackPanel .ms-Panel-contentInner {
+        padding: 5px 40px 20px;
+    }
+}
+
+@media screen and (-ms-high-contrast: active) {  
+    .ms-PanelHost .ms-Panel.FeedbackPanel{
+        border:1px solid;
+    }
+    .fbk_OptionLabelContainer {
+        width: 275px;
+        height: 47px;
+        border: 1px solid;
+    }
+    .fbk_Options.active {
+        width: 274px;
+    }
+}
+@media screen and (-ms-high-contrast: black-on-white) {
+    .ms-PanelHost .ms-Panel.FeedbackPanel{
+        border:1px solid;
+    }
+    .fbk_OptionLabelContainer {
+        width: 275px;
+        height: 47px;
+        border: 1px solid;
+    }
+    .fbk_Options.active {
+        width: 274px;
+    }
+}
+@media screen and (-ms-high-contrast: white-on-black) {
+    .ms-PanelHost .ms-Panel.FeedbackPanel{
+        border:1px solid;
+    }
+    .fbk_OptionLabelContainer {
+        width: 275px;
+        height: 47px;
+        border: 1px solid;
+    }
+    .fbk_Options.active {
+        width: 274px;
+    }
+}
