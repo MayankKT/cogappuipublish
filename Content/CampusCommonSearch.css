@@ -1560,7 +1560,6 @@ span.uber-nav-view-option-selected {
     display: flex;
     align-self: baseline;
     flex: 1;
-    margin-left: 107px;
     border: 1px solid rgba(200, 200, 200, 1);
     margin-top: 1px;
     overflow-y: auto;
@@ -2493,6 +2492,24 @@ box-shadow: 2px 0 0 #F76315, 4px 0 0 #F76315, 4px -2px 0 #F76315, 4px -4px 0 #F7
 
 .testing {
     color:red;
+}
+.testing1 {
+    color:red;
+}
+.testing1::after {
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    background-color: #00B395;
+    border: 1px solid #00B395;
+    height: 14px;
+    width: 14px;
+    color: #fff;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    content: '\E73E';
+    font-family: FabricMDL2Icons;
 }
 .dropdown-toggle::after{
     border:none !important;
