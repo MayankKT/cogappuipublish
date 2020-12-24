@@ -1152,9 +1152,9 @@ span.uber-nav-view-option-selected {
                 color: #fff;
             }
 
-        .common-uber-nav ul li:hover a {
+        /* comment on 24-12 .common-uber-nav ul li:hover a {
             color: #fff;
-        }
+        } */
 
         /* .common-uber-nav ul li:hover {
             background-color: #008272;
