@@ -5572,7 +5572,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .ContBeaksForPrjct {
-    background: url(../Content/images/CommonSearch/ContainerBeak-Project.png) no-repeat;
+    background: url("/assets/ContainerBeak-Project.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5581,7 +5581,7 @@ li#SS-SortListView a i .tooltip-data {
 
 
 .ContBeaksForCompass {
-    background: url(../Content/images/CommonSearch/ContainerBeak-CompassOne.png) no-repeat;
+    background: url("/assets/ContainerBeak-CompassOne.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5589,7 +5589,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .ContBeaksForVirtuso {
-    background: url(../Content/images/CommonSearch/ContainerBeak-Virtuoso.png) no-repeat;
+    background: url("/assets/ContainerBeak-Virtuoso.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5597,7 +5597,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .ContBeaksForOffers {
-    background: url(../Content/images/CommonSearch/ContainerBeak-Offers.png) no-repeat;
+    background: url("/assets/ContainerBeak-Offers.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5605,7 +5605,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .ContBeaksForIpkits {
-    background: url(../Content/images/CommonSearch/ContainerBeak-IPKits.png) no-repeat;
+    background: url("/assets/ContainerBeak-IPKits.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5613,7 +5613,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .hoverContBeaksForIpkits {
-    background: url(../Content/images/CommonSearch/ContainerBeak-IPKits-hover.png) no-repeat;
+    background: url("/assets/ContainerBeak-IPKits-hover.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5622,7 +5622,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .hoverContBeaksForOffers {
-    background: url(../Content/images/CommonSearch/ContainerBeak-Offers-hover.png) no-repeat;
+    background: url("/assets/ContainerBeak-Offers-hover.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5631,7 +5631,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .hoverContBeaksForVirtuso {
-    background: url(../Content/images/CommonSearch/ContainerBeak-Virtuoso-hover.png) no-repeat;
+    background: url("/assets/ContainerBeak-Virtuoso-hover.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5639,7 +5639,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .hoverContBeaksForCompass {
-    background: url(../Content/images/CommonSearch/ContainerBeak-CompassOne-hover.png) no-repeat;
+    background: url("/assets/ContainerBeak-CompassOne-hover.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -5647,7 +5647,7 @@ li#SS-SortListView a i .tooltip-data {
 }
 
 .hoverContBeaksForPrjct {
-    background: url(../Content/images/CommonSearch/ContainerBeak-Projects-hover.png) no-repeat;
+    background: url("/assets/ContainerBeak-Projects-hover.png") no-repeat;
     height: 19px;
     display: inline-block;
     width: 36px;
@@ -8990,7 +8990,7 @@ span.newFilescount {
 
 
     .ContBeaksForIpkits, .ContBeaksForOffers, .ContBeaksForCompass, .ContBeaksForPrjct, .ContBeaksForVirtuso {
-        background: url(../Content/images/CommonSearch/ContainerBeak-Black.png) no-repeat;
+        background: url("/assets/ContainerBeak-Black.png") no-repeat;
         height: 19px;
         display: inline-block;
         width: 36px;
@@ -9116,7 +9116,7 @@ span.newFilescount {
     }
 
     .ContBeaksForIpkits, .ContBeaksForOffers, .ContBeaksForCompass, .ContBeaksForPrjct, .ContBeaksForVirtuso {
-        background: url(../Content/images/CommonSearch/ContainerBeak-White.png) no-repeat;
+        background: url("/assets/ContainerBeak-White.png") no-repeat;
         height: 19px;
         display: inline-block;
         width: 36px;
