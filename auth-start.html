@@ -29,11 +29,11 @@
         const msalInstance = new Msal.UserAgentApplication(msalConfig);
 
         const loginRequest = {
-          scopes: ["https://campuswebapi.azurewebsites.net/user_impersonation"],
+          scopes: ["User.Read"],
         };
 
         const tokenRequest = {
-          scopes: ["https://campuswebapi.azurewebsites.net/user_impersonation"],
+          scopes: ["User.Read"],
         };
 
         if (msalInstance.getAccount()) {
