@@ -21,6 +21,10 @@
 
       var scope = getParameterByName('scope');
 
+      if(scope == undefined || scope.length<=0){
+        scope = "User.Read"
+      }
+
       // Config object to be passed to Msal on creation
       const msalConfig = {
         auth: {
